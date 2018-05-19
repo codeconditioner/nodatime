@@ -1498,18 +1498,18 @@ references:
   name: MapLocal
   nameWithType: DateTimeZone.MapLocal
   fullName: NodaTime.DateTimeZone.MapLocal
-- uid: NodaTime.DateTimeZone.AtStartOfDay*
-  commentId: Overload:NodaTime.DateTimeZone.AtStartOfDay
-  isExternal: false
-  name: AtStartOfDay
-  nameWithType: DateTimeZone.AtStartOfDay
-  fullName: NodaTime.DateTimeZone.AtStartOfDay
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
+- uid: NodaTime.DateTimeZone.AtStartOfDay*
+  commentId: Overload:NodaTime.DateTimeZone.AtStartOfDay
+  isExternal: false
+  name: AtStartOfDay
+  nameWithType: DateTimeZone.AtStartOfDay
+  fullName: NodaTime.DateTimeZone.AtStartOfDay
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
@@ -1627,12 +1627,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.DateTimeZone.GetZoneIntervals*
-  commentId: Overload:NodaTime.DateTimeZone.GetZoneIntervals
-  isExternal: false
-  name: GetZoneIntervals
-  nameWithType: DateTimeZone.GetZoneIntervals
-  fullName: NodaTime.DateTimeZone.GetZoneIntervals
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -1640,6 +1634,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.DateTimeZone.GetZoneIntervals*
+  commentId: Overload:NodaTime.DateTimeZone.GetZoneIntervals
+  isExternal: false
+  name: GetZoneIntervals
+  nameWithType: DateTimeZone.GetZoneIntervals
+  fullName: NodaTime.DateTimeZone.GetZoneIntervals
 - uid: System.Collections.Generic.IEnumerable{NodaTime.TimeZones.ZoneInterval}
   commentId: T:System.Collections.Generic.IEnumerable{NodaTime.TimeZones.ZoneInterval}
   parent: System.Collections.Generic

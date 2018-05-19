@@ -2008,12 +2008,6 @@ references:
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
-- uid: NodaTime.LocalTime.#ctor*
-  commentId: Overload:NodaTime.LocalTime.#ctor
-  isExternal: false
-  name: LocalTime
-  nameWithType: LocalTime.LocalTime
-  fullName: NodaTime.LocalTime.LocalTime
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -2021,6 +2015,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalTime.#ctor*
+  commentId: Overload:NodaTime.LocalTime.#ctor
+  isExternal: false
+  name: LocalTime
+  nameWithType: LocalTime.LocalTime
+  fullName: NodaTime.LocalTime.LocalTime
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

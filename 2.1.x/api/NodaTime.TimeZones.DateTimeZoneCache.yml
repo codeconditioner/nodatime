@@ -857,18 +857,18 @@ references:
   name: System.Collections.ObjectModel
   nameWithType: System.Collections.ObjectModel
   fullName: System.Collections.ObjectModel
-- uid: NodaTime.TimeZones.DateTimeZoneCache.#ctor*
-  commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.#ctor
-  isExternal: false
-  name: DateTimeZoneCache
-  nameWithType: DateTimeZoneCache.DateTimeZoneCache
-  fullName: NodaTime.TimeZones.DateTimeZoneCache.DateTimeZoneCache
 - uid: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
   commentId: T:NodaTime.TimeZones.InvalidDateTimeZoneSourceException
   isExternal: false
   name: InvalidDateTimeZoneSourceException
   nameWithType: InvalidDateTimeZoneSourceException
   fullName: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
+- uid: NodaTime.TimeZones.DateTimeZoneCache.#ctor*
+  commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.#ctor
+  isExternal: false
+  name: DateTimeZoneCache
+  nameWithType: DateTimeZoneCache.DateTimeZoneCache
+  fullName: NodaTime.TimeZones.DateTimeZoneCache.DateTimeZoneCache
 - uid: NodaTime.TimeZones.DateTimeZoneCache.GetSystemDefault*
   commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.GetSystemDefault
   isExternal: false

@@ -1250,12 +1250,6 @@ references:
   name: Default
   nameWithType: TzdbDateTimeZoneSource.Default
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource.Default
-- uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.#ctor*
-  commentId: Overload:NodaTime.TimeZones.TzdbDateTimeZoneSource.#ctor
-  isExternal: false
-  name: TzdbDateTimeZoneSource
-  nameWithType: TzdbDateTimeZoneSource.TzdbDateTimeZoneSource
-  fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource.TzdbDateTimeZoneSource
 - uid: NodaTime.Utility.InvalidNodaDataException
   commentId: T:NodaTime.Utility.InvalidNodaDataException
   isExternal: false
@@ -1264,6 +1258,12 @@ references:
   fullName: NodaTime.Utility.InvalidNodaDataException
 - uid: System.Resources.MissingManifestResourceException
   commentId: T:System.Resources.MissingManifestResourceException
+- uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.#ctor*
+  commentId: Overload:NodaTime.TimeZones.TzdbDateTimeZoneSource.#ctor
+  isExternal: false
+  name: TzdbDateTimeZoneSource
+  nameWithType: TzdbDateTimeZoneSource.TzdbDateTimeZoneSource
+  fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource.TzdbDateTimeZoneSource
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1304,16 +1304,16 @@ references:
   name: ResourceManager
   nameWithType: ResourceManager
   fullName: System.Resources.ResourceManager
+- uid: System.IO.IOException
+  commentId: T:System.IO.IOException
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream*
   commentId: Overload:NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream
   isExternal: false
   name: FromStream
   nameWithType: TzdbDateTimeZoneSource.FromStream
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream
-- uid: System.IO.IOException
-  commentId: T:System.IO.IOException
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: System.IO.Stream
   commentId: T:System.IO.Stream
   parent: System.IO

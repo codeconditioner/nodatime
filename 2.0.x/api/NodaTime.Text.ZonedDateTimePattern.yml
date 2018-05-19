@@ -1661,18 +1661,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.Text.ZonedDateTimePattern.Create*
-  commentId: Overload:NodaTime.Text.ZonedDateTimePattern.Create
-  isExternal: false
-  name: Create
-  nameWithType: ZonedDateTimePattern.Create
-  fullName: NodaTime.Text.ZonedDateTimePattern.Create
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
   isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
+- uid: NodaTime.Text.ZonedDateTimePattern.Create*
+  commentId: Overload:NodaTime.Text.ZonedDateTimePattern.Create
+  isExternal: false
+  name: Create
+  nameWithType: ZonedDateTimePattern.Create
+  fullName: NodaTime.Text.ZonedDateTimePattern.Create
 - uid: NodaTime.Text.ZonedDateTimePattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.CreateWithInvariantCulture
   isExternal: false

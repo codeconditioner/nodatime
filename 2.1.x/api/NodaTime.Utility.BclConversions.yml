@@ -461,12 +461,6 @@ references:
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
-- uid: NodaTime.Utility.BclConversions.ToDayOfWeek*
-  commentId: Overload:NodaTime.Utility.BclConversions.ToDayOfWeek
-  isExternal: false
-  name: ToDayOfWeek
-  nameWithType: BclConversions.ToDayOfWeek
-  fullName: NodaTime.Utility.BclConversions.ToDayOfWeek
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -474,6 +468,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Utility.BclConversions.ToDayOfWeek*
+  commentId: Overload:NodaTime.Utility.BclConversions.ToDayOfWeek
+  isExternal: false
+  name: ToDayOfWeek
+  nameWithType: BclConversions.ToDayOfWeek
+  fullName: NodaTime.Utility.BclConversions.ToDayOfWeek
 - uid: NodaTime
   commentId: N:NodaTime
   isExternal: false

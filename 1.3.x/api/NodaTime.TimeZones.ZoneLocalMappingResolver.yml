@@ -137,12 +137,6 @@ references:
   name: AmbiguousTimeResolver
   nameWithType: AmbiguousTimeResolver
   fullName: NodaTime.TimeZones.AmbiguousTimeResolver
-- uid: NodaTime.TimeZones
-  commentId: N:NodaTime.TimeZones
-  isExternal: false
-  name: NodaTime.TimeZones
-  nameWithType: NodaTime.TimeZones
-  fullName: NodaTime.TimeZones
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
   isExternal: false
@@ -155,6 +149,12 @@ references:
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
+- uid: NodaTime.TimeZones
+  commentId: N:NodaTime.TimeZones
+  isExternal: false
+  name: NodaTime.TimeZones
+  nameWithType: NodaTime.TimeZones
+  fullName: NodaTime.TimeZones
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime

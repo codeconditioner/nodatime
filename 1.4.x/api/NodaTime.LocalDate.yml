@@ -2618,12 +2618,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: NodaTime.LocalDate.#ctor*
-  commentId: Overload:NodaTime.LocalDate.#ctor
-  isExternal: false
-  name: LocalDate
-  nameWithType: LocalDate.LocalDate
-  fullName: NodaTime.LocalDate.LocalDate
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -2631,6 +2625,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalDate.#ctor*
+  commentId: Overload:NodaTime.LocalDate.#ctor
+  isExternal: false
+  name: LocalDate
+  nameWithType: LocalDate.LocalDate
+  fullName: NodaTime.LocalDate.LocalDate
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2691,14 +2691,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.LocalDate.DayOfWeek
   commentId: P:NodaTime.LocalDate.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDate.IsoDayOfWeek*
   commentId: Overload:NodaTime.LocalDate.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: LocalDate.IsoDayOfWeek
   fullName: NodaTime.LocalDate.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDate.IsoDayOfWeek
   commentId: P:NodaTime.LocalDate.IsoDayOfWeek
 - uid: NodaTime.LocalDate.DayOfWeek*
@@ -2992,6 +2992,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.LocalDate.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.LocalDate.System#IComparable#CompareTo
   isExternal: false
@@ -3000,13 +3007,6 @@ references:
   fullName: NodaTime.LocalDate.System.IComparable.CompareTo
   nameWithType.vb: LocalDate.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: System.ValueType.GetHashCode
   commentId: M:System.ValueType.GetHashCode
   parent: System.ValueType

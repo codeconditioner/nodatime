@@ -809,12 +809,6 @@ references:
   name: End
   nameWithType: DateInterval.End
   fullName: NodaTime.DateInterval.End
-- uid: NodaTime.DateInterval.#ctor*
-  commentId: Overload:NodaTime.DateInterval.#ctor
-  isExternal: false
-  name: DateInterval
-  nameWithType: DateInterval.DateInterval
-  fullName: NodaTime.DateInterval.DateInterval
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -822,6 +816,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.DateInterval.#ctor*
+  commentId: Overload:NodaTime.DateInterval.#ctor
+  isExternal: false
+  name: DateInterval
+  nameWithType: DateInterval.DateInterval
+  fullName: NodaTime.DateInterval.DateInterval
 - uid: NodaTime.DateInterval.Equals(NodaTime.DateInterval)
   commentId: M:NodaTime.DateInterval.Equals(NodaTime.DateInterval)
 - uid: System.Object.GetHashCode

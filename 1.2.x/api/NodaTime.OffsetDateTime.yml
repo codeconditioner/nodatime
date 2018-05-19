@@ -1983,14 +1983,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.OffsetDateTime.DayOfWeek
   commentId: P:NodaTime.OffsetDateTime.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.OffsetDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.OffsetDateTime.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: OffsetDateTime.IsoDayOfWeek
   fullName: NodaTime.OffsetDateTime.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.OffsetDateTime.IsoDayOfWeek
   commentId: P:NodaTime.OffsetDateTime.IsoDayOfWeek
 - uid: NodaTime.OffsetDateTime.DayOfWeek*
@@ -2195,14 +2195,14 @@ references:
   name: FromDateTimeOffset
   nameWithType: OffsetDateTime.FromDateTimeOffset
   fullName: NodaTime.OffsetDateTime.FromDateTimeOffset
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.OffsetDateTime.WithCalendar*
   commentId: Overload:NodaTime.OffsetDateTime.WithCalendar
   isExternal: false
   name: WithCalendar
   nameWithType: OffsetDateTime.WithCalendar
   fullName: NodaTime.OffsetDateTime.WithCalendar
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: System.ValueType.GetHashCode
   commentId: M:System.ValueType.GetHashCode
   parent: System.ValueType

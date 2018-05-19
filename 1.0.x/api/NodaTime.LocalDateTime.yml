@@ -3270,12 +3270,6 @@ references:
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
-- uid: NodaTime.LocalDateTime.#ctor*
-  commentId: Overload:NodaTime.LocalDateTime.#ctor
-  isExternal: false
-  name: LocalDateTime
-  nameWithType: LocalDateTime.LocalDateTime
-  fullName: NodaTime.LocalDateTime.LocalDateTime
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -3283,6 +3277,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalDateTime.#ctor*
+  commentId: Overload:NodaTime.LocalDateTime.#ctor
+  isExternal: false
+  name: LocalDateTime
+  nameWithType: LocalDateTime.LocalDateTime
+  fullName: NodaTime.LocalDateTime.LocalDateTime
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3391,14 +3391,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.LocalDateTime.DayOfWeek
   commentId: P:NodaTime.LocalDateTime.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.LocalDateTime.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: LocalDateTime.IsoDayOfWeek
   fullName: NodaTime.LocalDateTime.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDateTime.IsoDayOfWeek
   commentId: P:NodaTime.LocalDateTime.IsoDayOfWeek
 - uid: NodaTime.LocalDateTime.DayOfWeek*

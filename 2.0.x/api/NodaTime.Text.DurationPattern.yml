@@ -1243,18 +1243,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.Text.DurationPattern.Create*
-  commentId: Overload:NodaTime.Text.DurationPattern.Create
-  isExternal: false
-  name: Create
-  nameWithType: DurationPattern.Create
-  fullName: NodaTime.Text.DurationPattern.Create
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
   isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
+- uid: NodaTime.Text.DurationPattern.Create*
+  commentId: Overload:NodaTime.Text.DurationPattern.Create
+  isExternal: false
+  name: Create
+  nameWithType: DurationPattern.Create
+  fullName: NodaTime.Text.DurationPattern.Create
 - uid: NodaTime.Text.DurationPattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.DurationPattern.CreateWithCurrentCulture
   isExternal: false

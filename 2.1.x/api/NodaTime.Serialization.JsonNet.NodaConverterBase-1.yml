@@ -728,6 +728,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: NodaTime.Utility.InvalidNodaDataException
+  commentId: T:NodaTime.Utility.InvalidNodaDataException
+  isExternal: false
+  name: InvalidNodaDataException
+  nameWithType: InvalidNodaDataException
+  fullName: NodaTime.Utility.InvalidNodaDataException
 - uid: Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
   commentId: M:Newtonsoft.Json.JsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)
   parent: Newtonsoft.Json.JsonConverter
@@ -825,12 +831,6 @@ references:
   fullName: NodaTime.Serialization.JsonNet.NodaConverterBase<T>.ReadJson
   nameWithType.vb: NodaConverterBase(Of T).ReadJson
   fullName.vb: NodaTime.Serialization.JsonNet.NodaConverterBase(Of T).ReadJson
-- uid: NodaTime.Utility.InvalidNodaDataException
-  commentId: T:NodaTime.Utility.InvalidNodaDataException
-  isExternal: false
-  name: InvalidNodaDataException
-  nameWithType: InvalidNodaDataException
-  fullName: NodaTime.Utility.InvalidNodaDataException
 - uid: Newtonsoft.Json.JsonReader
   commentId: T:Newtonsoft.Json.JsonReader
   parent: Newtonsoft.Json

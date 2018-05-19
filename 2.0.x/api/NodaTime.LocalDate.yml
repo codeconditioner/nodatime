@@ -2874,12 +2874,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: NodaTime.LocalDate.#ctor*
-  commentId: Overload:NodaTime.LocalDate.#ctor
-  isExternal: false
-  name: LocalDate
-  nameWithType: LocalDate.LocalDate
-  fullName: NodaTime.LocalDate.LocalDate
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -2887,6 +2881,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalDate.#ctor*
+  commentId: Overload:NodaTime.LocalDate.#ctor
+  isExternal: false
+  name: LocalDate
+  nameWithType: LocalDate.LocalDate
+  fullName: NodaTime.LocalDate.LocalDate
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3482,18 +3482,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.LocalDate.AtStartOfDayInZone*
-  commentId: Overload:NodaTime.LocalDate.AtStartOfDayInZone
-  isExternal: false
-  name: AtStartOfDayInZone
-  nameWithType: LocalDate.AtStartOfDayInZone
-  fullName: NodaTime.LocalDate.AtStartOfDayInZone
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
+- uid: NodaTime.LocalDate.AtStartOfDayInZone*
+  commentId: Overload:NodaTime.LocalDate.AtStartOfDayInZone
+  isExternal: false
+  name: AtStartOfDayInZone
+  nameWithType: LocalDate.AtStartOfDayInZone
+  fullName: NodaTime.LocalDate.AtStartOfDayInZone
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
@@ -3531,14 +3531,14 @@ references:
   name: PlusWeeks
   nameWithType: LocalDate.PlusWeeks
   fullName: NodaTime.LocalDate.PlusWeeks
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDate.Next*
   commentId: Overload:NodaTime.LocalDate.Next
   isExternal: false
   name: Next
   nameWithType: LocalDate.Next
   fullName: NodaTime.LocalDate.Next
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDate.Previous*
   commentId: Overload:NodaTime.LocalDate.Previous
   isExternal: false

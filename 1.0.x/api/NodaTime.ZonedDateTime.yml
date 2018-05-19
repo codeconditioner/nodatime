@@ -2407,14 +2407,14 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.ZonedDateTime.#ctor*
   commentId: Overload:NodaTime.ZonedDateTime.#ctor
   isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime.ZonedDateTime
   fullName: NodaTime.ZonedDateTime.ZonedDateTime
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
@@ -2561,14 +2561,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.ZonedDateTime.DayOfWeek
   commentId: P:NodaTime.ZonedDateTime.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.ZonedDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.ZonedDateTime.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: ZonedDateTime.IsoDayOfWeek
   fullName: NodaTime.ZonedDateTime.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.ZonedDateTime.IsoDayOfWeek
   commentId: P:NodaTime.ZonedDateTime.IsoDayOfWeek
 - uid: NodaTime.ZonedDateTime.DayOfWeek*

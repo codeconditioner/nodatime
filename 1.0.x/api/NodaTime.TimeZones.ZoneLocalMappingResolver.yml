@@ -67,18 +67,18 @@ references:
   name: AmbiguousTimeResolver
   nameWithType: AmbiguousTimeResolver
   fullName: NodaTime.TimeZones.AmbiguousTimeResolver
-- uid: NodaTime.TimeZones
-  commentId: N:NodaTime.TimeZones
-  isExternal: false
-  name: NodaTime.TimeZones
-  nameWithType: NodaTime.TimeZones
-  fullName: NodaTime.TimeZones
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
+- uid: NodaTime.TimeZones
+  commentId: N:NodaTime.TimeZones
+  isExternal: false
+  name: NodaTime.TimeZones
+  nameWithType: NodaTime.TimeZones
+  fullName: NodaTime.TimeZones
 - uid: NodaTime.TimeZones.ZoneLocalMapping
   commentId: T:NodaTime.TimeZones.ZoneLocalMapping
   parent: NodaTime.TimeZones

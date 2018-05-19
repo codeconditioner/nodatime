@@ -1241,14 +1241,14 @@ references:
   name: BclDateTimeZone
   nameWithType: BclDateTimeZone
   fullName: NodaTime.TimeZones.BclDateTimeZone
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.TimeZones.BclDateTimeZone.FromTimeZoneInfo*
   commentId: Overload:NodaTime.TimeZones.BclDateTimeZone.FromTimeZoneInfo
   isExternal: false
   name: FromTimeZoneInfo
   nameWithType: BclDateTimeZone.FromTimeZoneInfo
   fullName: NodaTime.TimeZones.BclDateTimeZone.FromTimeZoneInfo
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.IDateTimeZoneProvider.GetSystemDefault
   commentId: M:NodaTime.IDateTimeZoneProvider.GetSystemDefault
   parent: NodaTime.IDateTimeZoneProvider
@@ -1301,6 +1301,8 @@ references:
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
+- uid: System.NotImplementedException
+  commentId: T:System.NotImplementedException
 - uid: NodaTime.DateTimeZone.EqualsImpl(NodaTime.DateTimeZone)
   commentId: M:NodaTime.DateTimeZone.EqualsImpl(NodaTime.DateTimeZone)
   parent: NodaTime.DateTimeZone
@@ -1344,8 +1346,6 @@ references:
   name: EqualsImpl
   nameWithType: BclDateTimeZone.EqualsImpl
   fullName: NodaTime.TimeZones.BclDateTimeZone.EqualsImpl
-- uid: System.NotImplementedException
-  commentId: T:System.NotImplementedException
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

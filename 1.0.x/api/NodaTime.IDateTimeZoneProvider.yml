@@ -485,14 +485,14 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.IDateTimeZoneProvider.GetZoneOrNull*
   commentId: Overload:NodaTime.IDateTimeZoneProvider.GetZoneOrNull
   isExternal: false
   name: GetZoneOrNull
   nameWithType: IDateTimeZoneProvider.GetZoneOrNull
   fullName: NodaTime.IDateTimeZoneProvider.GetZoneOrNull
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.IDateTimeZoneProvider.GetZoneOrNull(System.String)
   commentId: M:NodaTime.IDateTimeZoneProvider.GetZoneOrNull(System.String)
   parent: NodaTime.IDateTimeZoneProvider

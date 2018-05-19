@@ -1702,14 +1702,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.OffsetDateTime.DayOfWeek
   commentId: P:NodaTime.OffsetDateTime.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.OffsetDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.OffsetDateTime.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: OffsetDateTime.IsoDayOfWeek
   fullName: NodaTime.OffsetDateTime.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.OffsetDateTime.IsoDayOfWeek
   commentId: P:NodaTime.OffsetDateTime.IsoDayOfWeek
 - uid: NodaTime.OffsetDateTime.DayOfWeek*

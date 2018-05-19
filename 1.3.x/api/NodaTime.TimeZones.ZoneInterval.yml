@@ -949,12 +949,6 @@ references:
   fullName: NodaTime.Instant
 - uid: NodaTime.TimeZones.ZoneInterval.WallOffset
   commentId: P:NodaTime.TimeZones.ZoneInterval.WallOffset
-- uid: NodaTime.TimeZones.ZoneInterval.#ctor*
-  commentId: Overload:NodaTime.TimeZones.ZoneInterval.#ctor
-  isExternal: false
-  name: ZoneInterval
-  nameWithType: ZoneInterval.ZoneInterval
-  fullName: NodaTime.TimeZones.ZoneInterval.ZoneInterval
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -962,6 +956,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.TimeZones.ZoneInterval.#ctor*
+  commentId: Overload:NodaTime.TimeZones.ZoneInterval.#ctor
+  isExternal: false
+  name: ZoneInterval
+  nameWithType: ZoneInterval.ZoneInterval
+  fullName: NodaTime.TimeZones.ZoneInterval.ZoneInterval
 - uid: System.String
   commentId: T:System.String
   parent: System

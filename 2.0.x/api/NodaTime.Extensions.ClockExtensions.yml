@@ -651,18 +651,18 @@ references:
   fullName: NodaTime.Extensions.ClockExtensions.InUtc
 - uid: NodaTime.DateTimeZoneProviders.Tzdb
   commentId: P:NodaTime.DateTimeZoneProviders.Tzdb
-- uid: NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone*
-  commentId: Overload:NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone
-  isExternal: false
-  name: InTzdbSystemDefaultZone
-  nameWithType: ClockExtensions.InTzdbSystemDefaultZone
-  fullName: NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone
 - uid: NodaTime.TimeZones.DateTimeZoneNotFoundException
   commentId: T:NodaTime.TimeZones.DateTimeZoneNotFoundException
   isExternal: false
   name: DateTimeZoneNotFoundException
   nameWithType: DateTimeZoneNotFoundException
   fullName: NodaTime.TimeZones.DateTimeZoneNotFoundException
+- uid: NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone*
+  commentId: Overload:NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone
+  isExternal: false
+  name: InTzdbSystemDefaultZone
+  nameWithType: ClockExtensions.InTzdbSystemDefaultZone
+  fullName: NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone
 - uid: System.TimeZoneInfo.Local
   commentId: P:System.TimeZoneInfo.Local
 - uid: NodaTime.DateTimeZoneProviders.Bcl

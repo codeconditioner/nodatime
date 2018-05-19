@@ -481,12 +481,6 @@ references:
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
-- uid: NodaTime.Calendars.WeekYearRuleExtensions.GetLocalDate*
-  commentId: Overload:NodaTime.Calendars.WeekYearRuleExtensions.GetLocalDate
-  isExternal: false
-  name: GetLocalDate
-  nameWithType: WeekYearRuleExtensions.GetLocalDate
-  fullName: NodaTime.Calendars.WeekYearRuleExtensions.GetLocalDate
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -494,6 +488,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Calendars.WeekYearRuleExtensions.GetLocalDate*
+  commentId: Overload:NodaTime.Calendars.WeekYearRuleExtensions.GetLocalDate
+  isExternal: false
+  name: GetLocalDate
+  nameWithType: WeekYearRuleExtensions.GetLocalDate
+  fullName: NodaTime.Calendars.WeekYearRuleExtensions.GetLocalDate
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

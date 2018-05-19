@@ -1072,12 +1072,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: NodaTime.AnnualDate.#ctor*
-  commentId: Overload:NodaTime.AnnualDate.#ctor
-  isExternal: false
-  name: AnnualDate
-  nameWithType: AnnualDate.AnnualDate
-  fullName: NodaTime.AnnualDate.AnnualDate
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -1085,6 +1079,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.AnnualDate.#ctor*
+  commentId: Overload:NodaTime.AnnualDate.#ctor
+  isExternal: false
+  name: AnnualDate
+  nameWithType: AnnualDate.AnnualDate
+  fullName: NodaTime.AnnualDate.AnnualDate
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1450,12 +1450,6 @@ references:
   name: Inequality
   nameWithType: AnnualDate.Inequality
   fullName: NodaTime.AnnualDate.Inequality
-- uid: NodaTime.AnnualDate.op_LessThan*
-  commentId: Overload:NodaTime.AnnualDate.op_LessThan
-  isExternal: false
-  name: LessThan
-  nameWithType: AnnualDate.LessThan
-  fullName: NodaTime.AnnualDate.LessThan
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -1463,6 +1457,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.AnnualDate.op_LessThan*
+  commentId: Overload:NodaTime.AnnualDate.op_LessThan
+  isExternal: false
+  name: LessThan
+  nameWithType: AnnualDate.LessThan
+  fullName: NodaTime.AnnualDate.LessThan
 - uid: NodaTime.AnnualDate.op_LessThanOrEqual*
   commentId: Overload:NodaTime.AnnualDate.op_LessThanOrEqual
   isExternal: false

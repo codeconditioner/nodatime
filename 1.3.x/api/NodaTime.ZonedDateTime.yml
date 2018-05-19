@@ -3081,14 +3081,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.ZonedDateTime.DayOfWeek
   commentId: P:NodaTime.ZonedDateTime.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.ZonedDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.ZonedDateTime.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: ZonedDateTime.IsoDayOfWeek
   fullName: NodaTime.ZonedDateTime.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.ZonedDateTime.IsoDayOfWeek
   commentId: P:NodaTime.ZonedDateTime.IsoDayOfWeek
 - uid: NodaTime.ZonedDateTime.DayOfWeek*

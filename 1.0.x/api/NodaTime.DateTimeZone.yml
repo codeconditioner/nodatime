@@ -1445,18 +1445,18 @@ references:
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
-- uid: NodaTime.DateTimeZone.AtStartOfDay*
-  commentId: Overload:NodaTime.DateTimeZone.AtStartOfDay
-  isExternal: false
-  name: AtStartOfDay
-  nameWithType: DateTimeZone.AtStartOfDay
-  fullName: NodaTime.DateTimeZone.AtStartOfDay
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
+- uid: NodaTime.DateTimeZone.AtStartOfDay*
+  commentId: Overload:NodaTime.DateTimeZone.AtStartOfDay
+  isExternal: false
+  name: AtStartOfDay
+  nameWithType: DateTimeZone.AtStartOfDay
+  fullName: NodaTime.DateTimeZone.AtStartOfDay
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
@@ -1483,14 +1483,14 @@ references:
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.DateTimeZone.ResolveLocal*
   commentId: Overload:NodaTime.DateTimeZone.ResolveLocal
   isExternal: false
   name: ResolveLocal
   nameWithType: DateTimeZone.ResolveLocal
   fullName: NodaTime.DateTimeZone.ResolveLocal
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
   isExternal: false

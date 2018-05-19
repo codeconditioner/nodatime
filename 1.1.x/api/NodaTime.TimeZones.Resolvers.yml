@@ -741,12 +741,12 @@ references:
   commentId: F:NodaTime.TimeZones.Resolvers.ReturnLater
 - uid: NodaTime.TimeZones.Resolvers.ReturnStartOfIntervalAfter
   commentId: F:NodaTime.TimeZones.Resolvers.ReturnStartOfIntervalAfter
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.TimeZones.Resolvers.CreateMappingResolver*
   commentId: Overload:NodaTime.TimeZones.Resolvers.CreateMappingResolver
   isExternal: false
   name: CreateMappingResolver
   nameWithType: Resolvers.CreateMappingResolver
   fullName: NodaTime.TimeZones.Resolvers.CreateMappingResolver
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 shouldSkipMarkup: true

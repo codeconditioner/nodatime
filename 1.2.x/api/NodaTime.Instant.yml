@@ -2649,6 +2649,13 @@ references:
     fullName: )
 - uid: NodaTime.Instant.CompareTo(NodaTime.Instant)
   commentId: M:NodaTime.Instant.CompareTo(NodaTime.Instant)
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.Instant.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Instant.System#IComparable#CompareTo
   isExternal: false
@@ -2657,13 +2664,6 @@ references:
   fullName: NodaTime.Instant.System.IComparable.CompareTo
   nameWithType.vb: Instant.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: System.ValueType.Equals(System.Object)
   commentId: M:System.ValueType.Equals(System.Object)
   parent: System.ValueType
@@ -3087,12 +3087,6 @@ references:
   name: FromDateTimeUtc
   nameWithType: Instant.FromDateTimeUtc
   fullName: NodaTime.Instant.FromDateTimeUtc
-- uid: NodaTime.Instant.FromSecondsSinceUnixEpoch*
-  commentId: Overload:NodaTime.Instant.FromSecondsSinceUnixEpoch
-  isExternal: false
-  name: FromSecondsSinceUnixEpoch
-  nameWithType: Instant.FromSecondsSinceUnixEpoch
-  fullName: NodaTime.Instant.FromSecondsSinceUnixEpoch
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -3100,6 +3094,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Instant.FromSecondsSinceUnixEpoch*
+  commentId: Overload:NodaTime.Instant.FromSecondsSinceUnixEpoch
+  isExternal: false
+  name: FromSecondsSinceUnixEpoch
+  nameWithType: Instant.FromSecondsSinceUnixEpoch
+  fullName: NodaTime.Instant.FromSecondsSinceUnixEpoch
 - uid: NodaTime.Instant.FromMillisecondsSinceUnixEpoch*
   commentId: Overload:NodaTime.Instant.FromMillisecondsSinceUnixEpoch
   isExternal: false
@@ -3134,14 +3134,14 @@ references:
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.Instant.InZone*
   commentId: Overload:NodaTime.Instant.InZone
   isExternal: false
   name: InZone
   nameWithType: Instant.InZone
   fullName: NodaTime.Instant.InZone
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime

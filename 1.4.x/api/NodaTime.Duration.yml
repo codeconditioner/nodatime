@@ -2944,6 +2944,13 @@ references:
     fullName: )
 - uid: NodaTime.Duration.CompareTo(NodaTime.Duration)
   commentId: M:NodaTime.Duration.CompareTo(NodaTime.Duration)
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.Duration.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Duration.System#IComparable#CompareTo
   isExternal: false
@@ -2952,13 +2959,6 @@ references:
   fullName: NodaTime.Duration.System.IComparable.CompareTo
   nameWithType.vb: Duration.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: System.IEquatable{NodaTime.Duration}.Equals(NodaTime.Duration)
   commentId: M:System.IEquatable{NodaTime.Duration}.Equals(NodaTime.Duration)
   parent: System.IEquatable{NodaTime.Duration}

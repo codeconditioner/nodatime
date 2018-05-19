@@ -481,12 +481,6 @@ references:
   fullName: NodaTime.Instant
 - uid: NodaTime.Instant.FromDateTimeUtc(System.DateTime)
   commentId: M:NodaTime.Instant.FromDateTimeUtc(System.DateTime)
-- uid: NodaTime.Extensions.DateTimeExtensions.ToInstant*
-  commentId: Overload:NodaTime.Extensions.DateTimeExtensions.ToInstant
-  isExternal: false
-  name: ToInstant
-  nameWithType: DateTimeExtensions.ToInstant
-  fullName: NodaTime.Extensions.DateTimeExtensions.ToInstant
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -494,4 +488,10 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.Extensions.DateTimeExtensions.ToInstant*
+  commentId: Overload:NodaTime.Extensions.DateTimeExtensions.ToInstant
+  isExternal: false
+  name: ToInstant
+  nameWithType: DateTimeExtensions.ToInstant
+  fullName: NodaTime.Extensions.DateTimeExtensions.ToInstant
 shouldSkipMarkup: true

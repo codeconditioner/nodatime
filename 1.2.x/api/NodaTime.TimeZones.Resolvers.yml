@@ -854,12 +854,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.TimeZones.Resolvers.CreateMappingResolver*
   commentId: Overload:NodaTime.TimeZones.Resolvers.CreateMappingResolver
   isExternal: false
   name: CreateMappingResolver
   nameWithType: Resolvers.CreateMappingResolver
   fullName: NodaTime.TimeZones.Resolvers.CreateMappingResolver
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 shouldSkipMarkup: true

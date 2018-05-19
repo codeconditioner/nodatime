@@ -3532,14 +3532,14 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.ZonedDateTime.ToDateTimeOffset*
   commentId: Overload:NodaTime.ZonedDateTime.ToDateTimeOffset
   isExternal: false
   name: ToDateTimeOffset
   nameWithType: ZonedDateTime.ToDateTimeOffset
   fullName: NodaTime.ZonedDateTime.ToDateTimeOffset
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.ZonedDateTime.FromDateTimeOffset*
   commentId: Overload:NodaTime.ZonedDateTime.FromDateTimeOffset
   isExternal: false

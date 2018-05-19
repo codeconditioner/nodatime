@@ -1077,14 +1077,14 @@ references:
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.TimeZones.ZoneInterval.Duration*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Duration
   isExternal: false
   name: Duration
   nameWithType: ZoneInterval.Duration
   fullName: NodaTime.TimeZones.ZoneInterval.Duration
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
@@ -1131,14 +1131,14 @@ references:
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
+- uid: System.OverflowException
+  commentId: T:System.OverflowException
 - uid: NodaTime.TimeZones.ZoneInterval.IsoLocalStart*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.IsoLocalStart
   isExternal: false
   name: IsoLocalStart
   nameWithType: ZoneInterval.IsoLocalStart
   fullName: NodaTime.TimeZones.ZoneInterval.IsoLocalStart
-- uid: System.OverflowException
-  commentId: T:System.OverflowException
 - uid: NodaTime.TimeZones.ZoneInterval.IsoLocalEnd*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.IsoLocalEnd
   isExternal: false
@@ -1185,12 +1185,6 @@ references:
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.TimeZones.ZoneInterval.WallOffset
   commentId: P:NodaTime.TimeZones.ZoneInterval.WallOffset
-- uid: NodaTime.TimeZones.ZoneInterval.#ctor*
-  commentId: Overload:NodaTime.TimeZones.ZoneInterval.#ctor
-  isExternal: false
-  name: ZoneInterval
-  nameWithType: ZoneInterval.ZoneInterval
-  fullName: NodaTime.TimeZones.ZoneInterval.ZoneInterval
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -1198,6 +1192,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.TimeZones.ZoneInterval.#ctor*
+  commentId: Overload:NodaTime.TimeZones.ZoneInterval.#ctor
+  isExternal: false
+  name: ZoneInterval
+  nameWithType: ZoneInterval.ZoneInterval
+  fullName: NodaTime.TimeZones.ZoneInterval.ZoneInterval
 - uid: System.Nullable{NodaTime.Instant}
   commentId: T:System.Nullable{NodaTime.Instant}
   parent: System

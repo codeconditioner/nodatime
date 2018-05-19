@@ -2155,12 +2155,6 @@ references:
   name: UnaryPlus
   nameWithType: Offset.UnaryPlus
   fullName: NodaTime.Offset.UnaryPlus
-- uid: NodaTime.Offset.op_Addition*
-  commentId: Overload:NodaTime.Offset.op_Addition
-  isExternal: false
-  name: Addition
-  nameWithType: Offset.Addition
-  fullName: NodaTime.Offset.Addition
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -2168,6 +2162,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Offset.op_Addition*
+  commentId: Overload:NodaTime.Offset.op_Addition
+  isExternal: false
+  name: Addition
+  nameWithType: Offset.Addition
+  fullName: NodaTime.Offset.Addition
 - uid: NodaTime.Offset.Add*
   commentId: Overload:NodaTime.Offset.Add
   isExternal: false
@@ -2369,6 +2369,13 @@ references:
     fullName: )
 - uid: NodaTime.Offset.CompareTo(NodaTime.Offset)
   commentId: M:NodaTime.Offset.CompareTo(NodaTime.Offset)
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.Offset.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Offset.System#IComparable#CompareTo
   isExternal: false
@@ -2377,13 +2384,6 @@ references:
   fullName: NodaTime.Offset.System.IComparable.CompareTo
   nameWithType.vb: Offset.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: NodaTime.Offset.Equals*
   commentId: Overload:NodaTime.Offset.Equals
   isExternal: false

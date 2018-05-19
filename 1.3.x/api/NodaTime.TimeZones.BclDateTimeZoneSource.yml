@@ -782,12 +782,6 @@ references:
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
-- uid: NodaTime.TimeZones.BclDateTimeZoneSource.ForId*
-  commentId: Overload:NodaTime.TimeZones.BclDateTimeZoneSource.ForId
-  isExternal: false
-  name: ForId
-  nameWithType: BclDateTimeZoneSource.ForId
-  fullName: NodaTime.TimeZones.BclDateTimeZoneSource.ForId
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -795,6 +789,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.TimeZones.BclDateTimeZoneSource.ForId*
+  commentId: Overload:NodaTime.TimeZones.BclDateTimeZoneSource.ForId
+  isExternal: false
+  name: ForId
+  nameWithType: BclDateTimeZoneSource.ForId
+  fullName: NodaTime.TimeZones.BclDateTimeZoneSource.ForId
 - uid: NodaTime.TimeZones.BclDateTimeZoneSource.MapTimeZoneId*
   commentId: Overload:NodaTime.TimeZones.BclDateTimeZoneSource.MapTimeZoneId
   isExternal: false

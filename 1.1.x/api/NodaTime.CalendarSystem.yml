@@ -1233,14 +1233,14 @@ references:
   fullName: System
 - uid: NodaTime.CalendarSystem.Id
   commentId: P:NodaTime.CalendarSystem.Id
+- uid: System.Collections.Generic.KeyNotFoundException
+  commentId: T:System.Collections.Generic.KeyNotFoundException
 - uid: NodaTime.CalendarSystem.ForId*
   commentId: Overload:NodaTime.CalendarSystem.ForId
   isExternal: false
   name: ForId
   nameWithType: CalendarSystem.ForId
   fullName: NodaTime.CalendarSystem.ForId
-- uid: System.Collections.Generic.KeyNotFoundException
-  commentId: T:System.Collections.Generic.KeyNotFoundException
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1451,12 +1451,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: NodaTime.CalendarSystem.GetDaysInMonth*
-  commentId: Overload:NodaTime.CalendarSystem.GetDaysInMonth
-  isExternal: false
-  name: GetDaysInMonth
-  nameWithType: CalendarSystem.GetDaysInMonth
-  fullName: NodaTime.CalendarSystem.GetDaysInMonth
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -1464,6 +1458,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.CalendarSystem.GetDaysInMonth*
+  commentId: Overload:NodaTime.CalendarSystem.GetDaysInMonth
+  isExternal: false
+  name: GetDaysInMonth
+  nameWithType: CalendarSystem.GetDaysInMonth
+  fullName: NodaTime.CalendarSystem.GetDaysInMonth
 - uid: NodaTime.CalendarSystem.IsLeapYear*
   commentId: Overload:NodaTime.CalendarSystem.IsLeapYear
   isExternal: false
@@ -1575,12 +1575,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.CalendarSystem.GetAbsoluteYear*
-  commentId: Overload:NodaTime.CalendarSystem.GetAbsoluteYear
-  isExternal: false
-  name: GetAbsoluteYear
-  nameWithType: CalendarSystem.GetAbsoluteYear
-  fullName: NodaTime.CalendarSystem.GetAbsoluteYear
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
 - uid: System.ArgumentException
@@ -1590,6 +1584,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.CalendarSystem.GetAbsoluteYear*
+  commentId: Overload:NodaTime.CalendarSystem.GetAbsoluteYear
+  isExternal: false
+  name: GetAbsoluteYear
+  nameWithType: CalendarSystem.GetAbsoluteYear
+  fullName: NodaTime.CalendarSystem.GetAbsoluteYear
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars

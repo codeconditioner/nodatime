@@ -1347,18 +1347,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.Text.InstantPattern.Create*
-  commentId: Overload:NodaTime.Text.InstantPattern.Create
-  isExternal: false
-  name: Create
-  nameWithType: InstantPattern.Create
-  fullName: NodaTime.Text.InstantPattern.Create
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
   isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
+- uid: NodaTime.Text.InstantPattern.Create*
+  commentId: Overload:NodaTime.Text.InstantPattern.Create
+  isExternal: false
+  name: Create
+  nameWithType: InstantPattern.Create
+  fullName: NodaTime.Text.InstantPattern.Create
 - uid: NodaTime.Text.InstantPattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.InstantPattern.CreateWithCurrentCulture
   isExternal: false
@@ -1394,12 +1394,6 @@ references:
   commentId: F:NodaTime.Instant.MinValue
 - uid: NodaTime.Instant.MaxValue
   commentId: F:NodaTime.Instant.MaxValue
-- uid: NodaTime.Text.InstantPattern.WithMinMaxLabels*
-  commentId: Overload:NodaTime.Text.InstantPattern.WithMinMaxLabels
-  isExternal: false
-  name: WithMinMaxLabels
-  nameWithType: InstantPattern.WithMinMaxLabels
-  fullName: NodaTime.Text.InstantPattern.WithMinMaxLabels
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -1407,4 +1401,10 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.Text.InstantPattern.WithMinMaxLabels*
+  commentId: Overload:NodaTime.Text.InstantPattern.WithMinMaxLabels
+  isExternal: false
+  name: WithMinMaxLabels
+  nameWithType: InstantPattern.WithMinMaxLabels
+  fullName: NodaTime.Text.InstantPattern.WithMinMaxLabels
 shouldSkipMarkup: true

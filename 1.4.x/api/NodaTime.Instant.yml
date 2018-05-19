@@ -2884,6 +2884,13 @@ references:
     fullName: )
 - uid: NodaTime.Instant.CompareTo(NodaTime.Instant)
   commentId: M:NodaTime.Instant.CompareTo(NodaTime.Instant)
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.Instant.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Instant.System#IComparable#CompareTo
   isExternal: false
@@ -2892,13 +2899,6 @@ references:
   fullName: NodaTime.Instant.System.IComparable.CompareTo
   nameWithType.vb: Instant.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: System.ValueType.Equals(System.Object)
   commentId: M:System.ValueType.Equals(System.Object)
   parent: System.ValueType
@@ -3322,12 +3322,6 @@ references:
   name: FromDateTimeUtc
   nameWithType: Instant.FromDateTimeUtc
   fullName: NodaTime.Instant.FromDateTimeUtc
-- uid: NodaTime.Instant.FromUnixTimeSeconds*
-  commentId: Overload:NodaTime.Instant.FromUnixTimeSeconds
-  isExternal: false
-  name: FromUnixTimeSeconds
-  nameWithType: Instant.FromUnixTimeSeconds
-  fullName: NodaTime.Instant.FromUnixTimeSeconds
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -3335,6 +3329,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Instant.FromUnixTimeSeconds*
+  commentId: Overload:NodaTime.Instant.FromUnixTimeSeconds
+  isExternal: false
+  name: FromUnixTimeSeconds
+  nameWithType: Instant.FromUnixTimeSeconds
+  fullName: NodaTime.Instant.FromUnixTimeSeconds
 - uid: NodaTime.Instant.FromSecondsSinceUnixEpoch*
   commentId: Overload:NodaTime.Instant.FromSecondsSinceUnixEpoch
   isExternal: false

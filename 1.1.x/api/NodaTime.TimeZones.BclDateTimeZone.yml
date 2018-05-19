@@ -1235,14 +1235,14 @@ references:
   name: BclDateTimeZone
   nameWithType: BclDateTimeZone
   fullName: NodaTime.TimeZones.BclDateTimeZone
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.TimeZones.BclDateTimeZone.FromTimeZoneInfo*
   commentId: Overload:NodaTime.TimeZones.BclDateTimeZone.FromTimeZoneInfo
   isExternal: false
   name: FromTimeZoneInfo
   nameWithType: BclDateTimeZone.FromTimeZoneInfo
   fullName: NodaTime.TimeZones.BclDateTimeZone.FromTimeZoneInfo
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.TimeZones.DateTimeZoneCache
   commentId: T:NodaTime.TimeZones.DateTimeZoneCache
   isExternal: false

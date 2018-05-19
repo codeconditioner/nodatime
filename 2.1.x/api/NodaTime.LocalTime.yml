@@ -2868,12 +2868,6 @@ references:
   name: MaxValue
   nameWithType: LocalTime.MaxValue
   fullName: NodaTime.LocalTime.MaxValue
-- uid: NodaTime.LocalTime.#ctor*
-  commentId: Overload:NodaTime.LocalTime.#ctor
-  isExternal: false
-  name: LocalTime
-  nameWithType: LocalTime.LocalTime
-  fullName: NodaTime.LocalTime.LocalTime
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -2881,6 +2875,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalTime.#ctor*
+  commentId: Overload:NodaTime.LocalTime.#ctor
+  isExternal: false
+  name: LocalTime
+  nameWithType: LocalTime.LocalTime
+  fullName: NodaTime.LocalTime.LocalTime
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3203,6 +3203,13 @@ references:
     fullName: )
 - uid: NodaTime.LocalTime.CompareTo(NodaTime.LocalTime)
   commentId: M:NodaTime.LocalTime.CompareTo(NodaTime.LocalTime)
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.LocalTime.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.LocalTime.System#IComparable#CompareTo
   isExternal: false
@@ -3211,13 +3218,6 @@ references:
   fullName: NodaTime.LocalTime.System.IComparable.CompareTo
   nameWithType.vb: LocalTime.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: System.ValueType.GetHashCode
   commentId: M:System.ValueType.GetHashCode
   parent: System.ValueType

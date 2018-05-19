@@ -1121,6 +1121,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
 - uid: NodaTime.Serialization.JsonNet.NodaPatternConverter`1.#ctor*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaPatternConverter`1.#ctor
   isExternal: false
@@ -1129,8 +1131,6 @@ references:
   fullName: NodaTime.Serialization.JsonNet.NodaPatternConverter<T>.NodaPatternConverter
   nameWithType.vb: NodaPatternConverter(Of T).NodaPatternConverter
   fullName.vb: NodaTime.Serialization.JsonNet.NodaPatternConverter(Of T).NodaPatternConverter
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
 - uid: NodaTime.Text.IPattern{{T}}
   commentId: T:NodaTime.Text.IPattern{`0}
   parent: NodaTime.Text

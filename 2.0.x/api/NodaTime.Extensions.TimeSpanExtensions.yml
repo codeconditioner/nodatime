@@ -481,12 +481,6 @@ references:
   fullName: NodaTime.Offset
 - uid: NodaTime.Offset.FromTimeSpan(System.TimeSpan)
   commentId: M:NodaTime.Offset.FromTimeSpan(System.TimeSpan)
-- uid: NodaTime.Extensions.TimeSpanExtensions.ToOffset*
-  commentId: Overload:NodaTime.Extensions.TimeSpanExtensions.ToOffset
-  isExternal: false
-  name: ToOffset
-  nameWithType: TimeSpanExtensions.ToOffset
-  fullName: NodaTime.Extensions.TimeSpanExtensions.ToOffset
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -494,4 +488,10 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Extensions.TimeSpanExtensions.ToOffset*
+  commentId: Overload:NodaTime.Extensions.TimeSpanExtensions.ToOffset
+  isExternal: false
+  name: ToOffset
+  nameWithType: TimeSpanExtensions.ToOffset
+  fullName: NodaTime.Extensions.TimeSpanExtensions.ToOffset
 shouldSkipMarkup: true

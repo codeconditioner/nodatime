@@ -771,12 +771,6 @@ references:
   name: LateInterval
   nameWithType: ZoneLocalMapping.LateInterval
   fullName: NodaTime.TimeZones.ZoneLocalMapping.LateInterval
-- uid: NodaTime.TimeZones.ZoneLocalMapping.Single*
-  commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.Single
-  isExternal: false
-  name: Single
-  nameWithType: ZoneLocalMapping.Single
-  fullName: NodaTime.TimeZones.ZoneLocalMapping.Single
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
@@ -789,6 +783,12 @@ references:
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
+- uid: NodaTime.TimeZones.ZoneLocalMapping.Single*
+  commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.Single
+  isExternal: false
+  name: Single
+  nameWithType: ZoneLocalMapping.Single
+  fullName: NodaTime.TimeZones.ZoneLocalMapping.Single
 - uid: NodaTime.TimeZones.ZoneLocalMapping.First*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.First
   isExternal: false

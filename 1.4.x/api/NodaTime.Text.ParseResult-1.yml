@@ -599,6 +599,8 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.Text.ParseResult`1.Exception*
   commentId: Overload:NodaTime.Text.ParseResult`1.Exception
   isExternal: false
@@ -607,8 +609,6 @@ references:
   fullName: NodaTime.Text.ParseResult<T>.Exception
   nameWithType.vb: ParseResult(Of T).Exception
   fullName.vb: NodaTime.Text.ParseResult(Of T).Exception
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: System.Exception
   commentId: T:System.Exception
   parent: System

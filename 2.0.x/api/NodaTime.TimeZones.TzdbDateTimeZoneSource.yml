@@ -1381,12 +1381,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream*
-  commentId: Overload:NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream
-  isExternal: false
-  name: FromStream
-  nameWithType: TzdbDateTimeZoneSource.FromStream
-  fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream
 - uid: NodaTime.Utility.InvalidNodaDataException
   commentId: T:NodaTime.Utility.InvalidNodaDataException
   isExternal: false
@@ -1397,6 +1391,12 @@ references:
   commentId: T:System.IO.IOException
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
+- uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream*
+  commentId: Overload:NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream
+  isExternal: false
+  name: FromStream
+  nameWithType: TzdbDateTimeZoneSource.FromStream
+  fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource.FromStream
 - uid: System.IO.Stream
   commentId: T:System.IO.Stream
   parent: System.IO

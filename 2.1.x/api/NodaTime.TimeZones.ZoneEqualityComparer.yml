@@ -655,12 +655,6 @@ references:
   name: ZoneEqualityComparer.Options
   nameWithType: ZoneEqualityComparer.Options
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.Options
-- uid: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions*
-  commentId: Overload:NodaTime.TimeZones.ZoneEqualityComparer.WithOptions
-  isExternal: false
-  name: WithOptions
-  nameWithType: ZoneEqualityComparer.WithOptions
-  fullName: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -668,6 +662,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions*
+  commentId: Overload:NodaTime.TimeZones.ZoneEqualityComparer.WithOptions
+  isExternal: false
+  name: WithOptions
+  nameWithType: ZoneEqualityComparer.WithOptions
+  fullName: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime

@@ -1563,18 +1563,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.Text.OffsetDateTimePattern.Create*
-  commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Create
-  isExternal: false
-  name: Create
-  nameWithType: OffsetDateTimePattern.Create
-  fullName: NodaTime.Text.OffsetDateTimePattern.Create
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
   isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
+- uid: NodaTime.Text.OffsetDateTimePattern.Create*
+  commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Create
+  isExternal: false
+  name: Create
+  nameWithType: OffsetDateTimePattern.Create
+  fullName: NodaTime.Text.OffsetDateTimePattern.Create
 - uid: NodaTime.Text.OffsetDateTimePattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.CreateWithInvariantCulture
   isExternal: false

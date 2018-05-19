@@ -1104,12 +1104,6 @@ references:
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
-- uid: NodaTime.Interval.#ctor*
-  commentId: Overload:NodaTime.Interval.#ctor
-  isExternal: false
-  name: Interval
-  nameWithType: Interval.Interval
-  fullName: NodaTime.Interval.Interval
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -1117,6 +1111,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Interval.#ctor*
+  commentId: Overload:NodaTime.Interval.#ctor
+  isExternal: false
+  name: Interval
+  nameWithType: Interval.Interval
+  fullName: NodaTime.Interval.Interval
 - uid: System.Nullable{NodaTime.Instant}
   commentId: T:System.Nullable{NodaTime.Instant}
   parent: System
@@ -1202,14 +1202,14 @@ references:
   commentId: P:NodaTime.Interval.End
 - uid: NodaTime.Interval.HasStart
   commentId: P:NodaTime.Interval.HasStart
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.Interval.Start*
   commentId: Overload:NodaTime.Interval.Start
   isExternal: false
   name: Start
   nameWithType: Interval.Start
   fullName: NodaTime.Interval.Start
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.Interval.HasStart*
   commentId: Overload:NodaTime.Interval.HasStart
   isExternal: false

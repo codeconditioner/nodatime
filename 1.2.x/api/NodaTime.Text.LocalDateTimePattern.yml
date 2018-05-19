@@ -1352,18 +1352,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.Text.LocalDateTimePattern.Create*
-  commentId: Overload:NodaTime.Text.LocalDateTimePattern.Create
-  isExternal: false
-  name: Create
-  nameWithType: LocalDateTimePattern.Create
-  fullName: NodaTime.Text.LocalDateTimePattern.Create
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
   isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
+- uid: NodaTime.Text.LocalDateTimePattern.Create*
+  commentId: Overload:NodaTime.Text.LocalDateTimePattern.Create
+  isExternal: false
+  name: Create
+  nameWithType: LocalDateTimePattern.Create
+  fullName: NodaTime.Text.LocalDateTimePattern.Create
 - uid: NodaTime.Text.LocalDateTimePattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.LocalDateTimePattern.CreateWithCurrentCulture
   isExternal: false

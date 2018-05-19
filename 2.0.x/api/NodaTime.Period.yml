@@ -2494,12 +2494,6 @@ references:
   name: Subtraction
   nameWithType: Period.Subtraction
   fullName: NodaTime.Period.Subtraction
-- uid: NodaTime.Period.Between*
-  commentId: Overload:NodaTime.Period.Between
-  isExternal: false
-  name: Between
-  nameWithType: Period.Between
-  fullName: NodaTime.Period.Between
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -2507,6 +2501,12 @@ references:
   name: ArgumentException
   nameWithType: ArgumentException
   fullName: System.ArgumentException
+- uid: NodaTime.Period.Between*
+  commentId: Overload:NodaTime.Period.Between
+  isExternal: false
+  name: Between
+  nameWithType: Period.Between
+  fullName: NodaTime.Period.Between
 - uid: NodaTime.PeriodUnits
   commentId: T:NodaTime.PeriodUnits
   parent: NodaTime
@@ -2547,16 +2547,16 @@ references:
   name: HasDateComponent
   nameWithType: Period.HasDateComponent
   fullName: NodaTime.Period.HasDateComponent
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+- uid: System.OverflowException
+  commentId: T:System.OverflowException
 - uid: NodaTime.Period.ToDuration*
   commentId: Overload:NodaTime.Period.ToDuration
   isExternal: false
   name: ToDuration
   nameWithType: Period.ToDuration
   fullName: NodaTime.Period.ToDuration
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
-- uid: System.OverflowException
-  commentId: T:System.OverflowException
 - uid: NodaTime.PeriodBuilder
   commentId: T:NodaTime.PeriodBuilder
   parent: NodaTime

@@ -701,12 +701,6 @@ references:
   name: Comment
   nameWithType: TzdbZoneLocation.Comment
   fullName: NodaTime.TimeZones.TzdbZoneLocation.Comment
-- uid: NodaTime.TimeZones.TzdbZoneLocation.#ctor*
-  commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.#ctor
-  isExternal: false
-  name: TzdbZoneLocation
-  nameWithType: TzdbZoneLocation.TzdbZoneLocation
-  fullName: NodaTime.TimeZones.TzdbZoneLocation.TzdbZoneLocation
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -714,6 +708,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.TimeZones.TzdbZoneLocation.#ctor*
+  commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.#ctor
+  isExternal: false
+  name: TzdbZoneLocation
+  nameWithType: TzdbZoneLocation.TzdbZoneLocation
+  fullName: NodaTime.TimeZones.TzdbZoneLocation.TzdbZoneLocation
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

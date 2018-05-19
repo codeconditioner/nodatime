@@ -3689,12 +3689,6 @@ references:
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
-- uid: NodaTime.LocalDateTime.#ctor*
-  commentId: Overload:NodaTime.LocalDateTime.#ctor
-  isExternal: false
-  name: LocalDateTime
-  nameWithType: LocalDateTime.LocalDateTime
-  fullName: NodaTime.LocalDateTime.LocalDateTime
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -3702,6 +3696,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalDateTime.#ctor*
+  commentId: Overload:NodaTime.LocalDateTime.#ctor
+  isExternal: false
+  name: LocalDateTime
+  nameWithType: LocalDateTime.LocalDateTime
+  fullName: NodaTime.LocalDateTime.LocalDateTime
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3893,14 +3893,14 @@ references:
   name: DateTimeOffset
   nameWithType: DateTimeOffset
   fullName: System.DateTimeOffset
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDateTime.ToDateTimeUnspecified*
   commentId: Overload:NodaTime.LocalDateTime.ToDateTimeUnspecified
   isExternal: false
   name: ToDateTimeUnspecified
   nameWithType: LocalDateTime.ToDateTimeUnspecified
   fullName: NodaTime.LocalDateTime.ToDateTimeUnspecified
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: System.DateTimeKind.Utc
   commentId: F:System.DateTimeKind.Utc
 - uid: NodaTime.LocalDateTime.FromDateTime*
@@ -4640,12 +4640,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.LocalDateTime.InZoneStrictly*
-  commentId: Overload:NodaTime.LocalDateTime.InZoneStrictly
-  isExternal: false
-  name: InZoneStrictly
-  nameWithType: LocalDateTime.InZoneStrictly
-  fullName: NodaTime.LocalDateTime.InZoneStrictly
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
@@ -4658,6 +4652,12 @@ references:
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
+- uid: NodaTime.LocalDateTime.InZoneStrictly*
+  commentId: Overload:NodaTime.LocalDateTime.InZoneStrictly
+  isExternal: false
+  name: InZoneStrictly
+  nameWithType: LocalDateTime.InZoneStrictly
+  fullName: NodaTime.LocalDateTime.InZoneStrictly
 - uid: NodaTime.LocalDateTime.InZoneStrictly(NodaTime.DateTimeZone)
   commentId: M:NodaTime.LocalDateTime.InZoneStrictly(NodaTime.DateTimeZone)
 - uid: NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)

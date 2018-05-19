@@ -1051,12 +1051,6 @@ references:
   name: PeriodUnits
   nameWithType: PeriodUnits
   fullName: NodaTime.PeriodUnits
-- uid: NodaTime.PeriodBuilder.Item*
-  commentId: Overload:NodaTime.PeriodBuilder.Item
-  isExternal: false
-  name: Item
-  nameWithType: PeriodBuilder.Item
-  fullName: NodaTime.PeriodBuilder.Item
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -1064,6 +1058,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.PeriodBuilder.Item*
+  commentId: Overload:NodaTime.PeriodBuilder.Item
+  isExternal: false
+  name: Item
+  nameWithType: PeriodBuilder.Item
+  fullName: NodaTime.PeriodBuilder.Item
 - uid: NodaTime.PeriodBuilder.Build*
   commentId: Overload:NodaTime.PeriodBuilder.Build
   isExternal: false

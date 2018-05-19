@@ -719,12 +719,6 @@ references:
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
-- uid: NodaTime.Interval.#ctor*
-  commentId: Overload:NodaTime.Interval.#ctor
-  isExternal: false
-  name: Interval
-  nameWithType: Interval.Interval
-  fullName: NodaTime.Interval.Interval
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -732,6 +726,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.Interval.#ctor*
+  commentId: Overload:NodaTime.Interval.#ctor
+  isExternal: false
+  name: Interval
+  nameWithType: Interval.Interval
+  fullName: NodaTime.Interval.Interval
 - uid: NodaTime.Interval.End
   commentId: P:NodaTime.Interval.End
 - uid: NodaTime.Interval.Start*

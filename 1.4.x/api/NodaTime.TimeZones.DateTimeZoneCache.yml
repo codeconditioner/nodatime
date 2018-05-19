@@ -647,18 +647,18 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: NodaTime.TimeZones.DateTimeZoneCache.#ctor*
-  commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.#ctor
-  isExternal: false
-  name: DateTimeZoneCache
-  nameWithType: DateTimeZoneCache.DateTimeZoneCache
-  fullName: NodaTime.TimeZones.DateTimeZoneCache.DateTimeZoneCache
 - uid: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
   commentId: T:NodaTime.TimeZones.InvalidDateTimeZoneSourceException
   isExternal: false
   name: InvalidDateTimeZoneSourceException
   nameWithType: InvalidDateTimeZoneSourceException
   fullName: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
+- uid: NodaTime.TimeZones.DateTimeZoneCache.#ctor*
+  commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.#ctor
+  isExternal: false
+  name: DateTimeZoneCache
+  nameWithType: DateTimeZoneCache.DateTimeZoneCache
+  fullName: NodaTime.TimeZones.DateTimeZoneCache.DateTimeZoneCache
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.VersionId
   commentId: P:NodaTime.TimeZones.IDateTimeZoneSource.VersionId
   parent: NodaTime.TimeZones.IDateTimeZoneSource

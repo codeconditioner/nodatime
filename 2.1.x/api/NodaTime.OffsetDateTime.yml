@@ -2876,14 +2876,14 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.OffsetDateTime.ToDateTimeOffset*
   commentId: Overload:NodaTime.OffsetDateTime.ToDateTimeOffset
   isExternal: false
   name: ToDateTimeOffset
   nameWithType: OffsetDateTime.ToDateTimeOffset
   fullName: NodaTime.OffsetDateTime.ToDateTimeOffset
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime

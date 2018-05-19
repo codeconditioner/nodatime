@@ -3580,12 +3580,6 @@ references:
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
-- uid: NodaTime.LocalDateTime.#ctor*
-  commentId: Overload:NodaTime.LocalDateTime.#ctor
-  isExternal: false
-  name: LocalDateTime
-  nameWithType: LocalDateTime.LocalDateTime
-  fullName: NodaTime.LocalDateTime.LocalDateTime
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -3593,6 +3587,12 @@ references:
   name: ArgumentOutOfRangeException
   nameWithType: ArgumentOutOfRangeException
   fullName: System.ArgumentOutOfRangeException
+- uid: NodaTime.LocalDateTime.#ctor*
+  commentId: Overload:NodaTime.LocalDateTime.#ctor
+  isExternal: false
+  name: LocalDateTime
+  nameWithType: LocalDateTime.LocalDateTime
+  fullName: NodaTime.LocalDateTime.LocalDateTime
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -3699,14 +3699,14 @@ references:
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.LocalDateTime.DayOfWeek
   commentId: P:NodaTime.LocalDateTime.DayOfWeek
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.LocalDateTime.IsoDayOfWeek
   isExternal: false
   name: IsoDayOfWeek
   nameWithType: LocalDateTime.IsoDayOfWeek
   fullName: NodaTime.LocalDateTime.IsoDayOfWeek
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.LocalDateTime.IsoDayOfWeek
   commentId: P:NodaTime.LocalDateTime.IsoDayOfWeek
 - uid: NodaTime.LocalDateTime.DayOfWeek*
@@ -4080,6 +4080,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
 - uid: NodaTime.LocalDateTime.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.LocalDateTime.System#IComparable#CompareTo
   isExternal: false
@@ -4088,13 +4095,6 @@ references:
   fullName: NodaTime.LocalDateTime.System.IComparable.CompareTo
   nameWithType.vb: LocalDateTime.System.IComparable.CompareTo
   name.vb: System.IComparable.CompareTo
-- uid: System.ArgumentException
-  commentId: T:System.ArgumentException
-  parent: System
-  isExternal: true
-  name: ArgumentException
-  nameWithType: ArgumentException
-  fullName: System.ArgumentException
 - uid: NodaTime.LocalDateTime.Plus(NodaTime.Period)
   commentId: M:NodaTime.LocalDateTime.Plus(NodaTime.Period)
 - uid: NodaTime.LocalDateTime.op_Addition*
@@ -4387,12 +4387,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.LocalDateTime.InZoneStrictly*
-  commentId: Overload:NodaTime.LocalDateTime.InZoneStrictly
-  isExternal: false
-  name: InZoneStrictly
-  nameWithType: LocalDateTime.InZoneStrictly
-  fullName: NodaTime.LocalDateTime.InZoneStrictly
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
   isExternal: false
@@ -4405,6 +4399,12 @@ references:
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
+- uid: NodaTime.LocalDateTime.InZoneStrictly*
+  commentId: Overload:NodaTime.LocalDateTime.InZoneStrictly
+  isExternal: false
+  name: InZoneStrictly
+  nameWithType: LocalDateTime.InZoneStrictly
+  fullName: NodaTime.LocalDateTime.InZoneStrictly
 - uid: NodaTime.LocalDateTime.InZoneStrictly(NodaTime.DateTimeZone)
   commentId: M:NodaTime.LocalDateTime.InZoneStrictly(NodaTime.DateTimeZone)
 - uid: NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)

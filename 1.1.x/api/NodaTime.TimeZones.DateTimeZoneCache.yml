@@ -648,12 +648,6 @@ references:
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
-- uid: NodaTime.TimeZones.DateTimeZoneCache.#ctor*
-  commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.#ctor
-  isExternal: false
-  name: DateTimeZoneCache
-  nameWithType: DateTimeZoneCache.DateTimeZoneCache
-  fullName: NodaTime.TimeZones.DateTimeZoneCache.DateTimeZoneCache
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
 - uid: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
@@ -662,6 +656,12 @@ references:
   name: InvalidDateTimeZoneSourceException
   nameWithType: InvalidDateTimeZoneSourceException
   fullName: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
+- uid: NodaTime.TimeZones.DateTimeZoneCache.#ctor*
+  commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.#ctor
+  isExternal: false
+  name: DateTimeZoneCache
+  nameWithType: DateTimeZoneCache.DateTimeZoneCache
+  fullName: NodaTime.TimeZones.DateTimeZoneCache.DateTimeZoneCache
 - uid: NodaTime.TimeZones.DateTimeZoneCache.VersionId*
   commentId: Overload:NodaTime.TimeZones.DateTimeZoneCache.VersionId
   isExternal: false

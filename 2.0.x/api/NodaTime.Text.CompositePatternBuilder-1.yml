@@ -829,6 +829,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
 - uid: NodaTime.Text.CompositePatternBuilder`1.Build*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.Build
   isExternal: false
@@ -837,8 +839,6 @@ references:
   fullName: NodaTime.Text.CompositePatternBuilder<T>.Build
   nameWithType.vb: CompositePatternBuilder(Of T).Build
   fullName.vb: NodaTime.Text.CompositePatternBuilder(Of T).Build
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
 - uid: NodaTime.Text.CompositePatternBuilder`1.System#Collections#Generic#IEnumerable{NodaTime#Text#IPattern{T}}#GetEnumerator*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.System#Collections#Generic#IEnumerable{NodaTime#Text#IPattern{T}}#GetEnumerator
   isExternal: false

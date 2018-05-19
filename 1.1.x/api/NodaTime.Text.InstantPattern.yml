@@ -1161,18 +1161,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: NodaTime.Text.InstantPattern.Create*
-  commentId: Overload:NodaTime.Text.InstantPattern.Create
-  isExternal: false
-  name: Create
-  nameWithType: InstantPattern.Create
-  fullName: NodaTime.Text.InstantPattern.Create
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
   isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
+- uid: NodaTime.Text.InstantPattern.Create*
+  commentId: Overload:NodaTime.Text.InstantPattern.Create
+  isExternal: false
+  name: Create
+  nameWithType: InstantPattern.Create
+  fullName: NodaTime.Text.InstantPattern.Create
 - uid: NodaTime.Text.InstantPattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.InstantPattern.CreateWithCurrentCulture
   isExternal: false
