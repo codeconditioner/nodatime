@@ -3339,35 +3339,30 @@ references:
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
@@ -3380,8 +3375,10 @@ references:
   fullName: System.TimeSpan
 - uid: System.Int64.MinValue
   commentId: F:System.Int64.MinValue
+  isExternal: true
 - uid: System.Int64.MaxValue
   commentId: F:System.Int64.MaxValue
+  isExternal: true
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -3391,7 +3388,6 @@ references:
   fullName: System.Double
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -3654,7 +3650,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -3738,13 +3734,13 @@ references:
     fullName: )
 - uid: System.Xml.Serialization
   commentId: N:System.Xml.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Xml.Serialization
   nameWithType: System.Xml.Serialization
   fullName: System.Xml.Serialization
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
@@ -3757,31 +3753,26 @@ references:
   fullName: System.Object
 - uid: NodaTime.Duration.Zero*
   commentId: Overload:NodaTime.Duration.Zero
-  isExternal: false
   name: Zero
   nameWithType: Duration.Zero
   fullName: NodaTime.Duration.Zero
 - uid: NodaTime.Duration.Epsilon*
   commentId: Overload:NodaTime.Duration.Epsilon
-  isExternal: false
   name: Epsilon
   nameWithType: Duration.Epsilon
   fullName: NodaTime.Duration.Epsilon
 - uid: NodaTime.Duration.MaxValue*
   commentId: Overload:NodaTime.Duration.MaxValue
-  isExternal: false
   name: MaxValue
   nameWithType: Duration.MaxValue
   fullName: NodaTime.Duration.MaxValue
 - uid: NodaTime.Duration.MinValue*
   commentId: Overload:NodaTime.Duration.MinValue
-  isExternal: false
   name: MinValue
   nameWithType: Duration.MinValue
   fullName: NodaTime.Duration.MinValue
 - uid: NodaTime.Duration.Days*
   commentId: Overload:NodaTime.Duration.Days
-  isExternal: false
   name: Days
   nameWithType: Duration.Days
   fullName: NodaTime.Duration.Days
@@ -3794,7 +3785,6 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Duration.NanosecondOfDay*
   commentId: Overload:NodaTime.Duration.NanosecondOfDay
-  isExternal: false
   name: NanosecondOfDay
   nameWithType: Duration.NanosecondOfDay
   fullName: NodaTime.Duration.NanosecondOfDay
@@ -3807,115 +3797,116 @@ references:
   fullName: System.Int64
 - uid: NodaTime.Duration.Hours*
   commentId: Overload:NodaTime.Duration.Hours
-  isExternal: false
   name: Hours
   nameWithType: Duration.Hours
   fullName: NodaTime.Duration.Hours
 - uid: NodaTime.Duration.Minutes*
   commentId: Overload:NodaTime.Duration.Minutes
-  isExternal: false
   name: Minutes
   nameWithType: Duration.Minutes
   fullName: NodaTime.Duration.Minutes
 - uid: NodaTime.Duration.Seconds*
   commentId: Overload:NodaTime.Duration.Seconds
-  isExternal: false
   name: Seconds
   nameWithType: Duration.Seconds
   fullName: NodaTime.Duration.Seconds
 - uid: NodaTime.Duration.Milliseconds*
   commentId: Overload:NodaTime.Duration.Milliseconds
-  isExternal: false
   name: Milliseconds
   nameWithType: Duration.Milliseconds
   fullName: NodaTime.Duration.Milliseconds
 - uid: NodaTime.Duration.SubsecondTicks*
   commentId: Overload:NodaTime.Duration.SubsecondTicks
-  isExternal: false
   name: SubsecondTicks
   nameWithType: Duration.SubsecondTicks
   fullName: NodaTime.Duration.SubsecondTicks
 - uid: NodaTime.Duration.SubsecondNanoseconds*
   commentId: Overload:NodaTime.Duration.SubsecondNanoseconds
-  isExternal: false
   name: SubsecondNanoseconds
   nameWithType: Duration.SubsecondNanoseconds
   fullName: NodaTime.Duration.SubsecondNanoseconds
 - uid: System.TimeSpan.Ticks
   commentId: P:System.TimeSpan.Ticks
+  isExternal: true
 - uid: NodaTime.Duration.TotalTicks
   commentId: P:NodaTime.Duration.TotalTicks
+  isExternal: true
 - uid: System.OverflowException
   commentId: T:System.OverflowException
+  isExternal: true
 - uid: NodaTime.Duration.BclCompatibleTicks*
   commentId: Overload:NodaTime.Duration.BclCompatibleTicks
-  isExternal: false
   name: BclCompatibleTicks
   nameWithType: Duration.BclCompatibleTicks
   fullName: NodaTime.Duration.BclCompatibleTicks
 - uid: System.TimeSpan.TotalDays
   commentId: P:System.TimeSpan.TotalDays
+  isExternal: true
 - uid: NodaTime.Duration.TotalDays*
   commentId: Overload:NodaTime.Duration.TotalDays
-  isExternal: false
   name: TotalDays
   nameWithType: Duration.TotalDays
   fullName: NodaTime.Duration.TotalDays
 - uid: System.TimeSpan.TotalHours
   commentId: P:System.TimeSpan.TotalHours
+  isExternal: true
 - uid: NodaTime.Duration.Hours
   commentId: P:NodaTime.Duration.Hours
+  isExternal: true
 - uid: NodaTime.Duration.TotalHours*
   commentId: Overload:NodaTime.Duration.TotalHours
-  isExternal: false
   name: TotalHours
   nameWithType: Duration.TotalHours
   fullName: NodaTime.Duration.TotalHours
 - uid: System.TimeSpan.TotalMinutes
   commentId: P:System.TimeSpan.TotalMinutes
+  isExternal: true
 - uid: NodaTime.Duration.Minutes
   commentId: P:NodaTime.Duration.Minutes
+  isExternal: true
 - uid: NodaTime.Duration.TotalMinutes*
   commentId: Overload:NodaTime.Duration.TotalMinutes
-  isExternal: false
   name: TotalMinutes
   nameWithType: Duration.TotalMinutes
   fullName: NodaTime.Duration.TotalMinutes
 - uid: System.TimeSpan.TotalSeconds
   commentId: P:System.TimeSpan.TotalSeconds
+  isExternal: true
 - uid: NodaTime.Duration.Seconds
   commentId: P:NodaTime.Duration.Seconds
+  isExternal: true
 - uid: NodaTime.Duration.TotalSeconds*
   commentId: Overload:NodaTime.Duration.TotalSeconds
-  isExternal: false
   name: TotalSeconds
   nameWithType: Duration.TotalSeconds
   fullName: NodaTime.Duration.TotalSeconds
 - uid: System.TimeSpan.TotalMilliseconds
   commentId: P:System.TimeSpan.TotalMilliseconds
+  isExternal: true
 - uid: NodaTime.Duration.Milliseconds
   commentId: P:NodaTime.Duration.Milliseconds
+  isExternal: true
 - uid: NodaTime.Duration.TotalMilliseconds*
   commentId: Overload:NodaTime.Duration.TotalMilliseconds
-  isExternal: false
   name: TotalMilliseconds
   nameWithType: Duration.TotalMilliseconds
   fullName: NodaTime.Duration.TotalMilliseconds
 - uid: NodaTime.Duration.BclCompatibleTicks
   commentId: P:NodaTime.Duration.BclCompatibleTicks
+  isExternal: true
 - uid: NodaTime.Duration.TotalTicks*
   commentId: Overload:NodaTime.Duration.TotalTicks
-  isExternal: false
   name: TotalTicks
   nameWithType: Duration.TotalTicks
   fullName: NodaTime.Duration.TotalTicks
 - uid: NodaTime.Duration.ToBigIntegerNanoseconds
   commentId: M:NodaTime.Duration.ToBigIntegerNanoseconds
+  isExternal: true
 - uid: NodaTime.Duration.FromNanoseconds(System.Numerics.BigInteger)
   commentId: M:NodaTime.Duration.FromNanoseconds(System.Numerics.BigInteger)
+  isExternal: true
 - uid: NodaTime.Duration.TotalNanoseconds*
   commentId: Overload:NodaTime.Duration.TotalNanoseconds
-  isExternal: false
   name: TotalNanoseconds
   nameWithType: Duration.TotalNanoseconds
   fullName: NodaTime.Duration.TotalNanoseconds
@@ -3962,7 +3953,6 @@ references:
     fullName: )
 - uid: NodaTime.Duration.Equals*
   commentId: Overload:NodaTime.Duration.Equals
-  isExternal: false
   name: Equals
   nameWithType: Duration.Equals
   fullName: NodaTime.Duration.Equals
@@ -4013,7 +4003,6 @@ references:
     fullName: )
 - uid: NodaTime.Duration.GetHashCode*
   commentId: Overload:NodaTime.Duration.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: Duration.GetHashCode
   fullName: NodaTime.Duration.GetHashCode
@@ -4057,7 +4046,6 @@ references:
     fullName: )
 - uid: NodaTime.Duration.ToString*
   commentId: Overload:NodaTime.Duration.ToString
-  isExternal: false
   name: ToString
   nameWithType: Duration.ToString
   fullName: NodaTime.Duration.ToString
@@ -4127,115 +4115,96 @@ references:
     fullName: )
 - uid: NodaTime.Duration.op_Addition*
   commentId: Overload:NodaTime.Duration.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: Duration.Addition
   fullName: NodaTime.Duration.Addition
 - uid: NodaTime.Duration.Add*
   commentId: Overload:NodaTime.Duration.Add
-  isExternal: false
   name: Add
   nameWithType: Duration.Add
   fullName: NodaTime.Duration.Add
 - uid: NodaTime.Duration.Plus*
   commentId: Overload:NodaTime.Duration.Plus
-  isExternal: false
   name: Plus
   nameWithType: Duration.Plus
   fullName: NodaTime.Duration.Plus
 - uid: NodaTime.Duration.op_Subtraction*
   commentId: Overload:NodaTime.Duration.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: Duration.Subtraction
   fullName: NodaTime.Duration.Subtraction
 - uid: NodaTime.Duration.Subtract*
   commentId: Overload:NodaTime.Duration.Subtract
-  isExternal: false
   name: Subtract
   nameWithType: Duration.Subtract
   fullName: NodaTime.Duration.Subtract
 - uid: NodaTime.Duration.Minus*
   commentId: Overload:NodaTime.Duration.Minus
-  isExternal: false
   name: Minus
   nameWithType: Duration.Minus
   fullName: NodaTime.Duration.Minus
 - uid: NodaTime.Duration.op_Division*
   commentId: Overload:NodaTime.Duration.op_Division
-  isExternal: false
   name: Division
   nameWithType: Duration.Division
   fullName: NodaTime.Duration.Division
 - uid: NodaTime.Duration.Divide*
   commentId: Overload:NodaTime.Duration.Divide
-  isExternal: false
   name: Divide
   nameWithType: Duration.Divide
   fullName: NodaTime.Duration.Divide
 - uid: NodaTime.Duration.op_Multiply*
   commentId: Overload:NodaTime.Duration.op_Multiply
-  isExternal: false
   name: Multiply
   nameWithType: Duration.Multiply
   fullName: NodaTime.Duration.Multiply
 - uid: NodaTime.Duration.Multiply*
   commentId: Overload:NodaTime.Duration.Multiply
-  isExternal: false
   name: Multiply
   nameWithType: Duration.Multiply
   fullName: NodaTime.Duration.Multiply
 - uid: NodaTime.Duration.op_Equality*
   commentId: Overload:NodaTime.Duration.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: Duration.Equality
   fullName: NodaTime.Duration.Equality
 - uid: NodaTime.Duration.op_Inequality*
   commentId: Overload:NodaTime.Duration.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: Duration.Inequality
   fullName: NodaTime.Duration.Inequality
 - uid: NodaTime.Duration.op_LessThan*
   commentId: Overload:NodaTime.Duration.op_LessThan
-  isExternal: false
   name: LessThan
   nameWithType: Duration.LessThan
   fullName: NodaTime.Duration.LessThan
 - uid: NodaTime.Duration.op_LessThanOrEqual*
   commentId: Overload:NodaTime.Duration.op_LessThanOrEqual
-  isExternal: false
   name: LessThanOrEqual
   nameWithType: Duration.LessThanOrEqual
   fullName: NodaTime.Duration.LessThanOrEqual
 - uid: NodaTime.Duration.op_GreaterThan*
   commentId: Overload:NodaTime.Duration.op_GreaterThan
-  isExternal: false
   name: GreaterThan
   nameWithType: Duration.GreaterThan
   fullName: NodaTime.Duration.GreaterThan
 - uid: NodaTime.Duration.op_GreaterThanOrEqual*
   commentId: Overload:NodaTime.Duration.op_GreaterThanOrEqual
-  isExternal: false
   name: GreaterThanOrEqual
   nameWithType: Duration.GreaterThanOrEqual
   fullName: NodaTime.Duration.GreaterThanOrEqual
 - uid: NodaTime.Duration.op_UnaryNegation*
   commentId: Overload:NodaTime.Duration.op_UnaryNegation
-  isExternal: false
   name: UnaryNegation
   nameWithType: Duration.UnaryNegation
   fullName: NodaTime.Duration.UnaryNegation
 - uid: NodaTime.Duration.Negate*
   commentId: Overload:NodaTime.Duration.Negate
-  isExternal: false
   name: Negate
   nameWithType: Duration.Negate
   fullName: NodaTime.Duration.Negate
 - uid: NodaTime.Duration.CompareTo*
   commentId: Overload:NodaTime.Duration.CompareTo
-  isExternal: false
   name: CompareTo
   nameWithType: Duration.CompareTo
   fullName: NodaTime.Duration.CompareTo
@@ -4361,6 +4330,7 @@ references:
     fullName: )
 - uid: NodaTime.Duration.CompareTo(NodaTime.Duration)
   commentId: M:NodaTime.Duration.CompareTo(NodaTime.Duration)
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -4370,7 +4340,6 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.Duration.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Duration.System#IComparable#CompareTo
-  isExternal: false
   name: IComparable.CompareTo
   nameWithType: Duration.IComparable.CompareTo
   fullName: NodaTime.Duration.System.IComparable.CompareTo
@@ -4457,43 +4426,36 @@ references:
     fullName: )
 - uid: NodaTime.Duration.FromDays*
   commentId: Overload:NodaTime.Duration.FromDays
-  isExternal: false
   name: FromDays
   nameWithType: Duration.FromDays
   fullName: NodaTime.Duration.FromDays
 - uid: NodaTime.Duration.FromHours*
   commentId: Overload:NodaTime.Duration.FromHours
-  isExternal: false
   name: FromHours
   nameWithType: Duration.FromHours
   fullName: NodaTime.Duration.FromHours
 - uid: NodaTime.Duration.FromMinutes*
   commentId: Overload:NodaTime.Duration.FromMinutes
-  isExternal: false
   name: FromMinutes
   nameWithType: Duration.FromMinutes
   fullName: NodaTime.Duration.FromMinutes
 - uid: NodaTime.Duration.FromSeconds*
   commentId: Overload:NodaTime.Duration.FromSeconds
-  isExternal: false
   name: FromSeconds
   nameWithType: Duration.FromSeconds
   fullName: NodaTime.Duration.FromSeconds
 - uid: NodaTime.Duration.FromMilliseconds*
   commentId: Overload:NodaTime.Duration.FromMilliseconds
-  isExternal: false
   name: FromMilliseconds
   nameWithType: Duration.FromMilliseconds
   fullName: NodaTime.Duration.FromMilliseconds
 - uid: NodaTime.Duration.FromTicks*
   commentId: Overload:NodaTime.Duration.FromTicks
-  isExternal: false
   name: FromTicks
   nameWithType: Duration.FromTicks
   fullName: NodaTime.Duration.FromTicks
 - uid: NodaTime.Duration.FromNanoseconds*
   commentId: Overload:NodaTime.Duration.FromNanoseconds
-  isExternal: false
   name: FromNanoseconds
   nameWithType: Duration.FromNanoseconds
   fullName: NodaTime.Duration.FromNanoseconds
@@ -4506,25 +4468,22 @@ references:
   fullName: System.Numerics.BigInteger
 - uid: System.Numerics
   commentId: N:System.Numerics
-  isExternal: false
+  isExternal: true
   name: System.Numerics
   nameWithType: System.Numerics
   fullName: System.Numerics
 - uid: NodaTime.Duration.FromTimeSpan*
   commentId: Overload:NodaTime.Duration.FromTimeSpan
-  isExternal: false
   name: FromTimeSpan
   nameWithType: Duration.FromTimeSpan
   fullName: NodaTime.Duration.FromTimeSpan
 - uid: NodaTime.Duration.ToTimeSpan*
   commentId: Overload:NodaTime.Duration.ToTimeSpan
-  isExternal: false
   name: ToTimeSpan
   nameWithType: Duration.ToTimeSpan
   fullName: NodaTime.Duration.ToTimeSpan
 - uid: NodaTime.Duration.System#Xml#Serialization#IXmlSerializable#GetSchema*
   commentId: Overload:NodaTime.Duration.System#Xml#Serialization#IXmlSerializable#GetSchema
-  isExternal: false
   name: IXmlSerializable.GetSchema
   nameWithType: Duration.IXmlSerializable.GetSchema
   fullName: NodaTime.Duration.System.Xml.Serialization.IXmlSerializable.GetSchema
@@ -4570,13 +4529,12 @@ references:
   fullName: System.Xml.Schema.XmlSchema
 - uid: System.Xml.Schema
   commentId: N:System.Xml.Schema
-  isExternal: false
+  isExternal: true
   name: System.Xml.Schema
   nameWithType: System.Xml.Schema
   fullName: System.Xml.Schema
 - uid: NodaTime.Duration.System#Xml#Serialization#IXmlSerializable#ReadXml*
   commentId: Overload:NodaTime.Duration.System#Xml#Serialization#IXmlSerializable#ReadXml
-  isExternal: false
   name: IXmlSerializable.ReadXml
   nameWithType: Duration.IXmlSerializable.ReadXml
   fullName: NodaTime.Duration.System.Xml.Serialization.IXmlSerializable.ReadXml
@@ -4632,13 +4590,12 @@ references:
   fullName: System.Xml.XmlReader
 - uid: System.Xml
   commentId: N:System.Xml
-  isExternal: false
+  isExternal: true
   name: System.Xml
   nameWithType: System.Xml
   fullName: System.Xml
 - uid: NodaTime.Duration.System#Xml#Serialization#IXmlSerializable#WriteXml*
   commentId: Overload:NodaTime.Duration.System#Xml#Serialization#IXmlSerializable#WriteXml
-  isExternal: false
   name: IXmlSerializable.WriteXml
   nameWithType: Duration.IXmlSerializable.WriteXml
   fullName: NodaTime.Duration.System.Xml.Serialization.IXmlSerializable.WriteXml
@@ -4694,13 +4651,11 @@ references:
   fullName: System.Xml.XmlWriter
 - uid: NodaTime.Duration.ToInt64Nanoseconds*
   commentId: Overload:NodaTime.Duration.ToInt64Nanoseconds
-  isExternal: false
   name: ToInt64Nanoseconds
   nameWithType: Duration.ToInt64Nanoseconds
   fullName: NodaTime.Duration.ToInt64Nanoseconds
 - uid: NodaTime.Duration.ToBigIntegerNanoseconds*
   commentId: Overload:NodaTime.Duration.ToBigIntegerNanoseconds
-  isExternal: false
   name: ToBigIntegerNanoseconds
   nameWithType: Duration.ToBigIntegerNanoseconds
   fullName: NodaTime.Duration.ToBigIntegerNanoseconds
@@ -4770,7 +4725,6 @@ references:
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: NodaTime.Duration.System#Runtime#Serialization#ISerializable#GetObjectData*
   commentId: Overload:NodaTime.Duration.System#Runtime#Serialization#ISerializable#GetObjectData
-  isExternal: false
   name: ISerializable.GetObjectData
   nameWithType: Duration.ISerializable.GetObjectData
   fullName: NodaTime.Duration.System.Runtime.Serialization.ISerializable.GetObjectData

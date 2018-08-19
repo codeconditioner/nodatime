@@ -516,7 +516,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -747,7 +746,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -792,20 +791,17 @@ references:
     fullName: )
 - uid: NodaTime.DateInterval.Start*
   commentId: Overload:NodaTime.DateInterval.Start
-  isExternal: false
   name: Start
   nameWithType: DateInterval.Start
   fullName: NodaTime.DateInterval.Start
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.DateInterval.End*
   commentId: Overload:NodaTime.DateInterval.End
-  isExternal: false
   name: End
   nameWithType: DateInterval.End
   fullName: NodaTime.DateInterval.End
@@ -818,12 +814,12 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.DateInterval.#ctor*
   commentId: Overload:NodaTime.DateInterval.#ctor
-  isExternal: false
   name: DateInterval
   nameWithType: DateInterval.DateInterval
   fullName: NodaTime.DateInterval.DateInterval
 - uid: NodaTime.DateInterval.Equals(NodaTime.DateInterval)
   commentId: M:NodaTime.DateInterval.Equals(NodaTime.DateInterval)
+  isExternal: true
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
@@ -857,7 +853,6 @@ references:
     fullName: )
 - uid: NodaTime.DateInterval.GetHashCode*
   commentId: Overload:NodaTime.DateInterval.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: DateInterval.GetHashCode
   fullName: NodaTime.DateInterval.GetHashCode
@@ -871,13 +866,11 @@ references:
 - uid: NodaTime.DateInterval
   commentId: T:NodaTime.DateInterval
   parent: NodaTime
-  isExternal: false
   name: DateInterval
   nameWithType: DateInterval
   fullName: NodaTime.DateInterval
 - uid: NodaTime.DateInterval.op_Equality*
   commentId: Overload:NodaTime.DateInterval.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: DateInterval.Equality
   fullName: NodaTime.DateInterval.Equality
@@ -890,13 +883,11 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.DateInterval.op_Inequality*
   commentId: Overload:NodaTime.DateInterval.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: DateInterval.Inequality
   fullName: NodaTime.DateInterval.Inequality
 - uid: NodaTime.DateInterval.Equals*
   commentId: Overload:NodaTime.DateInterval.Equals
-  isExternal: false
   name: Equals
   nameWithType: DateInterval.Equals
   fullName: NodaTime.DateInterval.Equals
@@ -1022,13 +1013,11 @@ references:
     fullName: )
 - uid: NodaTime.DateInterval.Contains*
   commentId: Overload:NodaTime.DateInterval.Contains
-  isExternal: false
   name: Contains
   nameWithType: DateInterval.Contains
   fullName: NodaTime.DateInterval.Contains
 - uid: NodaTime.DateInterval.Length*
   commentId: Overload:NodaTime.DateInterval.Length
-  isExternal: false
   name: Length
   nameWithType: DateInterval.Length
   fullName: NodaTime.DateInterval.Length
@@ -1065,7 +1054,6 @@ references:
     fullName: )
 - uid: NodaTime.DateInterval.ToString*
   commentId: Overload:NodaTime.DateInterval.ToString
-  isExternal: false
   name: ToString
   nameWithType: DateInterval.ToString
   fullName: NodaTime.DateInterval.ToString

@@ -224,13 +224,11 @@ references:
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -522,21 +520,20 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.ParseResult`1.GetValueOrThrow
   commentId: M:NodaTime.Text.ParseResult`1.GetValueOrThrow
+  isExternal: true
 - uid: NodaTime.Text.ParseResult`1.Value*
   commentId: Overload:NodaTime.Text.ParseResult`1.Value
-  isExternal: false
   name: Value
   nameWithType: ParseResult<T>.Value
   fullName: NodaTime.Text.ParseResult<T>.Value
@@ -549,15 +546,14 @@ references:
   nameWithType: T
   fullName: T
 - uid: T
-  isExternal: false
   name: T
   nameWithType: T
   fullName: T
 - uid: NodaTime.Text.ParseResult`1.Value
   commentId: P:NodaTime.Text.ParseResult`1.Value
+  isExternal: true
 - uid: NodaTime.Text.ParseResult`1.GetValueOrThrow*
   commentId: Overload:NodaTime.Text.ParseResult`1.GetValueOrThrow
-  isExternal: false
   name: GetValueOrThrow
   nameWithType: ParseResult<T>.GetValueOrThrow
   fullName: NodaTime.Text.ParseResult<T>.GetValueOrThrow
@@ -565,7 +561,6 @@ references:
   fullName.vb: NodaTime.Text.ParseResult(Of T).GetValueOrThrow
 - uid: NodaTime.Text.ParseResult`1.TryGetValue*
   commentId: Overload:NodaTime.Text.ParseResult`1.TryGetValue
-  isExternal: false
   name: TryGetValue
   nameWithType: ParseResult<T>.TryGetValue
   fullName: NodaTime.Text.ParseResult<T>.TryGetValue
@@ -580,7 +575,6 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.Text.ParseResult`1.Success*
   commentId: Overload:NodaTime.Text.ParseResult`1.Success
-  isExternal: false
   name: Success
   nameWithType: ParseResult<T>.Success
   fullName: NodaTime.Text.ParseResult<T>.Success

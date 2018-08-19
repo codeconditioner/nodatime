@@ -53,38 +53,32 @@ references:
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
 - uid: NodaTime.TimeZones.Resolvers
   commentId: T:NodaTime.TimeZones.Resolvers
-  isExternal: false
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime

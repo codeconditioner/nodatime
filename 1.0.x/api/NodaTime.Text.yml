@@ -27,19 +27,16 @@ references:
 - uid: NodaTime.Text.InstantPattern
   commentId: T:NodaTime.Text.InstantPattern
   parent: NodaTime.Text
-  isExternal: false
   name: InstantPattern
   nameWithType: InstantPattern
   fullName: NodaTime.Text.InstantPattern
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -77,41 +74,35 @@ references:
 - uid: NodaTime.Text.LocalDatePattern
   commentId: T:NodaTime.Text.LocalDatePattern
   parent: NodaTime.Text
-  isExternal: false
   name: LocalDatePattern
   nameWithType: LocalDatePattern
   fullName: NodaTime.Text.LocalDatePattern
 - uid: NodaTime.Text.LocalDateTimePattern
   commentId: T:NodaTime.Text.LocalDateTimePattern
   parent: NodaTime.Text
-  isExternal: false
   name: LocalDateTimePattern
   nameWithType: LocalDateTimePattern
   fullName: NodaTime.Text.LocalDateTimePattern
 - uid: NodaTime.Text.LocalTimePattern
   commentId: T:NodaTime.Text.LocalTimePattern
   parent: NodaTime.Text
-  isExternal: false
   name: LocalTimePattern
   nameWithType: LocalTimePattern
   fullName: NodaTime.Text.LocalTimePattern
 - uid: NodaTime.Text.OffsetPattern
   commentId: T:NodaTime.Text.OffsetPattern
   parent: NodaTime.Text
-  isExternal: false
   name: OffsetPattern
   nameWithType: OffsetPattern
   fullName: NodaTime.Text.OffsetPattern
 - uid: NodaTime.Text.PeriodPattern
   commentId: T:NodaTime.Text.PeriodPattern
   parent: NodaTime.Text
-  isExternal: false
   name: PeriodPattern
   nameWithType: PeriodPattern
   fullName: NodaTime.Text.PeriodPattern
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -148,13 +139,11 @@ references:
     fullName: )
 - uid: NodaTime.Text.UnparsableValueException
   commentId: T:NodaTime.Text.UnparsableValueException
-  isExternal: false
   name: UnparsableValueException
   nameWithType: UnparsableValueException
   fullName: NodaTime.Text.UnparsableValueException
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text

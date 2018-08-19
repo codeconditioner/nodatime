@@ -2570,34 +2570,29 @@ references:
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.ZonedDateTime.Comparer
   commentId: T:NodaTime.ZonedDateTime.Comparer
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime.Comparer
   nameWithType: ZonedDateTime.Comparer
   fullName: NodaTime.ZonedDateTime.Comparer
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -2850,19 +2845,19 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Xml.Serialization
   commentId: N:System.Xml.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Xml.Serialization
   nameWithType: System.Xml.Serialization
   fullName: System.Xml.Serialization
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
@@ -2875,21 +2870,18 @@ references:
   fullName: System.Object
 - uid: NodaTime.ZonedDateTime.#ctor*
   commentId: Overload:NodaTime.ZonedDateTime.#ctor
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime.ZonedDateTime
   fullName: NodaTime.ZonedDateTime.ZonedDateTime
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem
@@ -2903,82 +2895,69 @@ references:
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.ZonedDateTime.Offset*
   commentId: Overload:NodaTime.ZonedDateTime.Offset
-  isExternal: false
   name: Offset
   nameWithType: ZonedDateTime.Offset
   fullName: NodaTime.ZonedDateTime.Offset
 - uid: NodaTime.ZonedDateTime.Zone*
   commentId: Overload:NodaTime.ZonedDateTime.Zone
-  isExternal: false
   name: Zone
   nameWithType: ZonedDateTime.Zone
   fullName: NodaTime.ZonedDateTime.Zone
 - uid: NodaTime.ZonedDateTime.LocalDateTime*
   commentId: Overload:NodaTime.ZonedDateTime.LocalDateTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: ZonedDateTime.LocalDateTime
   fullName: NodaTime.ZonedDateTime.LocalDateTime
 - uid: NodaTime.ZonedDateTime.Calendar*
   commentId: Overload:NodaTime.ZonedDateTime.Calendar
-  isExternal: false
   name: Calendar
   nameWithType: ZonedDateTime.Calendar
   fullName: NodaTime.ZonedDateTime.Calendar
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.ZonedDateTime.Date*
   commentId: Overload:NodaTime.ZonedDateTime.Date
-  isExternal: false
   name: Date
   nameWithType: ZonedDateTime.Date
   fullName: NodaTime.ZonedDateTime.Date
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.ZonedDateTime.TimeOfDay*
   commentId: Overload:NodaTime.ZonedDateTime.TimeOfDay
-  isExternal: false
   name: TimeOfDay
   nameWithType: ZonedDateTime.TimeOfDay
   fullName: NodaTime.ZonedDateTime.TimeOfDay
 - uid: NodaTime.ZonedDateTime.Era*
   commentId: Overload:NodaTime.ZonedDateTime.Era
-  isExternal: false
   name: Era
   nameWithType: ZonedDateTime.Era
   fullName: NodaTime.ZonedDateTime.Era
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars
-  isExternal: false
   name: Era
   nameWithType: Era
   fullName: NodaTime.Calendars.Era
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
 - uid: NodaTime.ZonedDateTime.Year*
   commentId: Overload:NodaTime.ZonedDateTime.Year
-  isExternal: false
   name: Year
   nameWithType: ZonedDateTime.Year
   fullName: NodaTime.ZonedDateTime.Year
@@ -2991,80 +2970,67 @@ references:
   fullName: System.Int32
 - uid: NodaTime.ZonedDateTime.YearOfEra*
   commentId: Overload:NodaTime.ZonedDateTime.YearOfEra
-  isExternal: false
   name: YearOfEra
   nameWithType: ZonedDateTime.YearOfEra
   fullName: NodaTime.ZonedDateTime.YearOfEra
 - uid: NodaTime.ZonedDateTime.Month*
   commentId: Overload:NodaTime.ZonedDateTime.Month
-  isExternal: false
   name: Month
   nameWithType: ZonedDateTime.Month
   fullName: NodaTime.ZonedDateTime.Month
 - uid: NodaTime.ZonedDateTime.DayOfYear*
   commentId: Overload:NodaTime.ZonedDateTime.DayOfYear
-  isExternal: false
   name: DayOfYear
   nameWithType: ZonedDateTime.DayOfYear
   fullName: NodaTime.ZonedDateTime.DayOfYear
 - uid: NodaTime.ZonedDateTime.Day*
   commentId: Overload:NodaTime.ZonedDateTime.Day
-  isExternal: false
   name: Day
   nameWithType: ZonedDateTime.Day
   fullName: NodaTime.ZonedDateTime.Day
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.ZonedDateTime.DayOfWeek*
   commentId: Overload:NodaTime.ZonedDateTime.DayOfWeek
-  isExternal: false
   name: DayOfWeek
   nameWithType: ZonedDateTime.DayOfWeek
   fullName: NodaTime.ZonedDateTime.DayOfWeek
 - uid: NodaTime.ZonedDateTime.Hour*
   commentId: Overload:NodaTime.ZonedDateTime.Hour
-  isExternal: false
   name: Hour
   nameWithType: ZonedDateTime.Hour
   fullName: NodaTime.ZonedDateTime.Hour
 - uid: NodaTime.ZonedDateTime.ClockHourOfHalfDay*
   commentId: Overload:NodaTime.ZonedDateTime.ClockHourOfHalfDay
-  isExternal: false
   name: ClockHourOfHalfDay
   nameWithType: ZonedDateTime.ClockHourOfHalfDay
   fullName: NodaTime.ZonedDateTime.ClockHourOfHalfDay
 - uid: NodaTime.ZonedDateTime.Minute*
   commentId: Overload:NodaTime.ZonedDateTime.Minute
-  isExternal: false
   name: Minute
   nameWithType: ZonedDateTime.Minute
   fullName: NodaTime.ZonedDateTime.Minute
 - uid: NodaTime.ZonedDateTime.Second*
   commentId: Overload:NodaTime.ZonedDateTime.Second
-  isExternal: false
   name: Second
   nameWithType: ZonedDateTime.Second
   fullName: NodaTime.ZonedDateTime.Second
 - uid: NodaTime.ZonedDateTime.Millisecond*
   commentId: Overload:NodaTime.ZonedDateTime.Millisecond
-  isExternal: false
   name: Millisecond
   nameWithType: ZonedDateTime.Millisecond
   fullName: NodaTime.ZonedDateTime.Millisecond
 - uid: NodaTime.ZonedDateTime.TickOfSecond*
   commentId: Overload:NodaTime.ZonedDateTime.TickOfSecond
-  isExternal: false
   name: TickOfSecond
   nameWithType: ZonedDateTime.TickOfSecond
   fullName: NodaTime.ZonedDateTime.TickOfSecond
 - uid: NodaTime.ZonedDateTime.TickOfDay*
   commentId: Overload:NodaTime.ZonedDateTime.TickOfDay
-  isExternal: false
   name: TickOfDay
   nameWithType: ZonedDateTime.TickOfDay
   fullName: NodaTime.ZonedDateTime.TickOfDay
@@ -3077,37 +3043,31 @@ references:
   fullName: System.Int64
 - uid: NodaTime.ZonedDateTime.NanosecondOfSecond*
   commentId: Overload:NodaTime.ZonedDateTime.NanosecondOfSecond
-  isExternal: false
   name: NanosecondOfSecond
   nameWithType: ZonedDateTime.NanosecondOfSecond
   fullName: NodaTime.ZonedDateTime.NanosecondOfSecond
 - uid: NodaTime.ZonedDateTime.NanosecondOfDay*
   commentId: Overload:NodaTime.ZonedDateTime.NanosecondOfDay
-  isExternal: false
   name: NanosecondOfDay
   nameWithType: ZonedDateTime.NanosecondOfDay
   fullName: NodaTime.ZonedDateTime.NanosecondOfDay
 - uid: NodaTime.ZonedDateTime.ToInstant*
   commentId: Overload:NodaTime.ZonedDateTime.ToInstant
-  isExternal: false
   name: ToInstant
   nameWithType: ZonedDateTime.ToInstant
   fullName: NodaTime.ZonedDateTime.ToInstant
 - uid: NodaTime.ZonedDateTime.WithZone*
   commentId: Overload:NodaTime.ZonedDateTime.WithZone
-  isExternal: false
   name: WithZone
   nameWithType: ZonedDateTime.WithZone
   fullName: NodaTime.ZonedDateTime.WithZone
 - uid: NodaTime.ZonedDateTime.WithCalendar*
   commentId: Overload:NodaTime.ZonedDateTime.WithCalendar
-  isExternal: false
   name: WithCalendar
   nameWithType: ZonedDateTime.WithCalendar
   fullName: NodaTime.ZonedDateTime.WithCalendar
 - uid: NodaTime.ZonedDateTime.Equals*
   commentId: Overload:NodaTime.ZonedDateTime.Equals
-  isExternal: false
   name: Equals
   nameWithType: ZonedDateTime.Equals
   fullName: NodaTime.ZonedDateTime.Equals
@@ -3278,135 +3238,121 @@ references:
     fullName: )
 - uid: NodaTime.ZonedDateTime.GetHashCode*
   commentId: Overload:NodaTime.ZonedDateTime.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: ZonedDateTime.GetHashCode
   fullName: NodaTime.ZonedDateTime.GetHashCode
 - uid: NodaTime.ZonedDateTime.Equals(NodaTime.ZonedDateTime)
   commentId: M:NodaTime.ZonedDateTime.Equals(NodaTime.ZonedDateTime)
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.op_Equality*
   commentId: Overload:NodaTime.ZonedDateTime.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: ZonedDateTime.Equality
   fullName: NodaTime.ZonedDateTime.Equality
 - uid: NodaTime.ZonedDateTime.op_Inequality*
   commentId: Overload:NodaTime.ZonedDateTime.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: ZonedDateTime.Inequality
   fullName: NodaTime.ZonedDateTime.Inequality
 - uid: NodaTime.ZonedDateTime.op_Addition(NodaTime.ZonedDateTime,NodaTime.Duration)
   commentId: M:NodaTime.ZonedDateTime.op_Addition(NodaTime.ZonedDateTime,NodaTime.Duration)
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.Add*
   commentId: Overload:NodaTime.ZonedDateTime.Add
-  isExternal: false
   name: Add
   nameWithType: ZonedDateTime.Add
   fullName: NodaTime.ZonedDateTime.Add
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.ZonedDateTime.Plus*
   commentId: Overload:NodaTime.ZonedDateTime.Plus
-  isExternal: false
   name: Plus
   nameWithType: ZonedDateTime.Plus
   fullName: NodaTime.ZonedDateTime.Plus
 - uid: NodaTime.ZonedDateTime.PlusHours*
   commentId: Overload:NodaTime.ZonedDateTime.PlusHours
-  isExternal: false
   name: PlusHours
   nameWithType: ZonedDateTime.PlusHours
   fullName: NodaTime.ZonedDateTime.PlusHours
 - uid: NodaTime.ZonedDateTime.PlusMinutes*
   commentId: Overload:NodaTime.ZonedDateTime.PlusMinutes
-  isExternal: false
   name: PlusMinutes
   nameWithType: ZonedDateTime.PlusMinutes
   fullName: NodaTime.ZonedDateTime.PlusMinutes
 - uid: NodaTime.ZonedDateTime.PlusSeconds*
   commentId: Overload:NodaTime.ZonedDateTime.PlusSeconds
-  isExternal: false
   name: PlusSeconds
   nameWithType: ZonedDateTime.PlusSeconds
   fullName: NodaTime.ZonedDateTime.PlusSeconds
 - uid: NodaTime.ZonedDateTime.PlusMilliseconds*
   commentId: Overload:NodaTime.ZonedDateTime.PlusMilliseconds
-  isExternal: false
   name: PlusMilliseconds
   nameWithType: ZonedDateTime.PlusMilliseconds
   fullName: NodaTime.ZonedDateTime.PlusMilliseconds
 - uid: NodaTime.ZonedDateTime.PlusTicks*
   commentId: Overload:NodaTime.ZonedDateTime.PlusTicks
-  isExternal: false
   name: PlusTicks
   nameWithType: ZonedDateTime.PlusTicks
   fullName: NodaTime.ZonedDateTime.PlusTicks
 - uid: NodaTime.ZonedDateTime.PlusNanoseconds*
   commentId: Overload:NodaTime.ZonedDateTime.PlusNanoseconds
-  isExternal: false
   name: PlusNanoseconds
   nameWithType: ZonedDateTime.PlusNanoseconds
   fullName: NodaTime.ZonedDateTime.PlusNanoseconds
 - uid: NodaTime.ZonedDateTime.op_Addition*
   commentId: Overload:NodaTime.ZonedDateTime.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: ZonedDateTime.Addition
   fullName: NodaTime.ZonedDateTime.Addition
 - uid: NodaTime.ZonedDateTime.op_Subtraction(NodaTime.ZonedDateTime,NodaTime.Duration)
   commentId: M:NodaTime.ZonedDateTime.op_Subtraction(NodaTime.ZonedDateTime,NodaTime.Duration)
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.Subtract*
   commentId: Overload:NodaTime.ZonedDateTime.Subtract
-  isExternal: false
   name: Subtract
   nameWithType: ZonedDateTime.Subtract
   fullName: NodaTime.ZonedDateTime.Subtract
 - uid: NodaTime.ZonedDateTime.Minus*
   commentId: Overload:NodaTime.ZonedDateTime.Minus
-  isExternal: false
   name: Minus
   nameWithType: ZonedDateTime.Minus
   fullName: NodaTime.ZonedDateTime.Minus
 - uid: NodaTime.ZonedDateTime.op_Subtraction*
   commentId: Overload:NodaTime.ZonedDateTime.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: ZonedDateTime.Subtraction
   fullName: NodaTime.ZonedDateTime.Subtraction
 - uid: NodaTime.ZonedDateTime.op_Subtraction(NodaTime.ZonedDateTime,NodaTime.ZonedDateTime)
   commentId: M:NodaTime.ZonedDateTime.op_Subtraction(NodaTime.ZonedDateTime,NodaTime.ZonedDateTime)
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.ZonedDateTime.GetZoneInterval*
   commentId: Overload:NodaTime.ZonedDateTime.GetZoneInterval
-  isExternal: false
   name: GetZoneInterval
   nameWithType: ZonedDateTime.GetZoneInterval
   fullName: NodaTime.ZonedDateTime.GetZoneInterval
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.TimeZones.ZoneInterval.Savings
   commentId: P:NodaTime.TimeZones.ZoneInterval.Savings
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.GetZoneInterval
   commentId: M:NodaTime.ZonedDateTime.GetZoneInterval
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.IsDaylightSavingTime*
   commentId: Overload:NodaTime.ZonedDateTime.IsDaylightSavingTime
-  isExternal: false
   name: IsDaylightSavingTime
   nameWithType: ZonedDateTime.IsDaylightSavingTime
   fullName: NodaTime.ZonedDateTime.IsDaylightSavingTime
@@ -3450,7 +3396,6 @@ references:
     fullName: )
 - uid: NodaTime.ZonedDateTime.ToString*
   commentId: Overload:NodaTime.ZonedDateTime.ToString
-  isExternal: false
   name: ToString
   nameWithType: ZonedDateTime.ToString
   fullName: NodaTime.ZonedDateTime.ToString
@@ -3534,56 +3479,55 @@ references:
   fullName: System.DateTime
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.ToDateTimeOffset*
   commentId: Overload:NodaTime.ZonedDateTime.ToDateTimeOffset
-  isExternal: false
   name: ToDateTimeOffset
   nameWithType: ZonedDateTime.ToDateTimeOffset
   fullName: NodaTime.ZonedDateTime.ToDateTimeOffset
 - uid: NodaTime.ZonedDateTime.FromDateTimeOffset*
   commentId: Overload:NodaTime.ZonedDateTime.FromDateTimeOffset
-  isExternal: false
   name: FromDateTimeOffset
   nameWithType: ZonedDateTime.FromDateTimeOffset
   fullName: NodaTime.ZonedDateTime.FromDateTimeOffset
 - uid: System.DateTime.Kind
   commentId: P:System.DateTime.Kind
+  isExternal: true
 - uid: System.DateTimeKind.Utc
   commentId: F:System.DateTimeKind.Utc
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.ToDateTimeUtc*
   commentId: Overload:NodaTime.ZonedDateTime.ToDateTimeUtc
-  isExternal: false
   name: ToDateTimeUtc
   nameWithType: ZonedDateTime.ToDateTimeUtc
   fullName: NodaTime.ZonedDateTime.ToDateTimeUtc
 - uid: System.DateTimeKind.Unspecified
   commentId: F:System.DateTimeKind.Unspecified
+  isExternal: true
 - uid: System.DateTime.ToLocalTime
   commentId: M:System.DateTime.ToLocalTime
+  isExternal: true
 - uid: System.DateTime.ToUniversalTime
   commentId: M:System.DateTime.ToUniversalTime
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.ToDateTimeUnspecified*
   commentId: Overload:NodaTime.ZonedDateTime.ToDateTimeUnspecified
-  isExternal: false
   name: ToDateTimeUnspecified
   nameWithType: ZonedDateTime.ToDateTimeUnspecified
   fullName: NodaTime.ZonedDateTime.ToDateTimeUnspecified
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime.ZonedDateTime.ToOffsetDateTime*
   commentId: Overload:NodaTime.ZonedDateTime.ToOffsetDateTime
-  isExternal: false
   name: ToOffsetDateTime
   nameWithType: ZonedDateTime.ToOffsetDateTime
   fullName: NodaTime.ZonedDateTime.ToOffsetDateTime
 - uid: NodaTime.ZonedDateTime.System#Xml#Serialization#IXmlSerializable#GetSchema*
   commentId: Overload:NodaTime.ZonedDateTime.System#Xml#Serialization#IXmlSerializable#GetSchema
-  isExternal: false
   name: IXmlSerializable.GetSchema
   nameWithType: ZonedDateTime.IXmlSerializable.GetSchema
   fullName: NodaTime.ZonedDateTime.System.Xml.Serialization.IXmlSerializable.GetSchema
@@ -3629,13 +3573,12 @@ references:
   fullName: System.Xml.Schema.XmlSchema
 - uid: System.Xml.Schema
   commentId: N:System.Xml.Schema
-  isExternal: false
+  isExternal: true
   name: System.Xml.Schema
   nameWithType: System.Xml.Schema
   fullName: System.Xml.Schema
 - uid: NodaTime.ZonedDateTime.System#Xml#Serialization#IXmlSerializable#ReadXml*
   commentId: Overload:NodaTime.ZonedDateTime.System#Xml#Serialization#IXmlSerializable#ReadXml
-  isExternal: false
   name: IXmlSerializable.ReadXml
   nameWithType: ZonedDateTime.IXmlSerializable.ReadXml
   fullName: NodaTime.ZonedDateTime.System.Xml.Serialization.IXmlSerializable.ReadXml
@@ -3691,13 +3634,12 @@ references:
   fullName: System.Xml.XmlReader
 - uid: System.Xml
   commentId: N:System.Xml
-  isExternal: false
+  isExternal: true
   name: System.Xml
   nameWithType: System.Xml
   fullName: System.Xml
 - uid: NodaTime.ZonedDateTime.System#Xml#Serialization#IXmlSerializable#WriteXml*
   commentId: Overload:NodaTime.ZonedDateTime.System#Xml#Serialization#IXmlSerializable#WriteXml
-  isExternal: false
   name: IXmlSerializable.WriteXml
   nameWithType: ZonedDateTime.IXmlSerializable.WriteXml
   fullName: NodaTime.ZonedDateTime.System.Xml.Serialization.IXmlSerializable.WriteXml
@@ -3817,7 +3759,6 @@ references:
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: NodaTime.ZonedDateTime.System#Runtime#Serialization#ISerializable#GetObjectData*
   commentId: Overload:NodaTime.ZonedDateTime.System#Runtime#Serialization#ISerializable#GetObjectData
-  isExternal: false
   name: ISerializable.GetObjectData
   nameWithType: ZonedDateTime.ISerializable.GetObjectData
   fullName: NodaTime.ZonedDateTime.System.Runtime.Serialization.ISerializable.GetObjectData

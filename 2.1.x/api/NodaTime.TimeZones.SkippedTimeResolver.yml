@@ -59,54 +59,47 @@ references:
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.TimeZones.Resolvers.CreateMappingResolver(NodaTime.TimeZones.AmbiguousTimeResolver,NodaTime.TimeZones.SkippedTimeResolver)
   commentId: M:NodaTime.TimeZones.Resolvers.CreateMappingResolver(NodaTime.TimeZones.AmbiguousTimeResolver,NodaTime.TimeZones.SkippedTimeResolver)
+  isExternal: true
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
 - uid: NodaTime.TimeZones.Resolvers
   commentId: T:NodaTime.TimeZones.Resolvers
-  isExternal: false
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime

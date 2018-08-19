@@ -22,38 +22,32 @@ references:
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone
   commentId: T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone
   parent: NodaTime.Testing.TimeZones
-  isExternal: false
   name: MultiTransitionDateTimeZone
   nameWithType: MultiTransitionDateTimeZone
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder
   commentId: T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder
-  isExternal: false
   name: MultiTransitionDateTimeZone.Builder
   nameWithType: MultiTransitionDateTimeZone.Builder
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource
   commentId: T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource
   parent: NodaTime.Testing.TimeZones
-  isExternal: false
   name: FakeDateTimeZoneSource
   nameWithType: FakeDateTimeZoneSource
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder
   commentId: T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder
-  isExternal: false
   name: FakeDateTimeZoneSource.Builder
   nameWithType: FakeDateTimeZoneSource.Builder
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder
 - uid: NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone
   commentId: T:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone
-  isExternal: false
   name: SingleTransitionDateTimeZone
   nameWithType: SingleTransitionDateTimeZone
   fullName: NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone
 - uid: NodaTime.Testing.TimeZones
   commentId: N:NodaTime.Testing.TimeZones
-  isExternal: false
   name: NodaTime.Testing.TimeZones
   nameWithType: NodaTime.Testing.TimeZones
   fullName: NodaTime.Testing.TimeZones

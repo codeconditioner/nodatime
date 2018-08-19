@@ -850,7 +850,6 @@ references:
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
@@ -863,7 +862,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -1195,25 +1193,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -1250,62 +1246,52 @@ references:
     fullName: )
 - uid: NodaTime.Text.OffsetDateTimePattern.GeneralIso*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.GeneralIso
-  isExternal: false
   name: GeneralIso
   nameWithType: OffsetDateTimePattern.GeneralIso
   fullName: NodaTime.Text.OffsetDateTimePattern.GeneralIso
 - uid: NodaTime.Text.OffsetDateTimePattern
   commentId: T:NodaTime.Text.OffsetDateTimePattern
   parent: NodaTime.Text
-  isExternal: false
   name: OffsetDateTimePattern
   nameWithType: OffsetDateTimePattern
   fullName: NodaTime.Text.OffsetDateTimePattern
 - uid: NodaTime.Text.OffsetDateTimePattern.GeneralIsoPattern*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.GeneralIsoPattern
-  isExternal: false
   name: GeneralIsoPattern
   nameWithType: OffsetDateTimePattern.GeneralIsoPattern
   fullName: NodaTime.Text.OffsetDateTimePattern.GeneralIsoPattern
 - uid: NodaTime.Text.OffsetDateTimePattern.ExtendedIso*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.ExtendedIso
-  isExternal: false
   name: ExtendedIso
   nameWithType: OffsetDateTimePattern.ExtendedIso
   fullName: NodaTime.Text.OffsetDateTimePattern.ExtendedIso
 - uid: NodaTime.Text.OffsetDateTimePattern.ExtendedIsoPattern*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.ExtendedIsoPattern
-  isExternal: false
   name: ExtendedIsoPattern
   nameWithType: OffsetDateTimePattern.ExtendedIsoPattern
   fullName: NodaTime.Text.OffsetDateTimePattern.ExtendedIsoPattern
 - uid: NodaTime.Text.OffsetDateTimePattern.Rfc3339*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Rfc3339
-  isExternal: false
   name: Rfc3339
   nameWithType: OffsetDateTimePattern.Rfc3339
   fullName: NodaTime.Text.OffsetDateTimePattern.Rfc3339
 - uid: NodaTime.Text.OffsetDateTimePattern.Rfc3339Pattern*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Rfc3339Pattern
-  isExternal: false
   name: Rfc3339Pattern
   nameWithType: OffsetDateTimePattern.Rfc3339Pattern
   fullName: NodaTime.Text.OffsetDateTimePattern.Rfc3339Pattern
 - uid: NodaTime.Text.OffsetDateTimePattern.FullRoundtrip*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.FullRoundtrip
-  isExternal: false
   name: FullRoundtrip
   nameWithType: OffsetDateTimePattern.FullRoundtrip
   fullName: NodaTime.Text.OffsetDateTimePattern.FullRoundtrip
 - uid: NodaTime.Text.OffsetDateTimePattern.FullRoundtripPattern*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.FullRoundtripPattern
-  isExternal: false
   name: FullRoundtripPattern
   nameWithType: OffsetDateTimePattern.FullRoundtripPattern
   fullName: NodaTime.Text.OffsetDateTimePattern.FullRoundtripPattern
 - uid: NodaTime.Text.OffsetDateTimePattern.PatternText*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: OffsetDateTimePattern.PatternText
   fullName: NodaTime.Text.OffsetDateTimePattern.PatternText
@@ -1318,13 +1304,11 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.OffsetDateTimePattern.TemplateValue*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.TemplateValue
-  isExternal: false
   name: TemplateValue
   nameWithType: OffsetDateTimePattern.TemplateValue
   fullName: NodaTime.Text.OffsetDateTimePattern.TemplateValue
 - uid: NodaTime.Text.OffsetDateTimePattern.Parse*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: OffsetDateTimePattern.Parse
   fullName: NodaTime.Text.OffsetDateTimePattern.Parse
@@ -1451,7 +1435,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1488,7 +1471,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.OffsetDateTimePattern.Format*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Format
-  isExternal: false
   name: Format
   nameWithType: OffsetDateTimePattern.Format
   fullName: NodaTime.Text.OffsetDateTimePattern.Format
@@ -1533,7 +1515,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1569,43 +1550,36 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.OffsetDateTimePattern.Create*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.Create
-  isExternal: false
   name: Create
   nameWithType: OffsetDateTimePattern.Create
   fullName: NodaTime.Text.OffsetDateTimePattern.Create
 - uid: NodaTime.Text.OffsetDateTimePattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: OffsetDateTimePattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.OffsetDateTimePattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.OffsetDateTimePattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: OffsetDateTimePattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.OffsetDateTimePattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.OffsetDateTimePattern.WithPatternText*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.WithPatternText
-  isExternal: false
   name: WithPatternText
   nameWithType: OffsetDateTimePattern.WithPatternText
   fullName: NodaTime.Text.OffsetDateTimePattern.WithPatternText
 - uid: NodaTime.Text.OffsetDateTimePattern.WithCulture*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: OffsetDateTimePattern.WithCulture
   fullName: NodaTime.Text.OffsetDateTimePattern.WithCulture
 - uid: NodaTime.Text.OffsetDateTimePattern.WithTemplateValue*
   commentId: Overload:NodaTime.Text.OffsetDateTimePattern.WithTemplateValue
-  isExternal: false
   name: WithTemplateValue
   nameWithType: OffsetDateTimePattern.WithTemplateValue
   fullName: NodaTime.Text.OffsetDateTimePattern.WithTemplateValue

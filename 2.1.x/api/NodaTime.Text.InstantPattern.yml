@@ -492,7 +492,6 @@ references:
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
@@ -505,7 +504,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -837,25 +835,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -892,26 +888,22 @@ references:
     fullName: )
 - uid: NodaTime.Text.InstantPattern.General*
   commentId: Overload:NodaTime.Text.InstantPattern.General
-  isExternal: false
   name: General
   nameWithType: InstantPattern.General
   fullName: NodaTime.Text.InstantPattern.General
 - uid: NodaTime.Text.InstantPattern
   commentId: T:NodaTime.Text.InstantPattern
   parent: NodaTime.Text
-  isExternal: false
   name: InstantPattern
   nameWithType: InstantPattern
   fullName: NodaTime.Text.InstantPattern
 - uid: NodaTime.Text.InstantPattern.ExtendedIso*
   commentId: Overload:NodaTime.Text.InstantPattern.ExtendedIso
-  isExternal: false
   name: ExtendedIso
   nameWithType: InstantPattern.ExtendedIso
   fullName: NodaTime.Text.InstantPattern.ExtendedIso
 - uid: NodaTime.Text.InstantPattern.PatternText*
   commentId: Overload:NodaTime.Text.InstantPattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: InstantPattern.PatternText
   fullName: NodaTime.Text.InstantPattern.PatternText
@@ -924,7 +916,6 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.InstantPattern.Parse*
   commentId: Overload:NodaTime.Text.InstantPattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: InstantPattern.Parse
   fullName: NodaTime.Text.InstantPattern.Parse
@@ -1052,7 +1043,6 @@ references:
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
   parent: NodaTime.Text
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1089,7 +1079,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.InstantPattern.Format*
   commentId: Overload:NodaTime.Text.InstantPattern.Format
-  isExternal: false
   name: Format
   nameWithType: InstantPattern.Format
   fullName: NodaTime.Text.InstantPattern.Format
@@ -1134,7 +1123,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1177,7 +1165,6 @@ references:
   fullName: System.Text.StringBuilder
 - uid: NodaTime.Text.InstantPattern.AppendFormat*
   commentId: Overload:NodaTime.Text.InstantPattern.AppendFormat
-  isExternal: false
   name: AppendFormat
   nameWithType: InstantPattern.AppendFormat
   fullName: NodaTime.Text.InstantPattern.AppendFormat
@@ -1238,7 +1225,7 @@ references:
     fullName: )
 - uid: System.Text
   commentId: N:System.Text
-  isExternal: false
+  isExternal: true
   name: System.Text
   nameWithType: System.Text
   fullName: System.Text
@@ -1296,31 +1283,26 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.InstantPattern.Create*
   commentId: Overload:NodaTime.Text.InstantPattern.Create
-  isExternal: false
   name: Create
   nameWithType: InstantPattern.Create
   fullName: NodaTime.Text.InstantPattern.Create
 - uid: NodaTime.Text.InstantPattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.InstantPattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: InstantPattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.InstantPattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.InstantPattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.InstantPattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: InstantPattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.InstantPattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.InstantPattern.WithCulture*
   commentId: Overload:NodaTime.Text.InstantPattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: InstantPattern.WithCulture
   fullName: NodaTime.Text.InstantPattern.WithCulture

@@ -115,13 +115,11 @@ references:
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -585,31 +583,29 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
 - uid: System.Runtime.InteropServices
   commentId: N:System.Runtime.InteropServices
-  isExternal: false
+  isExternal: true
   name: System.Runtime.InteropServices
   nameWithType: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices
 - uid: NodaTime.TimeZones.DateTimeZoneNotFoundException.#ctor*
   commentId: Overload:NodaTime.TimeZones.DateTimeZoneNotFoundException.#ctor
-  isExternal: false
   name: DateTimeZoneNotFoundException
   nameWithType: DateTimeZoneNotFoundException.DateTimeZoneNotFoundException
   fullName: NodaTime.TimeZones.DateTimeZoneNotFoundException.DateTimeZoneNotFoundException

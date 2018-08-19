@@ -121,7 +121,6 @@ items:
 references:
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -158,13 +157,11 @@ references:
     fullName: )
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
 - uid: NodaTime.Text.IPattern`1.Parse*
   commentId: Overload:NodaTime.Text.IPattern`1.Parse
-  isExternal: false
   name: Parse
   nameWithType: IPattern<T>.Parse
   fullName: NodaTime.Text.IPattern<T>.Parse
@@ -217,13 +214,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1.Format*
   commentId: Overload:NodaTime.Text.IPattern`1.Format
-  isExternal: false
   name: Format
   nameWithType: IPattern<T>.Format
   fullName: NodaTime.Text.IPattern<T>.Format
@@ -236,7 +232,6 @@ references:
   nameWithType: T
   fullName: T
 - uid: T
-  isExternal: false
   name: T
   nameWithType: T
   fullName: T

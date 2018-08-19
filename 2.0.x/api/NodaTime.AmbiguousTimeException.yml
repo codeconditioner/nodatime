@@ -247,7 +247,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -739,57 +738,51 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Runtime.InteropServices
   commentId: N:System.Runtime.InteropServices
-  isExternal: false
+  isExternal: true
   name: System.Runtime.InteropServices
   nameWithType: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
 - uid: NodaTime.AmbiguousTimeException.Zone*
   commentId: Overload:NodaTime.AmbiguousTimeException.Zone
-  isExternal: false
   name: Zone
   nameWithType: AmbiguousTimeException.Zone
   fullName: NodaTime.AmbiguousTimeException.Zone
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.AmbiguousTimeException.EarlierMapping*
   commentId: Overload:NodaTime.AmbiguousTimeException.EarlierMapping
-  isExternal: false
   name: EarlierMapping
   nameWithType: AmbiguousTimeException.EarlierMapping
   fullName: NodaTime.AmbiguousTimeException.EarlierMapping
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.AmbiguousTimeException.LaterMapping*
   commentId: Overload:NodaTime.AmbiguousTimeException.LaterMapping
-  isExternal: false
   name: LaterMapping
   nameWithType: AmbiguousTimeException.LaterMapping
   fullName: NodaTime.AmbiguousTimeException.LaterMapping
 - uid: NodaTime.AmbiguousTimeException.#ctor*
   commentId: Overload:NodaTime.AmbiguousTimeException.#ctor
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException.AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException.AmbiguousTimeException

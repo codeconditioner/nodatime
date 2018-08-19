@@ -419,7 +419,6 @@ items:
 references:
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
@@ -680,62 +679,53 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Calendars.Era.Common*
   commentId: Overload:NodaTime.Calendars.Era.Common
-  isExternal: false
   name: Common
   nameWithType: Era.Common
   fullName: NodaTime.Calendars.Era.Common
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars
-  isExternal: false
   name: Era
   nameWithType: Era
   fullName: NodaTime.Calendars.Era
 - uid: NodaTime.Calendars.Era.BeforeCommon*
   commentId: Overload:NodaTime.Calendars.Era.BeforeCommon
-  isExternal: false
   name: BeforeCommon
   nameWithType: Era.BeforeCommon
   fullName: NodaTime.Calendars.Era.BeforeCommon
 - uid: NodaTime.Calendars.Era.AnnoMartyrum*
   commentId: Overload:NodaTime.Calendars.Era.AnnoMartyrum
-  isExternal: false
   name: AnnoMartyrum
   nameWithType: Era.AnnoMartyrum
   fullName: NodaTime.Calendars.Era.AnnoMartyrum
 - uid: NodaTime.Calendars.Era.AnnoHegirae*
   commentId: Overload:NodaTime.Calendars.Era.AnnoHegirae
-  isExternal: false
   name: AnnoHegirae
   nameWithType: Era.AnnoHegirae
   fullName: NodaTime.Calendars.Era.AnnoHegirae
 - uid: NodaTime.Calendars.Era.AnnoMundi*
   commentId: Overload:NodaTime.Calendars.Era.AnnoMundi
-  isExternal: false
   name: AnnoMundi
   nameWithType: Era.AnnoMundi
   fullName: NodaTime.Calendars.Era.AnnoMundi
 - uid: NodaTime.Calendars.Era.AnnoPersico*
   commentId: Overload:NodaTime.Calendars.Era.AnnoPersico
-  isExternal: false
   name: AnnoPersico
   nameWithType: Era.AnnoPersico
   fullName: NodaTime.Calendars.Era.AnnoPersico
 - uid: NodaTime.Calendars.Era.Bahai*
   commentId: Overload:NodaTime.Calendars.Era.Bahai
-  isExternal: false
   name: Bahai
   nameWithType: Era.Bahai
   fullName: NodaTime.Calendars.Era.Bahai
 - uid: NodaTime.Calendars.Era.Name*
   commentId: Overload:NodaTime.Calendars.Era.Name
-  isExternal: false
   name: Name
   nameWithType: Era.Name
   fullName: NodaTime.Calendars.Era.Name
@@ -779,7 +769,6 @@ references:
     fullName: )
 - uid: NodaTime.Calendars.Era.ToString*
   commentId: Overload:NodaTime.Calendars.Era.ToString
-  isExternal: false
   name: ToString
   nameWithType: Era.ToString
   fullName: NodaTime.Calendars.Era.ToString

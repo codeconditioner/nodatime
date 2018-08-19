@@ -20,27 +20,23 @@ references:
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars
-  isExternal: false
   name: Era
   nameWithType: Era
   fullName: NodaTime.Calendars.Era
 - uid: NodaTime.Calendars.IslamicEpoch
   commentId: T:NodaTime.Calendars.IslamicEpoch
   parent: NodaTime.Calendars
-  isExternal: false
   name: IslamicEpoch
   nameWithType: IslamicEpoch
   fullName: NodaTime.Calendars.IslamicEpoch
 - uid: NodaTime.Calendars.IslamicLeapYearPattern
   commentId: T:NodaTime.Calendars.IslamicLeapYearPattern
   parent: NodaTime.Calendars
-  isExternal: false
   name: IslamicLeapYearPattern
   nameWithType: IslamicLeapYearPattern
   fullName: NodaTime.Calendars.IslamicLeapYearPattern
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars

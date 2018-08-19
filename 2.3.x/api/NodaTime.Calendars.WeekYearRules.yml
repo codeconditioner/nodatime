@@ -257,7 +257,6 @@ items:
 references:
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
@@ -549,28 +548,26 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Calendars.IWeekYearRule
   commentId: T:NodaTime.Calendars.IWeekYearRule
   parent: NodaTime.Calendars
-  isExternal: false
   name: IWeekYearRule
   nameWithType: IWeekYearRule
   fullName: NodaTime.Calendars.IWeekYearRule
 - uid: NodaTime.Calendars.WeekYearRules.Iso*
   commentId: Overload:NodaTime.Calendars.WeekYearRules.Iso
-  isExternal: false
   name: Iso
   nameWithType: WeekYearRules.Iso
   fullName: NodaTime.Calendars.WeekYearRules.Iso
 - uid: NodaTime.Calendars.SimpleWeekYearRule
   commentId: T:NodaTime.Calendars.SimpleWeekYearRule
+  isExternal: true
 - uid: NodaTime.Calendars.WeekYearRules.ForMinDaysInFirstWeek*
   commentId: Overload:NodaTime.Calendars.WeekYearRules.ForMinDaysInFirstWeek
-  isExternal: false
   name: ForMinDaysInFirstWeek
   nameWithType: WeekYearRules.ForMinDaysInFirstWeek
   fullName: NodaTime.Calendars.WeekYearRules.ForMinDaysInFirstWeek
@@ -584,21 +581,19 @@ references:
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
   commentId: M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
+  isExternal: true
 - uid: NodaTime.Calendars.WeekYearRules.FromCalendarWeekRule*
   commentId: Overload:NodaTime.Calendars.WeekYearRules.FromCalendarWeekRule
-  isExternal: false
   name: FromCalendarWeekRule
   nameWithType: WeekYearRules.FromCalendarWeekRule
   fullName: NodaTime.Calendars.WeekYearRules.FromCalendarWeekRule
@@ -618,7 +613,7 @@ references:
   fullName: System.DayOfWeek
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization

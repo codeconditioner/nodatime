@@ -1361,7 +1361,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1653,7 +1652,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1673,10 +1672,10 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Instant.Ticks
   commentId: P:NodaTime.Instant.Ticks
+  isExternal: true
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant

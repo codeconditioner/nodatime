@@ -659,7 +659,6 @@ items:
 references:
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -890,7 +889,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -936,19 +935,18 @@ references:
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.TimeZones.ZoneInterval.WallOffset
   commentId: P:NodaTime.TimeZones.ZoneInterval.WallOffset
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -958,7 +956,6 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.TimeZones.ZoneInterval.#ctor*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.#ctor
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval.ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval.ZoneInterval
@@ -972,87 +969,73 @@ references:
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.TimeZones.ZoneInterval.StandardOffset*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.StandardOffset
-  isExternal: false
   name: StandardOffset
   nameWithType: ZoneInterval.StandardOffset
   fullName: NodaTime.TimeZones.ZoneInterval.StandardOffset
 - uid: NodaTime.TimeZones.ZoneInterval.Duration*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Duration
-  isExternal: false
   name: Duration
   nameWithType: ZoneInterval.Duration
   fullName: NodaTime.TimeZones.ZoneInterval.Duration
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.TimeZones.ZoneInterval.End*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.End
-  isExternal: false
   name: End
   nameWithType: ZoneInterval.End
   fullName: NodaTime.TimeZones.ZoneInterval.End
 - uid: NodaTime.TimeZones.ZoneInterval.IsoLocalStart*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.IsoLocalStart
-  isExternal: false
   name: IsoLocalStart
   nameWithType: ZoneInterval.IsoLocalStart
   fullName: NodaTime.TimeZones.ZoneInterval.IsoLocalStart
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.TimeZones.ZoneInterval.IsoLocalEnd*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.IsoLocalEnd
-  isExternal: false
   name: IsoLocalEnd
   nameWithType: ZoneInterval.IsoLocalEnd
   fullName: NodaTime.TimeZones.ZoneInterval.IsoLocalEnd
 - uid: NodaTime.TimeZones.ZoneInterval.Name*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Name
-  isExternal: false
   name: Name
   nameWithType: ZoneInterval.Name
   fullName: NodaTime.TimeZones.ZoneInterval.Name
 - uid: NodaTime.TimeZones.ZoneInterval.WallOffset*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.WallOffset
-  isExternal: false
   name: WallOffset
   nameWithType: ZoneInterval.WallOffset
   fullName: NodaTime.TimeZones.ZoneInterval.WallOffset
 - uid: NodaTime.TimeZones.ZoneInterval.Savings*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Savings
-  isExternal: false
   name: Savings
   nameWithType: ZoneInterval.Savings
   fullName: NodaTime.TimeZones.ZoneInterval.Savings
 - uid: NodaTime.TimeZones.ZoneInterval.Start*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Start
-  isExternal: false
   name: Start
   nameWithType: ZoneInterval.Start
   fullName: NodaTime.TimeZones.ZoneInterval.Start
 - uid: NodaTime.TimeZones.ZoneInterval.Contains*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Contains
-  isExternal: false
   name: Contains
   nameWithType: ZoneInterval.Contains
   fullName: NodaTime.TimeZones.ZoneInterval.Contains
@@ -1065,7 +1048,6 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.TimeZones.ZoneInterval.Equals*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.Equals
-  isExternal: false
   name: Equals
   nameWithType: ZoneInterval.Equals
   fullName: NodaTime.TimeZones.ZoneInterval.Equals
@@ -1222,7 +1204,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.ZoneInterval.GetHashCode*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: ZoneInterval.GetHashCode
   fullName: NodaTime.TimeZones.ZoneInterval.GetHashCode
@@ -1266,7 +1247,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.ZoneInterval.ToString*
   commentId: Overload:NodaTime.TimeZones.ZoneInterval.ToString
-  isExternal: false
   name: ToString
   nameWithType: ZoneInterval.ToString
   fullName: NodaTime.TimeZones.ZoneInterval.ToString

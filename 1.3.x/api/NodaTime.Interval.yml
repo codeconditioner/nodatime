@@ -673,9 +673,9 @@ items:
 references:
 - uid: NodaTime.Instant.MaxValue
   commentId: F:NodaTime.Instant.MaxValue
+  isExternal: true
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -921,19 +921,19 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Xml.Serialization
   commentId: N:System.Xml.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Xml.Serialization
   nameWithType: System.Xml.Serialization
   fullName: System.Xml.Serialization
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
@@ -947,14 +947,12 @@ references:
 - uid: NodaTime.Interval
   commentId: T:NodaTime.Interval
   parent: NodaTime
-  isExternal: false
   name: Interval
   nameWithType: Interval
   fullName: NodaTime.Interval
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
@@ -967,42 +965,38 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.Interval.#ctor*
   commentId: Overload:NodaTime.Interval.#ctor
-  isExternal: false
   name: Interval
   nameWithType: Interval.Interval
   fullName: NodaTime.Interval.Interval
 - uid: NodaTime.Interval.End
   commentId: P:NodaTime.Interval.End
+  isExternal: true
 - uid: NodaTime.Interval.Start*
   commentId: Overload:NodaTime.Interval.Start
-  isExternal: false
   name: Start
   nameWithType: Interval.Start
   fullName: NodaTime.Interval.Start
 - uid: NodaTime.Interval.Start
   commentId: P:NodaTime.Interval.Start
+  isExternal: true
 - uid: NodaTime.Interval.End*
   commentId: Overload:NodaTime.Interval.End
-  isExternal: false
   name: End
   nameWithType: Interval.End
   fullName: NodaTime.Interval.End
 - uid: NodaTime.Interval.Duration*
   commentId: Overload:NodaTime.Interval.Duration
-  isExternal: false
   name: Duration
   nameWithType: Interval.Duration
   fullName: NodaTime.Interval.Duration
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Interval.Contains*
   commentId: Overload:NodaTime.Interval.Contains
-  isExternal: false
   name: Contains
   nameWithType: Interval.Contains
   fullName: NodaTime.Interval.Contains
@@ -1015,7 +1009,6 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.Interval.Equals*
   commentId: Overload:NodaTime.Interval.Equals
-  isExternal: false
   name: Equals
   nameWithType: Interval.Equals
   fullName: NodaTime.Interval.Equals
@@ -1179,7 +1172,6 @@ references:
     fullName: )
 - uid: NodaTime.Interval.GetHashCode*
   commentId: Overload:NodaTime.Interval.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: Interval.GetHashCode
   fullName: NodaTime.Interval.GetHashCode
@@ -1223,7 +1215,6 @@ references:
     fullName: )
 - uid: NodaTime.Interval.ToString*
   commentId: Overload:NodaTime.Interval.ToString
-  isExternal: false
   name: ToString
   nameWithType: Interval.ToString
   fullName: NodaTime.Interval.ToString
@@ -1236,19 +1227,16 @@ references:
   fullName: System.String
 - uid: NodaTime.Interval.op_Equality*
   commentId: Overload:NodaTime.Interval.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: Interval.Equality
   fullName: NodaTime.Interval.Equality
 - uid: NodaTime.Interval.op_Inequality*
   commentId: Overload:NodaTime.Interval.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: Interval.Inequality
   fullName: NodaTime.Interval.Inequality
 - uid: NodaTime.Interval.System#Xml#Serialization#IXmlSerializable#GetSchema*
   commentId: Overload:NodaTime.Interval.System#Xml#Serialization#IXmlSerializable#GetSchema
-  isExternal: false
   name: IXmlSerializable.GetSchema
   nameWithType: Interval.IXmlSerializable.GetSchema
   fullName: NodaTime.Interval.System.Xml.Serialization.IXmlSerializable.GetSchema
@@ -1294,13 +1282,12 @@ references:
   fullName: System.Xml.Schema.XmlSchema
 - uid: System.Xml.Schema
   commentId: N:System.Xml.Schema
-  isExternal: false
+  isExternal: true
   name: System.Xml.Schema
   nameWithType: System.Xml.Schema
   fullName: System.Xml.Schema
 - uid: NodaTime.Interval.System#Xml#Serialization#IXmlSerializable#ReadXml*
   commentId: Overload:NodaTime.Interval.System#Xml#Serialization#IXmlSerializable#ReadXml
-  isExternal: false
   name: IXmlSerializable.ReadXml
   nameWithType: Interval.IXmlSerializable.ReadXml
   fullName: NodaTime.Interval.System.Xml.Serialization.IXmlSerializable.ReadXml
@@ -1356,13 +1343,12 @@ references:
   fullName: System.Xml.XmlReader
 - uid: System.Xml
   commentId: N:System.Xml
-  isExternal: false
+  isExternal: true
   name: System.Xml
   nameWithType: System.Xml
   fullName: System.Xml
 - uid: NodaTime.Interval.System#Xml#Serialization#IXmlSerializable#WriteXml*
   commentId: Overload:NodaTime.Interval.System#Xml#Serialization#IXmlSerializable#WriteXml
-  isExternal: false
   name: IXmlSerializable.WriteXml
   nameWithType: Interval.IXmlSerializable.WriteXml
   fullName: NodaTime.Interval.System.Xml.Serialization.IXmlSerializable.WriteXml
@@ -1482,7 +1468,6 @@ references:
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: NodaTime.Interval.System#Runtime#Serialization#ISerializable#GetObjectData*
   commentId: Overload:NodaTime.Interval.System#Runtime#Serialization#ISerializable#GetObjectData
-  isExternal: false
   name: ISerializable.GetObjectData
   nameWithType: Interval.ISerializable.GetObjectData
   fullName: NodaTime.Interval.System.Runtime.Serialization.ISerializable.GetObjectData

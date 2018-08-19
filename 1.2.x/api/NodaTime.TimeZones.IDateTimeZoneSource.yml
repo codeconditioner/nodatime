@@ -191,7 +191,6 @@ references:
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.GetIds
   commentId: M:NodaTime.TimeZones.IDateTimeZoneSource.GetIds
   parent: NodaTime.TimeZones.IDateTimeZoneSource
-  isExternal: false
   name: GetIds()
   nameWithType: IDateTimeZoneSource.GetIds()
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.GetIds()
@@ -258,26 +257,22 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.DateTimeZoneCache
   commentId: T:NodaTime.TimeZones.DateTimeZoneCache
-  isExternal: false
   name: DateTimeZoneCache
   nameWithType: DateTimeZoneCache
   fullName: NodaTime.TimeZones.DateTimeZoneCache
 - uid: NodaTime.TimeZones.IDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.IDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.GetIds*
   commentId: Overload:NodaTime.TimeZones.IDateTimeZoneSource.GetIds
-  isExternal: false
   name: GetIds
   nameWithType: IDateTimeZoneSource.GetIds
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.GetIds
@@ -366,13 +361,12 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.VersionId*
   commentId: Overload:NodaTime.TimeZones.IDateTimeZoneSource.VersionId
-  isExternal: false
   name: VersionId
   nameWithType: IDateTimeZoneSource.VersionId
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.VersionId
@@ -385,19 +379,19 @@ references:
   fullName: System.String
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -407,19 +401,16 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.ForId*
   commentId: Overload:NodaTime.TimeZones.IDateTimeZoneSource.ForId
-  isExternal: false
   name: ForId
   nameWithType: IDateTimeZoneSource.ForId
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.ForId
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.MapTimeZoneId*
   commentId: Overload:NodaTime.TimeZones.IDateTimeZoneSource.MapTimeZoneId
-  isExternal: false
   name: MapTimeZoneId
   nameWithType: IDateTimeZoneSource.MapTimeZoneId
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.MapTimeZoneId

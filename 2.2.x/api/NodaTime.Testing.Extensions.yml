@@ -18,13 +18,11 @@ items:
 references:
 - uid: NodaTime.Testing.Extensions.DurationConstruction
   commentId: T:NodaTime.Testing.Extensions.DurationConstruction
-  isExternal: false
   name: DurationConstruction
   nameWithType: DurationConstruction
   fullName: NodaTime.Testing.Extensions.DurationConstruction
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction
   commentId: T:NodaTime.Testing.Extensions.LocalDateConstruction
-  isExternal: false
   name: LocalDateConstruction
   nameWithType: LocalDateConstruction
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction

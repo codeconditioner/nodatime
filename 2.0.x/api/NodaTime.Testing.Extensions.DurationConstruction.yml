@@ -923,13 +923,11 @@ references:
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Testing.Extensions
   commentId: N:NodaTime.Testing.Extensions
-  isExternal: false
   name: NodaTime.Testing.Extensions
   nameWithType: NodaTime.Testing.Extensions
   fullName: NodaTime.Testing.Extensions
@@ -1221,19 +1219,17 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Days*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Days
-  isExternal: false
   name: Days
   nameWithType: DurationConstruction.Days
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Days
@@ -1253,13 +1249,11 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Hours*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Hours
-  isExternal: false
   name: Hours
   nameWithType: DurationConstruction.Hours
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Hours
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Minutes*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Minutes
-  isExternal: false
   name: Minutes
   nameWithType: DurationConstruction.Minutes
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Minutes
@@ -1272,25 +1266,21 @@ references:
   fullName: System.Int64
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Seconds*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Seconds
-  isExternal: false
   name: Seconds
   nameWithType: DurationConstruction.Seconds
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Seconds
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Milliseconds*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Milliseconds
-  isExternal: false
   name: Milliseconds
   nameWithType: DurationConstruction.Milliseconds
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Milliseconds
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Ticks*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Ticks
-  isExternal: false
   name: Ticks
   nameWithType: DurationConstruction.Ticks
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Ticks
 - uid: NodaTime.Testing.Extensions.DurationConstruction.Nanoseconds*
   commentId: Overload:NodaTime.Testing.Extensions.DurationConstruction.Nanoseconds
-  isExternal: false
   name: Nanoseconds
   nameWithType: DurationConstruction.Nanoseconds
   fullName: NodaTime.Testing.Extensions.DurationConstruction.Nanoseconds

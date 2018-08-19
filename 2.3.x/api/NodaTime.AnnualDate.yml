@@ -800,7 +800,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1081,7 +1080,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1140,7 +1139,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.AnnualDate.#ctor*
   commentId: Overload:NodaTime.AnnualDate.#ctor
-  isExternal: false
   name: AnnualDate
   nameWithType: AnnualDate.AnnualDate
   fullName: NodaTime.AnnualDate.AnnualDate
@@ -1153,34 +1151,30 @@ references:
   fullName: System.Int32
 - uid: NodaTime.AnnualDate.Month*
   commentId: Overload:NodaTime.AnnualDate.Month
-  isExternal: false
   name: Month
   nameWithType: AnnualDate.Month
   fullName: NodaTime.AnnualDate.Month
 - uid: NodaTime.AnnualDate.Day*
   commentId: Overload:NodaTime.AnnualDate.Day
-  isExternal: false
   name: Day
   nameWithType: AnnualDate.Day
   fullName: NodaTime.AnnualDate.Day
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.AnnualDate.IsValidYear(System.Int32)
   commentId: M:NodaTime.AnnualDate.IsValidYear(System.Int32)
+  isExternal: true
 - uid: NodaTime.AnnualDate.InYear*
   commentId: Overload:NodaTime.AnnualDate.InYear
-  isExternal: false
   name: InYear
   nameWithType: AnnualDate.InYear
   fullName: NodaTime.AnnualDate.InYear
 - uid: NodaTime.AnnualDate.IsValidYear*
   commentId: Overload:NodaTime.AnnualDate.IsValidYear
-  isExternal: false
   name: IsValidYear
   nameWithType: AnnualDate.IsValidYear
   fullName: NodaTime.AnnualDate.IsValidYear
@@ -1234,7 +1228,6 @@ references:
     fullName: )
 - uid: NodaTime.AnnualDate.Equals*
   commentId: Overload:NodaTime.AnnualDate.Equals
-  isExternal: false
   name: Equals
   nameWithType: AnnualDate.Equals
   fullName: NodaTime.AnnualDate.Equals
@@ -1278,7 +1271,6 @@ references:
     fullName: )
 - uid: NodaTime.AnnualDate.GetHashCode*
   commentId: Overload:NodaTime.AnnualDate.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: AnnualDate.GetHashCode
   fullName: NodaTime.AnnualDate.GetHashCode
@@ -1322,7 +1314,6 @@ references:
     fullName: )
 - uid: NodaTime.AnnualDate.ToString*
   commentId: Overload:NodaTime.AnnualDate.ToString
-  isExternal: false
   name: ToString
   nameWithType: AnnualDate.ToString
   fullName: NodaTime.AnnualDate.ToString
@@ -1434,7 +1425,6 @@ references:
 - uid: NodaTime.AnnualDate
   commentId: T:NodaTime.AnnualDate
   parent: NodaTime
-  isExternal: false
   name: AnnualDate
   nameWithType: AnnualDate
   fullName: NodaTime.AnnualDate
@@ -1478,7 +1468,6 @@ references:
     fullName: )
 - uid: NodaTime.AnnualDate.CompareTo*
   commentId: Overload:NodaTime.AnnualDate.CompareTo
-  isExternal: false
   name: CompareTo
   nameWithType: AnnualDate.CompareTo
   fullName: NodaTime.AnnualDate.CompareTo
@@ -1563,13 +1552,11 @@ references:
     fullName: )
 - uid: NodaTime.AnnualDate.op_Equality*
   commentId: Overload:NodaTime.AnnualDate.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: AnnualDate.Equality
   fullName: NodaTime.AnnualDate.Equality
 - uid: NodaTime.AnnualDate.op_Inequality*
   commentId: Overload:NodaTime.AnnualDate.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: AnnualDate.Inequality
   fullName: NodaTime.AnnualDate.Inequality
@@ -1582,25 +1569,21 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.AnnualDate.op_LessThan*
   commentId: Overload:NodaTime.AnnualDate.op_LessThan
-  isExternal: false
   name: LessThan
   nameWithType: AnnualDate.LessThan
   fullName: NodaTime.AnnualDate.LessThan
 - uid: NodaTime.AnnualDate.op_LessThanOrEqual*
   commentId: Overload:NodaTime.AnnualDate.op_LessThanOrEqual
-  isExternal: false
   name: LessThanOrEqual
   nameWithType: AnnualDate.LessThanOrEqual
   fullName: NodaTime.AnnualDate.LessThanOrEqual
 - uid: NodaTime.AnnualDate.op_GreaterThan*
   commentId: Overload:NodaTime.AnnualDate.op_GreaterThan
-  isExternal: false
   name: GreaterThan
   nameWithType: AnnualDate.GreaterThan
   fullName: NodaTime.AnnualDate.GreaterThan
 - uid: NodaTime.AnnualDate.op_GreaterThanOrEqual*
   commentId: Overload:NodaTime.AnnualDate.op_GreaterThanOrEqual
-  isExternal: false
   name: GreaterThanOrEqual
   nameWithType: AnnualDate.GreaterThanOrEqual
   fullName: NodaTime.AnnualDate.GreaterThanOrEqual

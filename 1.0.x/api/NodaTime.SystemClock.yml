@@ -134,13 +134,11 @@ references:
 - uid: NodaTime.IClock
   commentId: T:NodaTime.IClock
   parent: NodaTime
-  isExternal: false
   name: IClock
   nameWithType: IClock
   fullName: NodaTime.IClock
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -432,34 +430,30 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.SystemClock
   commentId: T:NodaTime.SystemClock
   parent: NodaTime
-  isExternal: false
   name: SystemClock
   nameWithType: SystemClock
   fullName: NodaTime.SystemClock
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.SystemClock.Now*
   commentId: Overload:NodaTime.SystemClock.Now
-  isExternal: false
   name: Now
   nameWithType: SystemClock.Now
   fullName: NodaTime.SystemClock.Now
 - uid: NodaTime.IClock.Now
   commentId: P:NodaTime.IClock.Now
   parent: NodaTime.IClock
-  isExternal: false
   name: Now
   nameWithType: IClock.Now
   fullName: NodaTime.IClock.Now

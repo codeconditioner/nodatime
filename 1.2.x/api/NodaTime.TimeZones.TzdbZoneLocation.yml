@@ -346,7 +346,6 @@ items:
 references:
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -638,13 +637,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones.TzdbZoneLocation.Latitude*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.Latitude
-  isExternal: false
   name: Latitude
   nameWithType: TzdbZoneLocation.Latitude
   fullName: NodaTime.TimeZones.TzdbZoneLocation.Latitude
@@ -657,13 +655,11 @@ references:
   fullName: System.Double
 - uid: NodaTime.TimeZones.TzdbZoneLocation.Longitude*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.Longitude
-  isExternal: false
   name: Longitude
   nameWithType: TzdbZoneLocation.Longitude
   fullName: NodaTime.TimeZones.TzdbZoneLocation.Longitude
 - uid: NodaTime.TimeZones.TzdbZoneLocation.CountryName*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.CountryName
-  isExternal: false
   name: CountryName
   nameWithType: TzdbZoneLocation.CountryName
   fullName: NodaTime.TimeZones.TzdbZoneLocation.CountryName
@@ -676,26 +672,22 @@ references:
   fullName: System.String
 - uid: NodaTime.TimeZones.TzdbZoneLocation.CountryCode*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.CountryCode
-  isExternal: false
   name: CountryCode
   nameWithType: TzdbZoneLocation.CountryCode
   fullName: NodaTime.TimeZones.TzdbZoneLocation.CountryCode
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.TzdbDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: TzdbDateTimeZoneSource
   nameWithType: TzdbDateTimeZoneSource
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource
 - uid: NodaTime.TimeZones.TzdbZoneLocation.ZoneId*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.ZoneId
-  isExternal: false
   name: ZoneId
   nameWithType: TzdbZoneLocation.ZoneId
   fullName: NodaTime.TimeZones.TzdbZoneLocation.ZoneId
 - uid: NodaTime.TimeZones.TzdbZoneLocation.Comment*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.Comment
-  isExternal: false
   name: Comment
   nameWithType: TzdbZoneLocation.Comment
   fullName: NodaTime.TimeZones.TzdbZoneLocation.Comment
@@ -708,7 +700,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.TimeZones.TzdbZoneLocation.#ctor*
   commentId: Overload:NodaTime.TimeZones.TzdbZoneLocation.#ctor
-  isExternal: false
   name: TzdbZoneLocation
   nameWithType: TzdbZoneLocation.TzdbZoneLocation
   fullName: NodaTime.TimeZones.TzdbZoneLocation.TzdbZoneLocation

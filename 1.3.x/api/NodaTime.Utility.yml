@@ -18,13 +18,11 @@ items:
 references:
 - uid: NodaTime.Utility.BclConversions
   commentId: T:NodaTime.Utility.BclConversions
-  isExternal: false
   name: BclConversions
   nameWithType: BclConversions
   fullName: NodaTime.Utility.BclConversions
 - uid: NodaTime.Utility.InvalidNodaDataException
   commentId: T:NodaTime.Utility.InvalidNodaDataException
-  isExternal: false
   name: InvalidNodaDataException
   nameWithType: InvalidNodaDataException
   fullName: NodaTime.Utility.InvalidNodaDataException

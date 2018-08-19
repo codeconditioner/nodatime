@@ -584,7 +584,6 @@ references:
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
@@ -597,7 +596,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -929,25 +927,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -984,26 +980,22 @@ references:
     fullName: )
 - uid: NodaTime.Text.LocalDatePattern.Iso*
   commentId: Overload:NodaTime.Text.LocalDatePattern.Iso
-  isExternal: false
   name: Iso
   nameWithType: LocalDatePattern.Iso
   fullName: NodaTime.Text.LocalDatePattern.Iso
 - uid: NodaTime.Text.LocalDatePattern
   commentId: T:NodaTime.Text.LocalDatePattern
   parent: NodaTime.Text
-  isExternal: false
   name: LocalDatePattern
   nameWithType: LocalDatePattern
   fullName: NodaTime.Text.LocalDatePattern
 - uid: NodaTime.Text.LocalDatePattern.IsoPattern*
   commentId: Overload:NodaTime.Text.LocalDatePattern.IsoPattern
-  isExternal: false
   name: IsoPattern
   nameWithType: LocalDatePattern.IsoPattern
   fullName: NodaTime.Text.LocalDatePattern.IsoPattern
 - uid: NodaTime.Text.LocalDatePattern.PatternText*
   commentId: Overload:NodaTime.Text.LocalDatePattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: LocalDatePattern.PatternText
   fullName: NodaTime.Text.LocalDatePattern.PatternText
@@ -1016,13 +1008,11 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.LocalDatePattern.TemplateValue*
   commentId: Overload:NodaTime.Text.LocalDatePattern.TemplateValue
-  isExternal: false
   name: TemplateValue
   nameWithType: LocalDatePattern.TemplateValue
   fullName: NodaTime.Text.LocalDatePattern.TemplateValue
 - uid: NodaTime.Text.LocalDatePattern.Parse*
   commentId: Overload:NodaTime.Text.LocalDatePattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: LocalDatePattern.Parse
   fullName: NodaTime.Text.LocalDatePattern.Parse
@@ -1149,7 +1139,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1186,7 +1175,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.LocalDatePattern.Format*
   commentId: Overload:NodaTime.Text.LocalDatePattern.Format
-  isExternal: false
   name: Format
   nameWithType: LocalDatePattern.Format
   fullName: NodaTime.Text.LocalDatePattern.Format
@@ -1231,7 +1219,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1267,37 +1254,31 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.LocalDatePattern.Create*
   commentId: Overload:NodaTime.Text.LocalDatePattern.Create
-  isExternal: false
   name: Create
   nameWithType: LocalDatePattern.Create
   fullName: NodaTime.Text.LocalDatePattern.Create
 - uid: NodaTime.Text.LocalDatePattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.LocalDatePattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: LocalDatePattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.LocalDatePattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.LocalDatePattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.LocalDatePattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: LocalDatePattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.LocalDatePattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.LocalDatePattern.WithCulture*
   commentId: Overload:NodaTime.Text.LocalDatePattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: LocalDatePattern.WithCulture
   fullName: NodaTime.Text.LocalDatePattern.WithCulture
 - uid: NodaTime.Text.LocalDatePattern.WithTemplateValue*
   commentId: Overload:NodaTime.Text.LocalDatePattern.WithTemplateValue
-  isExternal: false
   name: WithTemplateValue
   nameWithType: LocalDatePattern.WithTemplateValue
   fullName: NodaTime.Text.LocalDatePattern.WithTemplateValue

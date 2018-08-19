@@ -284,13 +284,11 @@ references:
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -666,7 +664,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -711,7 +709,7 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -763,26 +761,22 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.OffsetDateTime.Comparer.Local*
   commentId: Overload:NodaTime.OffsetDateTime.Comparer.Local
-  isExternal: false
   name: Local
   nameWithType: OffsetDateTime.Comparer.Local
   fullName: NodaTime.OffsetDateTime.Comparer.Local
 - uid: NodaTime.OffsetDateTime.Comparer
   commentId: T:NodaTime.OffsetDateTime.Comparer
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime.Comparer
   nameWithType: OffsetDateTime.Comparer
   fullName: NodaTime.OffsetDateTime.Comparer
 - uid: NodaTime.OffsetDateTime.Comparer.Instant*
   commentId: Overload:NodaTime.OffsetDateTime.Comparer.Instant
-  isExternal: false
   name: Instant
   nameWithType: OffsetDateTime.Comparer.Instant
   fullName: NodaTime.OffsetDateTime.Comparer.Instant
 - uid: NodaTime.OffsetDateTime.Comparer.Compare*
   commentId: Overload:NodaTime.OffsetDateTime.Comparer.Compare
-  isExternal: false
   name: Compare
   nameWithType: OffsetDateTime.Comparer.Compare
   fullName: NodaTime.OffsetDateTime.Comparer.Compare
@@ -900,7 +894,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.Comparer.Equals*
   commentId: Overload:NodaTime.OffsetDateTime.Comparer.Equals
-  isExternal: false
   name: Equals
   nameWithType: OffsetDateTime.Comparer.Equals
   fullName: NodaTime.OffsetDateTime.Comparer.Equals
@@ -1018,7 +1011,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.Comparer.GetHashCode*
   commentId: Overload:NodaTime.OffsetDateTime.Comparer.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: OffsetDateTime.Comparer.GetHashCode
   fullName: NodaTime.OffsetDateTime.Comparer.GetHashCode

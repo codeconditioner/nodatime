@@ -146,7 +146,6 @@ items:
 references:
 - uid: NodaTime.Serialization.JsonNet
   commentId: N:NodaTime.Serialization.JsonNet
-  isExternal: false
   name: NodaTime.Serialization.JsonNet
   nameWithType: NodaTime.Serialization.JsonNet
   fullName: NodaTime.Serialization.JsonNet
@@ -438,13 +437,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Serialization.JsonNet.Extensions.ConfigureForNodaTime*
   commentId: Overload:NodaTime.Serialization.JsonNet.Extensions.ConfigureForNodaTime
-  isExternal: false
   name: ConfigureForNodaTime
   nameWithType: Extensions.ConfigureForNodaTime
   fullName: NodaTime.Serialization.JsonNet.Extensions.ConfigureForNodaTime
@@ -458,19 +456,17 @@ references:
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: Newtonsoft.Json
   commentId: N:Newtonsoft.Json
-  isExternal: false
+  isExternal: true
   name: Newtonsoft.Json
   nameWithType: Newtonsoft.Json
   fullName: Newtonsoft.Json
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime

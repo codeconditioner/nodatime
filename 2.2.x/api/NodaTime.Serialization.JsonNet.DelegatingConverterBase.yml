@@ -300,16 +300,15 @@ items:
 references:
 - uid: Newtonsoft.Json.JsonConverterAttribute
   commentId: T:Newtonsoft.Json.JsonConverterAttribute
+  isExternal: true
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.Serialization.JsonNet
   commentId: N:NodaTime.Serialization.JsonNet
-  isExternal: false
   name: NodaTime.Serialization.JsonNet
   nameWithType: NodaTime.Serialization.JsonNet
   fullName: NodaTime.Serialization.JsonNet
@@ -639,25 +638,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: Newtonsoft.Json
   commentId: N:Newtonsoft.Json
-  isExternal: false
+  isExternal: true
   name: Newtonsoft.Json
   nameWithType: Newtonsoft.Json
   fullName: Newtonsoft.Json
 - uid: NodaTime.Serialization.JsonNet.DelegatingConverterBase.#ctor*
   commentId: Overload:NodaTime.Serialization.JsonNet.DelegatingConverterBase.#ctor
-  isExternal: false
   name: DelegatingConverterBase
   nameWithType: DelegatingConverterBase.DelegatingConverterBase
   fullName: NodaTime.Serialization.JsonNet.DelegatingConverterBase.DelegatingConverterBase
@@ -736,7 +733,6 @@ references:
     fullName: )
 - uid: NodaTime.Serialization.JsonNet.DelegatingConverterBase.WriteJson*
   commentId: Overload:NodaTime.Serialization.JsonNet.DelegatingConverterBase.WriteJson
-  isExternal: false
   name: WriteJson
   nameWithType: DelegatingConverterBase.WriteJson
   fullName: NodaTime.Serialization.JsonNet.DelegatingConverterBase.WriteJson
@@ -845,7 +841,6 @@ references:
     fullName: )
 - uid: NodaTime.Serialization.JsonNet.DelegatingConverterBase.ReadJson*
   commentId: Overload:NodaTime.Serialization.JsonNet.DelegatingConverterBase.ReadJson
-  isExternal: false
   name: ReadJson
   nameWithType: DelegatingConverterBase.ReadJson
   fullName: NodaTime.Serialization.JsonNet.DelegatingConverterBase.ReadJson
@@ -872,7 +867,6 @@ references:
   fullName: Newtonsoft.Json.JsonConverter.CanRead
 - uid: NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanRead*
   commentId: Overload:NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanRead
-  isExternal: false
   name: CanRead
   nameWithType: DelegatingConverterBase.CanRead
   fullName: NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanRead
@@ -892,7 +886,6 @@ references:
   fullName: Newtonsoft.Json.JsonConverter.CanWrite
 - uid: NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanWrite*
   commentId: Overload:NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanWrite
-  isExternal: false
   name: CanWrite
   nameWithType: DelegatingConverterBase.CanWrite
   fullName: NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanWrite
@@ -939,7 +932,6 @@ references:
     fullName: )
 - uid: NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanConvert*
   commentId: Overload:NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanConvert
-  isExternal: false
   name: CanConvert
   nameWithType: DelegatingConverterBase.CanConvert
   fullName: NodaTime.Serialization.JsonNet.DelegatingConverterBase.CanConvert

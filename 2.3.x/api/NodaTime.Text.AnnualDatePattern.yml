@@ -580,7 +580,6 @@ references:
 - uid: NodaTime.AnnualDate
   commentId: T:NodaTime.AnnualDate
   parent: NodaTime
-  isExternal: false
   name: AnnualDate
   nameWithType: AnnualDate
   fullName: NodaTime.AnnualDate
@@ -593,7 +592,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -925,25 +923,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -980,20 +976,17 @@ references:
     fullName: )
 - uid: NodaTime.Text.AnnualDatePattern.Iso*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.Iso
-  isExternal: false
   name: Iso
   nameWithType: AnnualDatePattern.Iso
   fullName: NodaTime.Text.AnnualDatePattern.Iso
 - uid: NodaTime.Text.AnnualDatePattern
   commentId: T:NodaTime.Text.AnnualDatePattern
   parent: NodaTime.Text
-  isExternal: false
   name: AnnualDatePattern
   nameWithType: AnnualDatePattern
   fullName: NodaTime.Text.AnnualDatePattern
 - uid: NodaTime.Text.AnnualDatePattern.PatternText*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: AnnualDatePattern.PatternText
   fullName: NodaTime.Text.AnnualDatePattern.PatternText
@@ -1006,13 +999,11 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.AnnualDatePattern.TemplateValue*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.TemplateValue
-  isExternal: false
   name: TemplateValue
   nameWithType: AnnualDatePattern.TemplateValue
   fullName: NodaTime.Text.AnnualDatePattern.TemplateValue
 - uid: NodaTime.Text.AnnualDatePattern.Parse*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: AnnualDatePattern.Parse
   fullName: NodaTime.Text.AnnualDatePattern.Parse
@@ -1140,7 +1131,6 @@ references:
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
   parent: NodaTime.Text
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1177,7 +1167,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.AnnualDatePattern.Format*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.Format
-  isExternal: false
   name: Format
   nameWithType: AnnualDatePattern.Format
   fullName: NodaTime.Text.AnnualDatePattern.Format
@@ -1222,7 +1211,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1265,7 +1253,6 @@ references:
   fullName: System.Text.StringBuilder
 - uid: NodaTime.Text.AnnualDatePattern.AppendFormat*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.AppendFormat
-  isExternal: false
   name: AppendFormat
   nameWithType: AnnualDatePattern.AppendFormat
   fullName: NodaTime.Text.AnnualDatePattern.AppendFormat
@@ -1326,7 +1313,7 @@ references:
     fullName: )
 - uid: System.Text
   commentId: N:System.Text
-  isExternal: false
+  isExternal: true
   name: System.Text
   nameWithType: System.Text
   fullName: System.Text
@@ -1384,37 +1371,31 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.AnnualDatePattern.Create*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.Create
-  isExternal: false
   name: Create
   nameWithType: AnnualDatePattern.Create
   fullName: NodaTime.Text.AnnualDatePattern.Create
 - uid: NodaTime.Text.AnnualDatePattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: AnnualDatePattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.AnnualDatePattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.AnnualDatePattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: AnnualDatePattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.AnnualDatePattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.AnnualDatePattern.WithCulture*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: AnnualDatePattern.WithCulture
   fullName: NodaTime.Text.AnnualDatePattern.WithCulture
 - uid: NodaTime.Text.AnnualDatePattern.WithTemplateValue*
   commentId: Overload:NodaTime.Text.AnnualDatePattern.WithTemplateValue
-  isExternal: false
   name: WithTemplateValue
   nameWithType: AnnualDatePattern.WithTemplateValue
   fullName: NodaTime.Text.AnnualDatePattern.WithTemplateValue

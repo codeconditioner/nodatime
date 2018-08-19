@@ -231,15 +231,14 @@ references:
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions(NodaTime.TimeZones.ZoneEqualityComparer.Options)
   commentId: M:NodaTime.TimeZones.ZoneEqualityComparer.WithOptions(NodaTime.TimeZones.ZoneEqualityComparer.Options)
+  isExternal: true
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -573,7 +572,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -618,40 +617,35 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.TimeZones.ZoneEqualityComparer
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer
   nameWithType: ZoneEqualityComparer
   fullName: NodaTime.TimeZones.ZoneEqualityComparer
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.ForInterval*
   commentId: Overload:NodaTime.TimeZones.ZoneEqualityComparer.ForInterval
-  isExternal: false
   name: ForInterval
   nameWithType: ZoneEqualityComparer.ForInterval
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.ForInterval
 - uid: NodaTime.Interval
   commentId: T:NodaTime.Interval
   parent: NodaTime
-  isExternal: false
   name: Interval
   nameWithType: Interval
   fullName: NodaTime.Interval
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer.Options
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer.Options
   nameWithType: ZoneEqualityComparer.Options
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.Options
@@ -664,20 +658,17 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions*
   commentId: Overload:NodaTime.TimeZones.ZoneEqualityComparer.WithOptions
-  isExternal: false
   name: WithOptions
   nameWithType: ZoneEqualityComparer.WithOptions
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.WithOptions
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Equals*
   commentId: Overload:NodaTime.TimeZones.ZoneEqualityComparer.Equals
-  isExternal: false
   name: Equals
   nameWithType: ZoneEqualityComparer.Equals
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.Equals
@@ -795,7 +786,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.GetHashCode*
   commentId: Overload:NodaTime.TimeZones.ZoneEqualityComparer.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: ZoneEqualityComparer.GetHashCode
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.GetHashCode

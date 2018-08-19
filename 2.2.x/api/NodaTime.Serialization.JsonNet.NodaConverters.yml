@@ -572,7 +572,6 @@ items:
 references:
 - uid: NodaTime.Serialization.JsonNet
   commentId: N:NodaTime.Serialization.JsonNet
-  isExternal: false
   name: NodaTime.Serialization.JsonNet
   nameWithType: NodaTime.Serialization.JsonNet
   fullName: NodaTime.Serialization.JsonNet
@@ -864,13 +863,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.InstantConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.InstantConverter
-  isExternal: false
   name: InstantConverter
   nameWithType: NodaConverters.InstantConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.InstantConverter
@@ -883,108 +881,93 @@ references:
   fullName: Newtonsoft.Json.JsonConverter
 - uid: Newtonsoft.Json
   commentId: N:Newtonsoft.Json
-  isExternal: false
+  isExternal: true
   name: Newtonsoft.Json
   nameWithType: Newtonsoft.Json
   fullName: Newtonsoft.Json
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.LocalDateConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.LocalDateConverter
-  isExternal: false
   name: LocalDateConverter
   nameWithType: NodaConverters.LocalDateConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.LocalDateConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.LocalDateTimeConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.LocalDateTimeConverter
-  isExternal: false
   name: LocalDateTimeConverter
   nameWithType: NodaConverters.LocalDateTimeConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.LocalDateTimeConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.LocalTimeConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.LocalTimeConverter
-  isExternal: false
   name: LocalTimeConverter
   nameWithType: NodaConverters.LocalTimeConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.LocalTimeConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.IntervalConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.IntervalConverter
-  isExternal: false
   name: IntervalConverter
   nameWithType: NodaConverters.IntervalConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.IntervalConverter
 - uid: NodaTime.Interval.ToString
   commentId: M:NodaTime.Interval.ToString
+  isExternal: true
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.IsoIntervalConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.IsoIntervalConverter
-  isExternal: false
   name: IsoIntervalConverter
   nameWithType: NodaConverters.IsoIntervalConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.IsoIntervalConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.OffsetConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.OffsetConverter
-  isExternal: false
   name: OffsetConverter
   nameWithType: NodaConverters.OffsetConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.OffsetConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.OffsetDateTimeConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.OffsetDateTimeConverter
-  isExternal: false
   name: OffsetDateTimeConverter
   nameWithType: NodaConverters.OffsetDateTimeConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.OffsetDateTimeConverter
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.CreateZonedDateTimeConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.CreateZonedDateTimeConverter
-  isExternal: false
   name: CreateZonedDateTimeConverter
   nameWithType: NodaConverters.CreateZonedDateTimeConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.CreateZonedDateTimeConverter
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.CreateDateTimeZoneConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.CreateDateTimeZoneConverter
-  isExternal: false
   name: CreateDateTimeZoneConverter
   nameWithType: NodaConverters.CreateDateTimeZoneConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.CreateDateTimeZoneConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.DurationConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.DurationConverter
-  isExternal: false
   name: DurationConverter
   nameWithType: NodaConverters.DurationConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.DurationConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.RoundtripPeriodConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.RoundtripPeriodConverter
-  isExternal: false
   name: RoundtripPeriodConverter
   nameWithType: NodaConverters.RoundtripPeriodConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.RoundtripPeriodConverter
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.NormalizingIsoPeriodConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.NormalizingIsoPeriodConverter
-  isExternal: false
   name: NormalizingIsoPeriodConverter
   nameWithType: NodaConverters.NormalizingIsoPeriodConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.NormalizingIsoPeriodConverter

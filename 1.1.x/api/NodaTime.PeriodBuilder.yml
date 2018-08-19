@@ -551,15 +551,14 @@ references:
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime.PeriodBuilder.Build
   commentId: M:NodaTime.PeriodBuilder.Build
+  isExternal: true
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -851,13 +850,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.PeriodBuilder.Years*
   commentId: Overload:NodaTime.PeriodBuilder.Years
-  isExternal: false
   name: Years
   nameWithType: PeriodBuilder.Years
   fullName: NodaTime.PeriodBuilder.Years
@@ -870,66 +868,58 @@ references:
   fullName: System.Int64
 - uid: NodaTime.PeriodBuilder.Months*
   commentId: Overload:NodaTime.PeriodBuilder.Months
-  isExternal: false
   name: Months
   nameWithType: PeriodBuilder.Months
   fullName: NodaTime.PeriodBuilder.Months
 - uid: NodaTime.PeriodBuilder.Weeks*
   commentId: Overload:NodaTime.PeriodBuilder.Weeks
-  isExternal: false
   name: Weeks
   nameWithType: PeriodBuilder.Weeks
   fullName: NodaTime.PeriodBuilder.Weeks
 - uid: NodaTime.PeriodBuilder.Days*
   commentId: Overload:NodaTime.PeriodBuilder.Days
-  isExternal: false
   name: Days
   nameWithType: PeriodBuilder.Days
   fullName: NodaTime.PeriodBuilder.Days
 - uid: NodaTime.PeriodBuilder.Hours*
   commentId: Overload:NodaTime.PeriodBuilder.Hours
-  isExternal: false
   name: Hours
   nameWithType: PeriodBuilder.Hours
   fullName: NodaTime.PeriodBuilder.Hours
 - uid: NodaTime.PeriodBuilder.Minutes*
   commentId: Overload:NodaTime.PeriodBuilder.Minutes
-  isExternal: false
   name: Minutes
   nameWithType: PeriodBuilder.Minutes
   fullName: NodaTime.PeriodBuilder.Minutes
 - uid: NodaTime.PeriodBuilder.Seconds*
   commentId: Overload:NodaTime.PeriodBuilder.Seconds
-  isExternal: false
   name: Seconds
   nameWithType: PeriodBuilder.Seconds
   fullName: NodaTime.PeriodBuilder.Seconds
 - uid: NodaTime.PeriodBuilder.Milliseconds*
   commentId: Overload:NodaTime.PeriodBuilder.Milliseconds
-  isExternal: false
   name: Milliseconds
   nameWithType: PeriodBuilder.Milliseconds
   fullName: NodaTime.PeriodBuilder.Milliseconds
 - uid: NodaTime.PeriodBuilder.Ticks*
   commentId: Overload:NodaTime.PeriodBuilder.Ticks
-  isExternal: false
   name: Ticks
   nameWithType: PeriodBuilder.Ticks
   fullName: NodaTime.PeriodBuilder.Ticks
 - uid: NodaTime.PeriodBuilder.#ctor*
   commentId: Overload:NodaTime.PeriodBuilder.#ctor
-  isExternal: false
   name: PeriodBuilder
   nameWithType: PeriodBuilder.PeriodBuilder
   fullName: NodaTime.PeriodBuilder.PeriodBuilder
 - uid: NodaTime.Period.ToBuilder
   commentId: M:NodaTime.Period.ToBuilder
+  isExternal: true
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: NodaTime.PeriodUnits
   commentId: T:NodaTime.PeriodUnits
   parent: NodaTime
-  isExternal: false
   name: PeriodUnits
   nameWithType: PeriodUnits
   fullName: NodaTime.PeriodUnits
@@ -942,13 +932,11 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.PeriodBuilder.Item*
   commentId: Overload:NodaTime.PeriodBuilder.Item
-  isExternal: false
   name: Item
   nameWithType: PeriodBuilder.Item
   fullName: NodaTime.PeriodBuilder.Item
 - uid: NodaTime.PeriodBuilder.Build*
   commentId: Overload:NodaTime.PeriodBuilder.Build
-  isExternal: false
   name: Build
   nameWithType: PeriodBuilder.Build
   fullName: NodaTime.PeriodBuilder.Build

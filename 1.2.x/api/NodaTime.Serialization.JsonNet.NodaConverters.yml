@@ -512,7 +512,6 @@ items:
 references:
 - uid: NodaTime.Serialization.JsonNet
   commentId: N:NodaTime.Serialization.JsonNet
-  isExternal: false
   name: NodaTime.Serialization.JsonNet
   nameWithType: NodaTime.Serialization.JsonNet
   fullName: NodaTime.Serialization.JsonNet
@@ -804,7 +803,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -817,46 +816,40 @@ references:
   fullName: Newtonsoft.Json.JsonConverter
 - uid: Newtonsoft.Json
   commentId: N:Newtonsoft.Json
-  isExternal: false
+  isExternal: true
   name: Newtonsoft.Json
   nameWithType: Newtonsoft.Json
   fullName: Newtonsoft.Json
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.CreateZonedDateTimeConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.CreateZonedDateTimeConverter
-  isExternal: false
   name: CreateZonedDateTimeConverter
   nameWithType: NodaConverters.CreateZonedDateTimeConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.CreateZonedDateTimeConverter
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.Serialization.JsonNet.NodaConverters.CreateDateTimeZoneConverter*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverters.CreateDateTimeZoneConverter
-  isExternal: false
   name: CreateDateTimeZoneConverter
   nameWithType: NodaConverters.CreateDateTimeZoneConverter
   fullName: NodaTime.Serialization.JsonNet.NodaConverters.CreateDateTimeZoneConverter

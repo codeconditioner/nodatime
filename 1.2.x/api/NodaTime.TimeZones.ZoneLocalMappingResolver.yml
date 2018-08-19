@@ -52,10 +52,10 @@ items:
 references:
 - uid: NodaTime.LocalDateTime.InZone(NodaTime.DateTimeZone,NodaTime.TimeZones.ZoneLocalMappingResolver)
   commentId: M:NodaTime.LocalDateTime.InZone(NodaTime.DateTimeZone,NodaTime.TimeZones.ZoneLocalMappingResolver)
+  isExternal: true
 - uid: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.ZoneLocalMappingResolver)
   commentId: M:NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.ZoneLocalMappingResolver)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: ResolveLocal(LocalDateTime, ZoneLocalMappingResolver)
   nameWithType: DateTimeZone.ResolveLocal(LocalDateTime, ZoneLocalMappingResolver)
   fullName: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime, NodaTime.TimeZones.ZoneLocalMappingResolver)
@@ -106,65 +106,55 @@ references:
 - uid: NodaTime.TimeZones.ZoneLocalMapping
   commentId: T:NodaTime.TimeZones.ZoneLocalMapping
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMapping
   nameWithType: ZoneLocalMapping
   fullName: NodaTime.TimeZones.ZoneLocalMapping
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.TimeZones.Resolvers
   commentId: T:NodaTime.TimeZones.Resolvers
-  isExternal: false
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
 - uid: NodaTime.TimeZones.SkippedTimeResolver
   commentId: T:NodaTime.TimeZones.SkippedTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: SkippedTimeResolver
   nameWithType: SkippedTimeResolver
   fullName: NodaTime.TimeZones.SkippedTimeResolver
 - uid: NodaTime.TimeZones.AmbiguousTimeResolver
   commentId: T:NodaTime.TimeZones.AmbiguousTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: AmbiguousTimeResolver
   nameWithType: AmbiguousTimeResolver
   fullName: NodaTime.TimeZones.AmbiguousTimeResolver
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime

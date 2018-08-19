@@ -29,85 +29,72 @@ references:
 - uid: NodaTime.TimeZones.BclDateTimeZone
   commentId: T:NodaTime.TimeZones.BclDateTimeZone
   parent: NodaTime.TimeZones
-  isExternal: false
   name: BclDateTimeZone
   nameWithType: BclDateTimeZone
   fullName: NodaTime.TimeZones.BclDateTimeZone
 - uid: NodaTime.TimeZones.BclDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.BclDateTimeZoneSource
-  isExternal: false
   name: BclDateTimeZoneSource
   nameWithType: BclDateTimeZoneSource
   fullName: NodaTime.TimeZones.BclDateTimeZoneSource
 - uid: NodaTime.TimeZones.DateTimeZoneCache
   commentId: T:NodaTime.TimeZones.DateTimeZoneCache
-  isExternal: false
   name: DateTimeZoneCache
   nameWithType: DateTimeZoneCache
   fullName: NodaTime.TimeZones.DateTimeZoneCache
 - uid: NodaTime.TimeZones.AmbiguousTimeResolver
   commentId: T:NodaTime.TimeZones.AmbiguousTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: AmbiguousTimeResolver
   nameWithType: AmbiguousTimeResolver
   fullName: NodaTime.TimeZones.AmbiguousTimeResolver
 - uid: NodaTime.TimeZones.SkippedTimeResolver
   commentId: T:NodaTime.TimeZones.SkippedTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: SkippedTimeResolver
   nameWithType: SkippedTimeResolver
   fullName: NodaTime.TimeZones.SkippedTimeResolver
 - uid: NodaTime.TimeZones.ZoneLocalMappingResolver
   commentId: T:NodaTime.TimeZones.ZoneLocalMappingResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMappingResolver
   nameWithType: ZoneLocalMappingResolver
   fullName: NodaTime.TimeZones.ZoneLocalMappingResolver
 - uid: NodaTime.TimeZones.Resolvers
   commentId: T:NodaTime.TimeZones.Resolvers
-  isExternal: false
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
 - uid: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
   commentId: T:NodaTime.TimeZones.InvalidDateTimeZoneSourceException
-  isExternal: false
   name: InvalidDateTimeZoneSourceException
   nameWithType: InvalidDateTimeZoneSourceException
   fullName: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
 - uid: NodaTime.TimeZones.IDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.IDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.TimeZones.ZoneLocalMapping
   commentId: T:NodaTime.TimeZones.ZoneLocalMapping
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMapping
   nameWithType: ZoneLocalMapping
   fullName: NodaTime.TimeZones.ZoneLocalMapping
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.TzdbDateTimeZoneSource
-  isExternal: false
   name: TzdbDateTimeZoneSource
   nameWithType: TzdbDateTimeZoneSource
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones

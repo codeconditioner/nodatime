@@ -147,11 +147,12 @@ items:
 references:
 - uid: NodaTime.LocalDateTime.ToDateTimeUnspecified
   commentId: M:NodaTime.LocalDateTime.ToDateTimeUnspecified
+  isExternal: true
 - uid: NodaTime.LocalDateTime.FromDateTime(System.DateTime)
   commentId: M:NodaTime.LocalDateTime.FromDateTime(System.DateTime)
+  isExternal: true
 - uid: NodaTime.Utility
   commentId: N:NodaTime.Utility
-  isExternal: false
   name: NodaTime.Utility
   nameWithType: NodaTime.Utility
   fullName: NodaTime.Utility
@@ -443,14 +444,13 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
@@ -470,19 +470,16 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.Utility.BclConversions.ToDayOfWeek*
   commentId: Overload:NodaTime.Utility.BclConversions.ToDayOfWeek
-  isExternal: false
   name: ToDayOfWeek
   nameWithType: BclConversions.ToDayOfWeek
   fullName: NodaTime.Utility.BclConversions.ToDayOfWeek
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.Utility.BclConversions.ToIsoDayOfWeek*
   commentId: Overload:NodaTime.Utility.BclConversions.ToIsoDayOfWeek
-  isExternal: false
   name: ToIsoDayOfWeek
   nameWithType: BclConversions.ToIsoDayOfWeek
   fullName: NodaTime.Utility.BclConversions.ToIsoDayOfWeek

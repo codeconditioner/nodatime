@@ -39,156 +39,133 @@ references:
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
 - uid: NodaTime.DateTimeZoneProviders
   commentId: T:NodaTime.DateTimeZoneProviders
-  isExternal: false
   name: DateTimeZoneProviders
   nameWithType: DateTimeZoneProviders
   fullName: NodaTime.DateTimeZoneProviders
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime.PeriodBuilder
   commentId: T:NodaTime.PeriodBuilder
   parent: NodaTime
-  isExternal: false
   name: PeriodBuilder
   nameWithType: PeriodBuilder
   fullName: NodaTime.PeriodBuilder
 - uid: NodaTime.PeriodUnits
   commentId: T:NodaTime.PeriodUnits
   parent: NodaTime
-  isExternal: false
   name: PeriodUnits
   nameWithType: PeriodUnits
   fullName: NodaTime.PeriodUnits
 - uid: NodaTime.IClock
   commentId: T:NodaTime.IClock
   parent: NodaTime
-  isExternal: false
   name: IClock
   nameWithType: IClock
   fullName: NodaTime.IClock
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
 - uid: NodaTime.SystemClock
   commentId: T:NodaTime.SystemClock
   parent: NodaTime
-  isExternal: false
   name: SystemClock
   nameWithType: SystemClock
   fullName: NodaTime.SystemClock
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.Interval
   commentId: T:NodaTime.Interval
   parent: NodaTime
-  isExternal: false
   name: Interval
   nameWithType: Interval
   fullName: NodaTime.Interval
 - uid: NodaTime.NodaConstants
   commentId: T:NodaTime.NodaConstants
-  isExternal: false
   name: NodaConstants
   nameWithType: NodaConstants
   fullName: NodaTime.NodaConstants
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime

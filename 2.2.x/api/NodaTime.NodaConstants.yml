@@ -1176,7 +1176,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1468,7 +1467,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1488,26 +1487,22 @@ references:
   fullName: System.Int32
 - uid: NodaTime.NodaConstants.UnixEpoch*
   commentId: Overload:NodaTime.NodaConstants.UnixEpoch
-  isExternal: false
   name: UnixEpoch
   nameWithType: NodaConstants.UnixEpoch
   fullName: NodaTime.NodaConstants.UnixEpoch
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.NodaConstants.BclEpoch*
   commentId: Overload:NodaTime.NodaConstants.BclEpoch
-  isExternal: false
   name: BclEpoch
   nameWithType: NodaConstants.BclEpoch
   fullName: NodaTime.NodaConstants.BclEpoch
 - uid: NodaTime.NodaConstants.JulianEpoch*
   commentId: Overload:NodaTime.NodaConstants.JulianEpoch
-  isExternal: false
   name: JulianEpoch
   nameWithType: NodaConstants.JulianEpoch
   fullName: NodaTime.NodaConstants.JulianEpoch

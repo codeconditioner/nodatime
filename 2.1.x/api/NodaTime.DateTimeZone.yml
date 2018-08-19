@@ -805,7 +805,6 @@ references:
 - uid: NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)
   commentId: M:NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: AtStrictly(LocalDateTime)
   nameWithType: DateTimeZone.AtStrictly(LocalDateTime)
   fullName: NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)
@@ -842,7 +841,6 @@ references:
 - uid: NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)
   commentId: M:NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: AtLeniently(LocalDateTime)
   nameWithType: DateTimeZone.AtLeniently(LocalDateTime)
   fullName: NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)
@@ -879,7 +877,6 @@ references:
 - uid: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.ZoneLocalMappingResolver)
   commentId: M:NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.ZoneLocalMappingResolver)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: ResolveLocal(LocalDateTime, ZoneLocalMappingResolver)
   nameWithType: DateTimeZone.ResolveLocal(LocalDateTime, ZoneLocalMappingResolver)
   fullName: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime, NodaTime.TimeZones.ZoneLocalMappingResolver)
@@ -930,14 +927,12 @@ references:
 - uid: NodaTime.TimeZones.ZoneLocalMappingResolver
   commentId: T:NodaTime.TimeZones.ZoneLocalMappingResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMappingResolver
   nameWithType: ZoneLocalMappingResolver
   fullName: NodaTime.TimeZones.ZoneLocalMappingResolver
 - uid: NodaTime.DateTimeZone.MapLocal(NodaTime.LocalDateTime)
   commentId: M:NodaTime.DateTimeZone.MapLocal(NodaTime.LocalDateTime)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: MapLocal(LocalDateTime)
   nameWithType: DateTimeZone.MapLocal(LocalDateTime)
   fullName: NodaTime.DateTimeZone.MapLocal(NodaTime.LocalDateTime)
@@ -974,7 +969,6 @@ references:
 - uid: NodaTime.TimeZones.ZoneLocalMapping
   commentId: T:NodaTime.TimeZones.ZoneLocalMapping
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMapping
   nameWithType: ZoneLocalMapping
   fullName: NodaTime.TimeZones.ZoneLocalMapping
@@ -988,34 +982,29 @@ references:
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime.DateTimeZoneProviders
   commentId: T:NodaTime.DateTimeZoneProviders
-  isExternal: false
   name: DateTimeZoneProviders
   nameWithType: DateTimeZoneProviders
   fullName: NodaTime.DateTimeZoneProviders
 - uid: NodaTime.DateTimeZone.Utc
   commentId: P:NodaTime.DateTimeZone.Utc
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: Utc
   nameWithType: DateTimeZone.Utc
   fullName: NodaTime.DateTimeZone.Utc
 - uid: NodaTime.IDateTimeZoneProvider.GetSystemDefault
   commentId: M:NodaTime.IDateTimeZoneProvider.GetSystemDefault
   parent: NodaTime.IDateTimeZoneProvider
-  isExternal: false
   name: GetSystemDefault()
   nameWithType: IDateTimeZoneProvider.GetSystemDefault()
   fullName: NodaTime.IDateTimeZoneProvider.GetSystemDefault()
@@ -1044,14 +1033,12 @@ references:
 - uid: NodaTime.TimeZones.ZoneEqualityComparer
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer
   nameWithType: ZoneEqualityComparer
   fullName: NodaTime.TimeZones.ZoneEqualityComparer
 - uid: NodaTime.DateTimeZone.ForOffset(NodaTime.Offset)
   commentId: M:NodaTime.DateTimeZone.ForOffset(NodaTime.Offset)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: ForOffset(Offset)
   nameWithType: DateTimeZone.ForOffset(Offset)
   fullName: NodaTime.DateTimeZone.ForOffset(NodaTime.Offset)
@@ -1087,7 +1074,6 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1348,38 +1334,33 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.DateTimeZone.Utc*
   commentId: Overload:NodaTime.DateTimeZone.Utc
-  isExternal: false
   name: Utc
   nameWithType: DateTimeZone.Utc
   fullName: NodaTime.DateTimeZone.Utc
 - uid: NodaTime.DateTimeZone.ForOffset*
   commentId: Overload:NodaTime.DateTimeZone.ForOffset
-  isExternal: false
   name: ForOffset
   nameWithType: DateTimeZone.ForOffset
   fullName: NodaTime.DateTimeZone.ForOffset
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.DateTimeZone.#ctor*
   commentId: Overload:NodaTime.DateTimeZone.#ctor
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone.DateTimeZone
   fullName: NodaTime.DateTimeZone.DateTimeZone
@@ -1399,46 +1380,39 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.DateTimeZone.Id*
   commentId: Overload:NodaTime.DateTimeZone.Id
-  isExternal: false
   name: Id
   nameWithType: DateTimeZone.Id
   fullName: NodaTime.DateTimeZone.Id
 - uid: NodaTime.DateTimeZone.MinOffset*
   commentId: Overload:NodaTime.DateTimeZone.MinOffset
-  isExternal: false
   name: MinOffset
   nameWithType: DateTimeZone.MinOffset
   fullName: NodaTime.DateTimeZone.MinOffset
 - uid: NodaTime.DateTimeZone.MaxOffset*
   commentId: Overload:NodaTime.DateTimeZone.MaxOffset
-  isExternal: false
   name: MaxOffset
   nameWithType: DateTimeZone.MaxOffset
   fullName: NodaTime.DateTimeZone.MaxOffset
 - uid: NodaTime.DateTimeZone.GetUtcOffset*
   commentId: Overload:NodaTime.DateTimeZone.GetUtcOffset
-  isExternal: false
   name: GetUtcOffset
   nameWithType: DateTimeZone.GetUtcOffset
   fullName: NodaTime.DateTimeZone.GetUtcOffset
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.DateTimeZone.GetZoneIntervals(NodaTime.Interval)
   commentId: M:NodaTime.DateTimeZone.GetZoneIntervals(NodaTime.Interval)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: GetZoneIntervals(Interval)
   nameWithType: DateTimeZone.GetZoneIntervals(Interval)
   fullName: NodaTime.DateTimeZone.GetZoneIntervals(NodaTime.Interval)
@@ -1474,82 +1448,73 @@ references:
     fullName: )
 - uid: NodaTime.DateTimeZone.GetZoneInterval*
   commentId: Overload:NodaTime.DateTimeZone.GetZoneInterval
-  isExternal: false
   name: GetZoneInterval
   nameWithType: DateTimeZone.GetZoneInterval
   fullName: NodaTime.DateTimeZone.GetZoneInterval
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.DateTimeZone.MapLocal*
   commentId: Overload:NodaTime.DateTimeZone.MapLocal
-  isExternal: false
   name: MapLocal
   nameWithType: DateTimeZone.MapLocal
   fullName: NodaTime.DateTimeZone.MapLocal
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
 - uid: NodaTime.DateTimeZone.AtStartOfDay*
   commentId: Overload:NodaTime.DateTimeZone.AtStartOfDay
-  isExternal: false
   name: AtStartOfDay
   nameWithType: DateTimeZone.AtStartOfDay
   fullName: NodaTime.DateTimeZone.AtStartOfDay
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.TimeZones.Resolvers
   commentId: T:NodaTime.TimeZones.Resolvers
-  isExternal: false
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
 - uid: NodaTime.DateTimeZone.ResolveLocal*
   commentId: Overload:NodaTime.DateTimeZone.ResolveLocal
-  isExternal: false
   name: ResolveLocal
   nameWithType: DateTimeZone.ResolveLocal
   fullName: NodaTime.DateTimeZone.ResolveLocal
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
 - uid: NodaTime.DateTimeZone.AtStrictly*
   commentId: Overload:NodaTime.DateTimeZone.AtStrictly
-  isExternal: false
   name: AtStrictly
   nameWithType: DateTimeZone.AtStrictly
   fullName: NodaTime.DateTimeZone.AtStrictly
 - uid: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.AmbiguousTimeResolver,NodaTime.TimeZones.SkippedTimeResolver)
   commentId: M:NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.AmbiguousTimeResolver,NodaTime.TimeZones.SkippedTimeResolver)
+  isExternal: true
 - uid: NodaTime.TimeZones.Resolvers.ReturnLater
   commentId: P:NodaTime.TimeZones.Resolvers.ReturnLater
+  isExternal: true
 - uid: NodaTime.TimeZones.Resolvers.ReturnStartOfIntervalAfter
   commentId: P:NodaTime.TimeZones.Resolvers.ReturnStartOfIntervalAfter
+  isExternal: true
 - uid: NodaTime.DateTimeZone.AtLeniently*
   commentId: Overload:NodaTime.DateTimeZone.AtLeniently
-  isExternal: false
   name: AtLeniently
   nameWithType: DateTimeZone.AtLeniently
   fullName: NodaTime.DateTimeZone.AtLeniently
@@ -1586,14 +1551,12 @@ references:
     fullName: )
 - uid: NodaTime.DateTimeZone.ToString*
   commentId: Overload:NodaTime.DateTimeZone.ToString
-  isExternal: false
   name: ToString
   nameWithType: DateTimeZone.ToString
   fullName: NodaTime.DateTimeZone.ToString
 - uid: NodaTime.DateTimeZone.GetZoneInterval(NodaTime.Instant)
   commentId: M:NodaTime.DateTimeZone.GetZoneInterval(NodaTime.Instant)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: GetZoneInterval(Instant)
   nameWithType: DateTimeZone.GetZoneInterval(Instant)
   fullName: NodaTime.DateTimeZone.GetZoneInterval(NodaTime.Instant)
@@ -1636,7 +1599,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.DateTimeZone.GetZoneIntervals*
   commentId: Overload:NodaTime.DateTimeZone.GetZoneIntervals
-  isExternal: false
   name: GetZoneIntervals
   nameWithType: DateTimeZone.GetZoneIntervals
   fullName: NodaTime.DateTimeZone.GetZoneIntervals
@@ -1723,25 +1685,25 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.Interval
   commentId: T:NodaTime.Interval
   parent: NodaTime
-  isExternal: false
   name: Interval
   nameWithType: Interval
   fullName: NodaTime.Interval
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options.OnlyMatchWallOffset
   commentId: F:NodaTime.TimeZones.ZoneEqualityComparer.Options.OnlyMatchWallOffset
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options.MatchStartAndEndTransitions
   commentId: F:NodaTime.TimeZones.ZoneEqualityComparer.Options.MatchStartAndEndTransitions
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer.Options
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer.Options
   nameWithType: ZoneEqualityComparer.Options
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.Options

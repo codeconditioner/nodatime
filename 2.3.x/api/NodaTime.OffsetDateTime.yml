@@ -2567,7 +2567,6 @@ references:
   fullName: System.DateTimeOffset
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -2781,7 +2780,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -2826,13 +2825,13 @@ references:
     fullName: )
 - uid: System.Xml.Serialization
   commentId: N:System.Xml.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Xml.Serialization
   nameWithType: System.Xml.Serialization
   fullName: System.Xml.Serialization
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
@@ -2845,40 +2844,34 @@ references:
   fullName: System.Object
 - uid: NodaTime.OffsetDateTime.#ctor*
   commentId: Overload:NodaTime.OffsetDateTime.#ctor
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime.OffsetDateTime
   fullName: NodaTime.OffsetDateTime.OffsetDateTime
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.OffsetDateTime.Calendar*
   commentId: Overload:NodaTime.OffsetDateTime.Calendar
-  isExternal: false
   name: Calendar
   nameWithType: OffsetDateTime.Calendar
   fullName: NodaTime.OffsetDateTime.Calendar
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem
 - uid: NodaTime.OffsetDateTime.Year*
   commentId: Overload:NodaTime.OffsetDateTime.Year
-  isExternal: false
   name: Year
   nameWithType: OffsetDateTime.Year
   fullName: NodaTime.OffsetDateTime.Year
@@ -2891,99 +2884,83 @@ references:
   fullName: System.Int32
 - uid: NodaTime.OffsetDateTime.Month*
   commentId: Overload:NodaTime.OffsetDateTime.Month
-  isExternal: false
   name: Month
   nameWithType: OffsetDateTime.Month
   fullName: NodaTime.OffsetDateTime.Month
 - uid: NodaTime.OffsetDateTime.Day*
   commentId: Overload:NodaTime.OffsetDateTime.Day
-  isExternal: false
   name: Day
   nameWithType: OffsetDateTime.Day
   fullName: NodaTime.OffsetDateTime.Day
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.OffsetDateTime.DayOfWeek*
   commentId: Overload:NodaTime.OffsetDateTime.DayOfWeek
-  isExternal: false
   name: DayOfWeek
   nameWithType: OffsetDateTime.DayOfWeek
   fullName: NodaTime.OffsetDateTime.DayOfWeek
 - uid: NodaTime.OffsetDateTime.YearOfEra*
   commentId: Overload:NodaTime.OffsetDateTime.YearOfEra
-  isExternal: false
   name: YearOfEra
   nameWithType: OffsetDateTime.YearOfEra
   fullName: NodaTime.OffsetDateTime.YearOfEra
 - uid: NodaTime.OffsetDateTime.Era*
   commentId: Overload:NodaTime.OffsetDateTime.Era
-  isExternal: false
   name: Era
   nameWithType: OffsetDateTime.Era
   fullName: NodaTime.OffsetDateTime.Era
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars
-  isExternal: false
   name: Era
   nameWithType: Era
   fullName: NodaTime.Calendars.Era
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
 - uid: NodaTime.OffsetDateTime.DayOfYear*
   commentId: Overload:NodaTime.OffsetDateTime.DayOfYear
-  isExternal: false
   name: DayOfYear
   nameWithType: OffsetDateTime.DayOfYear
   fullName: NodaTime.OffsetDateTime.DayOfYear
 - uid: NodaTime.OffsetDateTime.Hour*
   commentId: Overload:NodaTime.OffsetDateTime.Hour
-  isExternal: false
   name: Hour
   nameWithType: OffsetDateTime.Hour
   fullName: NodaTime.OffsetDateTime.Hour
 - uid: NodaTime.OffsetDateTime.ClockHourOfHalfDay*
   commentId: Overload:NodaTime.OffsetDateTime.ClockHourOfHalfDay
-  isExternal: false
   name: ClockHourOfHalfDay
   nameWithType: OffsetDateTime.ClockHourOfHalfDay
   fullName: NodaTime.OffsetDateTime.ClockHourOfHalfDay
 - uid: NodaTime.OffsetDateTime.Minute*
   commentId: Overload:NodaTime.OffsetDateTime.Minute
-  isExternal: false
   name: Minute
   nameWithType: OffsetDateTime.Minute
   fullName: NodaTime.OffsetDateTime.Minute
 - uid: NodaTime.OffsetDateTime.Second*
   commentId: Overload:NodaTime.OffsetDateTime.Second
-  isExternal: false
   name: Second
   nameWithType: OffsetDateTime.Second
   fullName: NodaTime.OffsetDateTime.Second
 - uid: NodaTime.OffsetDateTime.Millisecond*
   commentId: Overload:NodaTime.OffsetDateTime.Millisecond
-  isExternal: false
   name: Millisecond
   nameWithType: OffsetDateTime.Millisecond
   fullName: NodaTime.OffsetDateTime.Millisecond
 - uid: NodaTime.OffsetDateTime.TickOfSecond*
   commentId: Overload:NodaTime.OffsetDateTime.TickOfSecond
-  isExternal: false
   name: TickOfSecond
   nameWithType: OffsetDateTime.TickOfSecond
   fullName: NodaTime.OffsetDateTime.TickOfSecond
 - uid: NodaTime.OffsetDateTime.TickOfDay*
   commentId: Overload:NodaTime.OffsetDateTime.TickOfDay
-  isExternal: false
   name: TickOfDay
   nameWithType: OffsetDateTime.TickOfDay
   fullName: NodaTime.OffsetDateTime.TickOfDay
@@ -2996,90 +2973,76 @@ references:
   fullName: System.Int64
 - uid: NodaTime.OffsetDateTime.NanosecondOfSecond*
   commentId: Overload:NodaTime.OffsetDateTime.NanosecondOfSecond
-  isExternal: false
   name: NanosecondOfSecond
   nameWithType: OffsetDateTime.NanosecondOfSecond
   fullName: NodaTime.OffsetDateTime.NanosecondOfSecond
 - uid: NodaTime.OffsetDateTime.NanosecondOfDay*
   commentId: Overload:NodaTime.OffsetDateTime.NanosecondOfDay
-  isExternal: false
   name: NanosecondOfDay
   nameWithType: OffsetDateTime.NanosecondOfDay
   fullName: NodaTime.OffsetDateTime.NanosecondOfDay
 - uid: NodaTime.OffsetDateTime.LocalDateTime*
   commentId: Overload:NodaTime.OffsetDateTime.LocalDateTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: OffsetDateTime.LocalDateTime
   fullName: NodaTime.OffsetDateTime.LocalDateTime
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.OffsetDateTime.Date*
   commentId: Overload:NodaTime.OffsetDateTime.Date
-  isExternal: false
   name: Date
   nameWithType: OffsetDateTime.Date
   fullName: NodaTime.OffsetDateTime.Date
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.OffsetDateTime.TimeOfDay*
   commentId: Overload:NodaTime.OffsetDateTime.TimeOfDay
-  isExternal: false
   name: TimeOfDay
   nameWithType: OffsetDateTime.TimeOfDay
   fullName: NodaTime.OffsetDateTime.TimeOfDay
 - uid: NodaTime.OffsetDateTime.Offset*
   commentId: Overload:NodaTime.OffsetDateTime.Offset
-  isExternal: false
   name: Offset
   nameWithType: OffsetDateTime.Offset
   fullName: NodaTime.OffsetDateTime.Offset
 - uid: NodaTime.OffsetDateTime.ToInstant*
   commentId: Overload:NodaTime.OffsetDateTime.ToInstant
-  isExternal: false
   name: ToInstant
   nameWithType: OffsetDateTime.ToInstant
   fullName: NodaTime.OffsetDateTime.ToInstant
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.OffsetDateTime.InFixedZone*
   commentId: Overload:NodaTime.OffsetDateTime.InFixedZone
-  isExternal: false
   name: InFixedZone
   nameWithType: OffsetDateTime.InFixedZone
   fullName: NodaTime.OffsetDateTime.InFixedZone
 - uid: NodaTime.OffsetDateTime.InZone*
   commentId: Overload:NodaTime.OffsetDateTime.InZone
-  isExternal: false
   name: InZone
   nameWithType: OffsetDateTime.InZone
   fullName: NodaTime.OffsetDateTime.InZone
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
@@ -3092,38 +3055,36 @@ references:
   fullName: System.DateTime
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
+  isExternal: true
 - uid: NodaTime.OffsetDateTime.ToDateTimeOffset*
   commentId: Overload:NodaTime.OffsetDateTime.ToDateTimeOffset
-  isExternal: false
   name: ToDateTimeOffset
   nameWithType: OffsetDateTime.ToDateTimeOffset
   fullName: NodaTime.OffsetDateTime.ToDateTimeOffset
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime.OffsetDateTime.LocalDateTime
   commentId: P:NodaTime.OffsetDateTime.LocalDateTime
+  isExternal: true
 - uid: NodaTime.OffsetDateTime.Offset
   commentId: P:NodaTime.OffsetDateTime.Offset
+  isExternal: true
 - uid: NodaTime.OffsetDateTime.FromDateTimeOffset*
   commentId: Overload:NodaTime.OffsetDateTime.FromDateTimeOffset
-  isExternal: false
   name: FromDateTimeOffset
   nameWithType: OffsetDateTime.FromDateTimeOffset
   fullName: NodaTime.OffsetDateTime.FromDateTimeOffset
 - uid: NodaTime.OffsetDateTime.WithCalendar*
   commentId: Overload:NodaTime.OffsetDateTime.WithCalendar
-  isExternal: false
   name: WithCalendar
   nameWithType: OffsetDateTime.WithCalendar
   fullName: NodaTime.OffsetDateTime.WithCalendar
 - uid: NodaTime.OffsetDateTime.With*
   commentId: Overload:NodaTime.OffsetDateTime.With
-  isExternal: false
   name: With
   nameWithType: OffsetDateTime.With
   fullName: NodaTime.OffsetDateTime.With
@@ -3292,33 +3253,28 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.WithOffset*
   commentId: Overload:NodaTime.OffsetDateTime.WithOffset
-  isExternal: false
   name: WithOffset
   nameWithType: OffsetDateTime.WithOffset
   fullName: NodaTime.OffsetDateTime.WithOffset
 - uid: NodaTime.OffsetDate
   commentId: T:NodaTime.OffsetDate
   parent: NodaTime
-  isExternal: false
   name: OffsetDate
   nameWithType: OffsetDate
   fullName: NodaTime.OffsetDate
 - uid: NodaTime.OffsetDateTime.ToOffsetDate*
   commentId: Overload:NodaTime.OffsetDateTime.ToOffsetDate
-  isExternal: false
   name: ToOffsetDate
   nameWithType: OffsetDateTime.ToOffsetDate
   fullName: NodaTime.OffsetDateTime.ToOffsetDate
 - uid: NodaTime.OffsetTime
   commentId: T:NodaTime.OffsetTime
   parent: NodaTime
-  isExternal: false
   name: OffsetTime
   nameWithType: OffsetTime
   fullName: NodaTime.OffsetTime
 - uid: NodaTime.OffsetDateTime.ToOffsetTime*
   commentId: Overload:NodaTime.OffsetDateTime.ToOffsetTime
-  isExternal: false
   name: ToOffsetTime
   nameWithType: OffsetDateTime.ToOffsetTime
   fullName: NodaTime.OffsetDateTime.ToOffsetTime
@@ -3355,7 +3311,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.GetHashCode*
   commentId: Overload:NodaTime.OffsetDateTime.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: OffsetDateTime.GetHashCode
   fullName: NodaTime.OffsetDateTime.GetHashCode
@@ -3409,7 +3364,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.Equals*
   commentId: Overload:NodaTime.OffsetDateTime.Equals
-  isExternal: false
   name: Equals
   nameWithType: OffsetDateTime.Equals
   fullName: NodaTime.OffsetDateTime.Equals
@@ -3501,7 +3455,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.Deconstruct*
   commentId: Overload:NodaTime.OffsetDateTime.Deconstruct
-  isExternal: false
   name: Deconstruct
   nameWithType: OffsetDateTime.Deconstruct
   fullName: NodaTime.OffsetDateTime.Deconstruct
@@ -3545,7 +3498,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.ToString*
   commentId: Overload:NodaTime.OffsetDateTime.ToString
-  isExternal: false
   name: ToString
   nameWithType: OffsetDateTime.ToString
   fullName: NodaTime.OffsetDateTime.ToString
@@ -3615,104 +3567,91 @@ references:
     fullName: )
 - uid: NodaTime.OffsetDateTime.op_Addition(NodaTime.OffsetDateTime,NodaTime.Duration)
   commentId: M:NodaTime.OffsetDateTime.op_Addition(NodaTime.OffsetDateTime,NodaTime.Duration)
+  isExternal: true
 - uid: NodaTime.OffsetDateTime.Add*
   commentId: Overload:NodaTime.OffsetDateTime.Add
-  isExternal: false
   name: Add
   nameWithType: OffsetDateTime.Add
   fullName: NodaTime.OffsetDateTime.Add
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.OffsetDateTime.Plus*
   commentId: Overload:NodaTime.OffsetDateTime.Plus
-  isExternal: false
   name: Plus
   nameWithType: OffsetDateTime.Plus
   fullName: NodaTime.OffsetDateTime.Plus
 - uid: NodaTime.OffsetDateTime.PlusHours*
   commentId: Overload:NodaTime.OffsetDateTime.PlusHours
-  isExternal: false
   name: PlusHours
   nameWithType: OffsetDateTime.PlusHours
   fullName: NodaTime.OffsetDateTime.PlusHours
 - uid: NodaTime.OffsetDateTime.PlusMinutes*
   commentId: Overload:NodaTime.OffsetDateTime.PlusMinutes
-  isExternal: false
   name: PlusMinutes
   nameWithType: OffsetDateTime.PlusMinutes
   fullName: NodaTime.OffsetDateTime.PlusMinutes
 - uid: NodaTime.OffsetDateTime.PlusSeconds*
   commentId: Overload:NodaTime.OffsetDateTime.PlusSeconds
-  isExternal: false
   name: PlusSeconds
   nameWithType: OffsetDateTime.PlusSeconds
   fullName: NodaTime.OffsetDateTime.PlusSeconds
 - uid: NodaTime.OffsetDateTime.PlusMilliseconds*
   commentId: Overload:NodaTime.OffsetDateTime.PlusMilliseconds
-  isExternal: false
   name: PlusMilliseconds
   nameWithType: OffsetDateTime.PlusMilliseconds
   fullName: NodaTime.OffsetDateTime.PlusMilliseconds
 - uid: NodaTime.OffsetDateTime.PlusTicks*
   commentId: Overload:NodaTime.OffsetDateTime.PlusTicks
-  isExternal: false
   name: PlusTicks
   nameWithType: OffsetDateTime.PlusTicks
   fullName: NodaTime.OffsetDateTime.PlusTicks
 - uid: NodaTime.OffsetDateTime.PlusNanoseconds*
   commentId: Overload:NodaTime.OffsetDateTime.PlusNanoseconds
-  isExternal: false
   name: PlusNanoseconds
   nameWithType: OffsetDateTime.PlusNanoseconds
   fullName: NodaTime.OffsetDateTime.PlusNanoseconds
 - uid: NodaTime.OffsetDateTime.op_Addition*
   commentId: Overload:NodaTime.OffsetDateTime.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: OffsetDateTime.Addition
   fullName: NodaTime.OffsetDateTime.Addition
 - uid: NodaTime.OffsetDateTime.op_Subtraction(NodaTime.OffsetDateTime,NodaTime.Duration)
   commentId: M:NodaTime.OffsetDateTime.op_Subtraction(NodaTime.OffsetDateTime,NodaTime.Duration)
+  isExternal: true
 - uid: NodaTime.OffsetDateTime.Subtract*
   commentId: Overload:NodaTime.OffsetDateTime.Subtract
-  isExternal: false
   name: Subtract
   nameWithType: OffsetDateTime.Subtract
   fullName: NodaTime.OffsetDateTime.Subtract
 - uid: NodaTime.OffsetDateTime.Minus*
   commentId: Overload:NodaTime.OffsetDateTime.Minus
-  isExternal: false
   name: Minus
   nameWithType: OffsetDateTime.Minus
   fullName: NodaTime.OffsetDateTime.Minus
 - uid: NodaTime.OffsetDateTime.op_Subtraction*
   commentId: Overload:NodaTime.OffsetDateTime.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: OffsetDateTime.Subtraction
   fullName: NodaTime.OffsetDateTime.Subtraction
 - uid: NodaTime.OffsetDateTime.op_Subtraction(NodaTime.OffsetDateTime,NodaTime.OffsetDateTime)
   commentId: M:NodaTime.OffsetDateTime.op_Subtraction(NodaTime.OffsetDateTime,NodaTime.OffsetDateTime)
+  isExternal: true
 - uid: NodaTime.OffsetDateTime.op_Equality*
   commentId: Overload:NodaTime.OffsetDateTime.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: OffsetDateTime.Equality
   fullName: NodaTime.OffsetDateTime.Equality
 - uid: NodaTime.OffsetDateTime.op_Inequality*
   commentId: Overload:NodaTime.OffsetDateTime.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: OffsetDateTime.Inequality
   fullName: NodaTime.OffsetDateTime.Inequality
 - uid: NodaTime.OffsetDateTime.System#Xml#Serialization#IXmlSerializable#GetSchema*
   commentId: Overload:NodaTime.OffsetDateTime.System#Xml#Serialization#IXmlSerializable#GetSchema
-  isExternal: false
   name: IXmlSerializable.GetSchema
   nameWithType: OffsetDateTime.IXmlSerializable.GetSchema
   fullName: NodaTime.OffsetDateTime.System.Xml.Serialization.IXmlSerializable.GetSchema
@@ -3758,13 +3697,12 @@ references:
   fullName: System.Xml.Schema.XmlSchema
 - uid: System.Xml.Schema
   commentId: N:System.Xml.Schema
-  isExternal: false
+  isExternal: true
   name: System.Xml.Schema
   nameWithType: System.Xml.Schema
   fullName: System.Xml.Schema
 - uid: NodaTime.OffsetDateTime.System#Xml#Serialization#IXmlSerializable#ReadXml*
   commentId: Overload:NodaTime.OffsetDateTime.System#Xml#Serialization#IXmlSerializable#ReadXml
-  isExternal: false
   name: IXmlSerializable.ReadXml
   nameWithType: OffsetDateTime.IXmlSerializable.ReadXml
   fullName: NodaTime.OffsetDateTime.System.Xml.Serialization.IXmlSerializable.ReadXml
@@ -3820,13 +3758,12 @@ references:
   fullName: System.Xml.XmlReader
 - uid: System.Xml
   commentId: N:System.Xml
-  isExternal: false
+  isExternal: true
   name: System.Xml
   nameWithType: System.Xml
   fullName: System.Xml
 - uid: NodaTime.OffsetDateTime.System#Xml#Serialization#IXmlSerializable#WriteXml*
   commentId: Overload:NodaTime.OffsetDateTime.System#Xml#Serialization#IXmlSerializable#WriteXml
-  isExternal: false
   name: IXmlSerializable.WriteXml
   nameWithType: OffsetDateTime.IXmlSerializable.WriteXml
   fullName: NodaTime.OffsetDateTime.System.Xml.Serialization.IXmlSerializable.WriteXml
@@ -3946,7 +3883,6 @@ references:
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: NodaTime.OffsetDateTime.System#Runtime#Serialization#ISerializable#GetObjectData*
   commentId: Overload:NodaTime.OffsetDateTime.System#Runtime#Serialization#ISerializable#GetObjectData
-  isExternal: false
   name: ISerializable.GetObjectData
   nameWithType: OffsetDateTime.ISerializable.GetObjectData
   fullName: NodaTime.OffsetDateTime.System.Runtime.Serialization.ISerializable.GetObjectData

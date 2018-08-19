@@ -176,7 +176,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -468,62 +467,56 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.TzdbDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: TzdbDateTimeZoneSource
   nameWithType: TzdbDateTimeZoneSource
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.Default
   commentId: P:NodaTime.TimeZones.TzdbDateTimeZoneSource.Default
+  isExternal: true
 - uid: NodaTime.DateTimeZoneProviders.Tzdb*
   commentId: Overload:NodaTime.DateTimeZoneProviders.Tzdb
-  isExternal: false
   name: Tzdb
   nameWithType: DateTimeZoneProviders.Tzdb
   fullName: NodaTime.DateTimeZoneProviders.Tzdb
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.TimeZones.BclDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.BclDateTimeZoneSource
-  isExternal: false
   name: BclDateTimeZoneSource
   nameWithType: BclDateTimeZoneSource
   fullName: NodaTime.TimeZones.BclDateTimeZoneSource
 - uid: NodaTime.TimeZones.BclDateTimeZone
   commentId: T:NodaTime.TimeZones.BclDateTimeZone
   parent: NodaTime.TimeZones
-  isExternal: false
   name: BclDateTimeZone
   nameWithType: BclDateTimeZone
   fullName: NodaTime.TimeZones.BclDateTimeZone
 - uid: NodaTime.DateTimeZoneProviders.Bcl*
   commentId: Overload:NodaTime.DateTimeZoneProviders.Bcl
-  isExternal: false
   name: Bcl
   nameWithType: DateTimeZoneProviders.Bcl
   fullName: NodaTime.DateTimeZoneProviders.Bcl
 - uid: NodaTime.DateTimeZoneProviders.Tzdb
   commentId: P:NodaTime.DateTimeZoneProviders.Tzdb
+  isExternal: true
 - uid: NodaTime.DateTimeZoneProviders.Serialization*
   commentId: Overload:NodaTime.DateTimeZoneProviders.Serialization
-  isExternal: false
   name: Serialization
   nameWithType: DateTimeZoneProviders.Serialization
   fullName: NodaTime.DateTimeZoneProviders.Serialization

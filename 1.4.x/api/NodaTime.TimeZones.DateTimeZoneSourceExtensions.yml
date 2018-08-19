@@ -95,13 +95,11 @@ references:
 - uid: NodaTime.TimeZones.IDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.IDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -393,13 +391,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones.DateTimeZoneSourceExtensions.GetSystemDefaultId*
   commentId: Overload:NodaTime.TimeZones.DateTimeZoneSourceExtensions.GetSystemDefaultId
-  isExternal: false
   name: GetSystemDefaultId
   nameWithType: DateTimeZoneSourceExtensions.GetSystemDefaultId
   fullName: NodaTime.TimeZones.DateTimeZoneSourceExtensions.GetSystemDefaultId

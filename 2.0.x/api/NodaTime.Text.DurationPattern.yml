@@ -448,7 +448,6 @@ references:
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
@@ -461,7 +460,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -793,25 +791,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -848,20 +844,17 @@ references:
     fullName: )
 - uid: NodaTime.Text.DurationPattern.Roundtrip*
   commentId: Overload:NodaTime.Text.DurationPattern.Roundtrip
-  isExternal: false
   name: Roundtrip
   nameWithType: DurationPattern.Roundtrip
   fullName: NodaTime.Text.DurationPattern.Roundtrip
 - uid: NodaTime.Text.DurationPattern
   commentId: T:NodaTime.Text.DurationPattern
   parent: NodaTime.Text
-  isExternal: false
   name: DurationPattern
   nameWithType: DurationPattern
   fullName: NodaTime.Text.DurationPattern
 - uid: NodaTime.Text.DurationPattern.PatternText*
   commentId: Overload:NodaTime.Text.DurationPattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: DurationPattern.PatternText
   fullName: NodaTime.Text.DurationPattern.PatternText
@@ -874,7 +867,6 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.DurationPattern.Parse*
   commentId: Overload:NodaTime.Text.DurationPattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: DurationPattern.Parse
   fullName: NodaTime.Text.DurationPattern.Parse
@@ -1001,7 +993,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1038,7 +1029,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.DurationPattern.Format*
   commentId: Overload:NodaTime.Text.DurationPattern.Format
-  isExternal: false
   name: Format
   nameWithType: DurationPattern.Format
   fullName: NodaTime.Text.DurationPattern.Format
@@ -1083,7 +1073,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1126,7 +1115,6 @@ references:
   fullName: System.Text.StringBuilder
 - uid: NodaTime.Text.DurationPattern.AppendFormat*
   commentId: Overload:NodaTime.Text.DurationPattern.AppendFormat
-  isExternal: false
   name: AppendFormat
   nameWithType: DurationPattern.AppendFormat
   fullName: NodaTime.Text.DurationPattern.AppendFormat
@@ -1187,7 +1175,7 @@ references:
     fullName: )
 - uid: System.Text
   commentId: N:System.Text
-  isExternal: false
+  isExternal: true
   name: System.Text
   nameWithType: System.Text
   fullName: System.Text
@@ -1245,31 +1233,26 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.DurationPattern.Create*
   commentId: Overload:NodaTime.Text.DurationPattern.Create
-  isExternal: false
   name: Create
   nameWithType: DurationPattern.Create
   fullName: NodaTime.Text.DurationPattern.Create
 - uid: NodaTime.Text.DurationPattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.DurationPattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: DurationPattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.DurationPattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.DurationPattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.DurationPattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: DurationPattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.DurationPattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.DurationPattern.WithCulture*
   commentId: Overload:NodaTime.Text.DurationPattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: DurationPattern.WithCulture
   fullName: NodaTime.Text.DurationPattern.WithCulture

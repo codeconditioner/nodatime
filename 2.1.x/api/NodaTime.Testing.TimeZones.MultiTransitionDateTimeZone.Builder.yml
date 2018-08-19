@@ -450,13 +450,11 @@ references:
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone
   commentId: T:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone
   parent: NodaTime.Testing.TimeZones
-  isExternal: false
   name: MultiTransitionDateTimeZone
   nameWithType: MultiTransitionDateTimeZone
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone
 - uid: NodaTime.Testing.TimeZones
   commentId: N:NodaTime.Testing.TimeZones
-  isExternal: false
   name: NodaTime.Testing.TimeZones
   nameWithType: NodaTime.Testing.TimeZones
   fullName: NodaTime.Testing.TimeZones
@@ -755,19 +753,18 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections
   commentId: N:System.Collections
-  isExternal: false
+  isExternal: true
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Id*
   commentId: Overload:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Id
-  isExternal: false
   name: Id
   nameWithType: MultiTransitionDateTimeZone.Builder.Id
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Id
@@ -780,7 +777,6 @@ references:
   fullName: System.String
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.#ctor*
   commentId: Overload:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.#ctor
-  isExternal: false
   name: Builder
   nameWithType: MultiTransitionDateTimeZone.Builder.Builder
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Builder
@@ -793,32 +789,27 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Add*
   commentId: Overload:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Add
-  isExternal: false
   name: Add
   nameWithType: MultiTransitionDateTimeZone.Builder.Add
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Add
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Build*
   commentId: Overload:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Build
-  isExternal: false
   name: Build
   nameWithType: MultiTransitionDateTimeZone.Builder.Build
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.Build
 - uid: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.System#Collections#IEnumerable#GetEnumerator*
   commentId: Overload:NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.System#Collections#IEnumerable#GetEnumerator
-  isExternal: false
   name: IEnumerable.GetEnumerator
   nameWithType: MultiTransitionDateTimeZone.Builder.IEnumerable.GetEnumerator
   fullName: NodaTime.Testing.TimeZones.MultiTransitionDateTimeZone.Builder.System.Collections.IEnumerable.GetEnumerator

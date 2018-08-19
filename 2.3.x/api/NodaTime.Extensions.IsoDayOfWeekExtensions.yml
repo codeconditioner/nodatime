@@ -153,7 +153,6 @@ items:
 references:
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
@@ -445,14 +444,13 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
@@ -465,21 +463,19 @@ references:
   fullName: System.DayOfWeek
 - uid: NodaTime.Utility.BclConversions.ToDayOfWeek(NodaTime.IsoDayOfWeek)
   commentId: M:NodaTime.Utility.BclConversions.ToDayOfWeek(NodaTime.IsoDayOfWeek)
+  isExternal: true
 - uid: NodaTime.Extensions.IsoDayOfWeekExtensions.ToIsoDayOfWeek*
   commentId: Overload:NodaTime.Extensions.IsoDayOfWeekExtensions.ToIsoDayOfWeek
-  isExternal: false
   name: ToIsoDayOfWeek
   nameWithType: IsoDayOfWeekExtensions.ToIsoDayOfWeek
   fullName: NodaTime.Extensions.IsoDayOfWeekExtensions.ToIsoDayOfWeek
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.Extensions.IsoDayOfWeekExtensions.ToDayOfWeek*
   commentId: Overload:NodaTime.Extensions.IsoDayOfWeekExtensions.ToDayOfWeek
-  isExternal: false
   name: ToDayOfWeek
   nameWithType: IsoDayOfWeekExtensions.ToDayOfWeek
   fullName: NodaTime.Extensions.IsoDayOfWeekExtensions.ToDayOfWeek

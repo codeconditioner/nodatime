@@ -1719,13 +1719,11 @@ references:
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -2013,7 +2011,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -2079,9 +2077,9 @@ references:
   fullName: System.DateTimeOffset
 - uid: NodaTime.Instant.FromDateTimeUtc(System.DateTime)
   commentId: M:NodaTime.Instant.FromDateTimeUtc(System.DateTime)
+  isExternal: true
 - uid: NodaTime.Instant.#ctor*
   commentId: Overload:NodaTime.Instant.#ctor
-  isExternal: false
   name: Instant
   nameWithType: Instant.Instant
   fullName: NodaTime.Instant.Instant
@@ -2094,13 +2092,11 @@ references:
   fullName: System.Int64
 - uid: NodaTime.Instant.Ticks*
   commentId: Overload:NodaTime.Instant.Ticks
-  isExternal: false
   name: Ticks
   nameWithType: Instant.Ticks
   fullName: NodaTime.Instant.Ticks
 - uid: NodaTime.Instant.CompareTo*
   commentId: Overload:NodaTime.Instant.CompareTo
-  isExternal: false
   name: CompareTo
   nameWithType: Instant.CompareTo
   fullName: NodaTime.Instant.CompareTo
@@ -2233,6 +2229,7 @@ references:
     fullName: )
 - uid: NodaTime.Instant.CompareTo(NodaTime.Instant)
   commentId: M:NodaTime.Instant.CompareTo(NodaTime.Instant)
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -2242,7 +2239,6 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.Instant.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Instant.System#IComparable#CompareTo
-  isExternal: false
   name: IComparable.CompareTo
   nameWithType: Instant.IComparable.CompareTo
   fullName: NodaTime.Instant.System.IComparable.CompareTo
@@ -2291,7 +2287,6 @@ references:
     fullName: )
 - uid: NodaTime.Instant.Equals*
   commentId: Overload:NodaTime.Instant.Equals
-  isExternal: false
   name: Equals
   nameWithType: Instant.Equals
   fullName: NodaTime.Instant.Equals
@@ -2342,117 +2337,98 @@ references:
     fullName: )
 - uid: NodaTime.Instant.GetHashCode*
   commentId: Overload:NodaTime.Instant.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: Instant.GetHashCode
   fullName: NodaTime.Instant.GetHashCode
 - uid: NodaTime.Instant.PlusTicks*
   commentId: Overload:NodaTime.Instant.PlusTicks
-  isExternal: false
   name: PlusTicks
   nameWithType: Instant.PlusTicks
   fullName: NodaTime.Instant.PlusTicks
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Instant.op_Addition*
   commentId: Overload:NodaTime.Instant.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: Instant.Addition
   fullName: NodaTime.Instant.Addition
 - uid: NodaTime.Instant.Add*
   commentId: Overload:NodaTime.Instant.Add
-  isExternal: false
   name: Add
   nameWithType: Instant.Add
   fullName: NodaTime.Instant.Add
 - uid: NodaTime.Instant.Plus*
   commentId: Overload:NodaTime.Instant.Plus
-  isExternal: false
   name: Plus
   nameWithType: Instant.Plus
   fullName: NodaTime.Instant.Plus
 - uid: NodaTime.Instant.op_Subtraction*
   commentId: Overload:NodaTime.Instant.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: Instant.Subtraction
   fullName: NodaTime.Instant.Subtraction
 - uid: NodaTime.Instant.Subtract*
   commentId: Overload:NodaTime.Instant.Subtract
-  isExternal: false
   name: Subtract
   nameWithType: Instant.Subtract
   fullName: NodaTime.Instant.Subtract
 - uid: NodaTime.Instant.Minus*
   commentId: Overload:NodaTime.Instant.Minus
-  isExternal: false
   name: Minus
   nameWithType: Instant.Minus
   fullName: NodaTime.Instant.Minus
 - uid: NodaTime.Instant.op_Equality*
   commentId: Overload:NodaTime.Instant.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: Instant.Equality
   fullName: NodaTime.Instant.Equality
 - uid: NodaTime.Instant.op_Inequality*
   commentId: Overload:NodaTime.Instant.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: Instant.Inequality
   fullName: NodaTime.Instant.Inequality
 - uid: NodaTime.Instant.op_LessThan*
   commentId: Overload:NodaTime.Instant.op_LessThan
-  isExternal: false
   name: LessThan
   nameWithType: Instant.LessThan
   fullName: NodaTime.Instant.LessThan
 - uid: NodaTime.Instant.op_LessThanOrEqual*
   commentId: Overload:NodaTime.Instant.op_LessThanOrEqual
-  isExternal: false
   name: LessThanOrEqual
   nameWithType: Instant.LessThanOrEqual
   fullName: NodaTime.Instant.LessThanOrEqual
 - uid: NodaTime.Instant.op_GreaterThan*
   commentId: Overload:NodaTime.Instant.op_GreaterThan
-  isExternal: false
   name: GreaterThan
   nameWithType: Instant.GreaterThan
   fullName: NodaTime.Instant.GreaterThan
 - uid: NodaTime.Instant.op_GreaterThanOrEqual*
   commentId: Overload:NodaTime.Instant.op_GreaterThanOrEqual
-  isExternal: false
   name: GreaterThanOrEqual
   nameWithType: Instant.GreaterThanOrEqual
   fullName: NodaTime.Instant.GreaterThanOrEqual
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.Instant.FromUtc*
   commentId: Overload:NodaTime.Instant.FromUtc
-  isExternal: false
   name: FromUtc
   nameWithType: Instant.FromUtc
   fullName: NodaTime.Instant.FromUtc
 - uid: NodaTime.Instant.Max*
   commentId: Overload:NodaTime.Instant.Max
-  isExternal: false
   name: Max
   nameWithType: Instant.Max
   fullName: NodaTime.Instant.Max
 - uid: NodaTime.Instant.Min*
   commentId: Overload:NodaTime.Instant.Min
-  isExternal: false
   name: Min
   nameWithType: Instant.Min
   fullName: NodaTime.Instant.Min
@@ -2496,7 +2472,6 @@ references:
     fullName: )
 - uid: NodaTime.Instant.ToString*
   commentId: Overload:NodaTime.Instant.ToString
-  isExternal: false
   name: ToString
   nameWithType: Instant.ToString
   fullName: NodaTime.Instant.ToString
@@ -2645,66 +2620,61 @@ references:
     fullName: )
 - uid: System.DateTime.Kind
   commentId: P:System.DateTime.Kind
+  isExternal: true
 - uid: System.DateTimeKind.Utc
   commentId: F:System.DateTimeKind.Utc
+  isExternal: true
 - uid: NodaTime.Instant.ToDateTimeUtc*
   commentId: Overload:NodaTime.Instant.ToDateTimeUtc
-  isExternal: false
   name: ToDateTimeUtc
   nameWithType: Instant.ToDateTimeUtc
   fullName: NodaTime.Instant.ToDateTimeUtc
 - uid: NodaTime.Instant.ToDateTimeOffset*
   commentId: Overload:NodaTime.Instant.ToDateTimeOffset
-  isExternal: false
   name: ToDateTimeOffset
   nameWithType: Instant.ToDateTimeOffset
   fullName: NodaTime.Instant.ToDateTimeOffset
 - uid: NodaTime.Instant.FromDateTimeOffset*
   commentId: Overload:NodaTime.Instant.FromDateTimeOffset
-  isExternal: false
   name: FromDateTimeOffset
   nameWithType: Instant.FromDateTimeOffset
   fullName: NodaTime.Instant.FromDateTimeOffset
 - uid: NodaTime.Instant.FromDateTimeUtc*
   commentId: Overload:NodaTime.Instant.FromDateTimeUtc
-  isExternal: false
   name: FromDateTimeUtc
   nameWithType: Instant.FromDateTimeUtc
   fullName: NodaTime.Instant.FromDateTimeUtc
 - uid: NodaTime.Instant.InZone(NodaTime.DateTimeZone)
   commentId: M:NodaTime.Instant.InZone(NodaTime.DateTimeZone)
+  isExternal: true
 - uid: NodaTime.DateTimeZone.Utc
   commentId: P:NodaTime.DateTimeZone.Utc
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: Utc
   nameWithType: DateTimeZone.Utc
   fullName: NodaTime.DateTimeZone.Utc
 - uid: NodaTime.Instant.InUtc*
   commentId: Overload:NodaTime.Instant.InUtc
-  isExternal: false
   name: InUtc
   nameWithType: Instant.InUtc
   fullName: NodaTime.Instant.InUtc
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: NodaTime.Instant.InZone*
   commentId: Overload:NodaTime.Instant.InZone
-  isExternal: false
   name: InZone
   nameWithType: Instant.InZone
   fullName: NodaTime.Instant.InZone
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem

@@ -357,13 +357,11 @@ references:
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource
   commentId: T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource
   parent: NodaTime.Testing.TimeZones
-  isExternal: false
   name: FakeDateTimeZoneSource
   nameWithType: FakeDateTimeZoneSource
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource
 - uid: NodaTime.Testing.TimeZones
   commentId: N:NodaTime.Testing.TimeZones
-  isExternal: false
   name: NodaTime.Testing.TimeZones
   nameWithType: NodaTime.Testing.TimeZones
   fullName: NodaTime.Testing.TimeZones
@@ -704,7 +702,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -749,13 +747,13 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: System.Collections
   commentId: N:System.Collections
-  isExternal: false
+  isExternal: true
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
@@ -768,7 +766,6 @@ references:
   fullName: System.TimeZoneInfo
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.BclIdsToZoneIds*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.BclIdsToZoneIds
-  isExternal: false
   name: BclIdsToZoneIds
   nameWithType: FakeDateTimeZoneSource.Builder.BclIdsToZoneIds
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.BclIdsToZoneIds
@@ -885,7 +882,6 @@ references:
     fullName: )
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Zones*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Zones
-  isExternal: false
   name: Zones
   nameWithType: FakeDateTimeZoneSource.Builder.Zones
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Zones
@@ -972,7 +968,6 @@ references:
     fullName: )
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.VersionId*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.VersionId
-  isExternal: false
   name: VersionId
   nameWithType: FakeDateTimeZoneSource.Builder.VersionId
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.VersionId
@@ -985,32 +980,27 @@ references:
   fullName: System.String
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.#ctor*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.#ctor
-  isExternal: false
   name: Builder
   nameWithType: FakeDateTimeZoneSource.Builder.Builder
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Builder
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Add*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Add
-  isExternal: false
   name: Add
   nameWithType: FakeDateTimeZoneSource.Builder.Add
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Add
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.GetEnumerator*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.GetEnumerator
-  isExternal: false
   name: GetEnumerator
   nameWithType: FakeDateTimeZoneSource.Builder.GetEnumerator
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.GetEnumerator
@@ -1169,7 +1159,6 @@ references:
   fullName: System.Collections.IEnumerator
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.System#Collections#IEnumerable#GetEnumerator*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.System#Collections#IEnumerable#GetEnumerator
-  isExternal: false
   name: IEnumerable.GetEnumerator
   nameWithType: FakeDateTimeZoneSource.Builder.IEnumerable.GetEnumerator
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.System.Collections.IEnumerable.GetEnumerator
@@ -1208,7 +1197,6 @@ references:
     fullName: )
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Build*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Build
-  isExternal: false
   name: Build
   nameWithType: FakeDateTimeZoneSource.Builder.Build
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder.Build

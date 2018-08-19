@@ -256,11 +256,12 @@ items:
 references:
 - uid: NodaTime.Text.CompositePatternBuilder`1.Add(NodaTime.Text.IPattern{`0},System.Func{`0,System.Boolean})
   commentId: M:NodaTime.Text.CompositePatternBuilder`1.Add(NodaTime.Text.IPattern{`0},System.Func{`0,System.Boolean})
+  isExternal: true
 - uid: NodaTime.Text.CompositePatternBuilder`1.Build
   commentId: M:NodaTime.Text.CompositePatternBuilder`1.Build
+  isExternal: true
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -619,7 +620,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -664,19 +665,18 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: System.Collections
   commentId: N:System.Collections
-  isExternal: false
+  isExternal: true
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
 - uid: NodaTime.Text.CompositePatternBuilder`1.#ctor*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.#ctor
-  isExternal: false
   name: CompositePatternBuilder
   nameWithType: CompositePatternBuilder<T>.CompositePatternBuilder
   fullName: NodaTime.Text.CompositePatternBuilder<T>.CompositePatternBuilder
@@ -684,7 +684,6 @@ references:
   fullName.vb: NodaTime.Text.CompositePatternBuilder(Of T).CompositePatternBuilder
 - uid: NodaTime.Text.CompositePatternBuilder`1.Add*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.Add
-  isExternal: false
   name: Add
   nameWithType: CompositePatternBuilder<T>.Add
   fullName: NodaTime.Text.CompositePatternBuilder<T>.Add
@@ -786,7 +785,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -874,9 +872,9 @@ references:
     fullName: )
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
+  isExternal: true
 - uid: NodaTime.Text.CompositePatternBuilder`1.Build*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.Build
-  isExternal: false
   name: Build
   nameWithType: CompositePatternBuilder<T>.Build
   fullName: NodaTime.Text.CompositePatternBuilder<T>.Build
@@ -884,7 +882,6 @@ references:
   fullName.vb: NodaTime.Text.CompositePatternBuilder(Of T).Build
 - uid: NodaTime.Text.CompositePatternBuilder`1.System#Collections#Generic#IEnumerable{NodaTime#Text#IPattern{T}}#GetEnumerator*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.System#Collections#Generic#IEnumerable{NodaTime#Text#IPattern{T}}#GetEnumerator
-  isExternal: false
   name: IEnumerable<IPattern<T>>.GetEnumerator
   nameWithType: CompositePatternBuilder<T>.IEnumerable<IPattern<T>>.GetEnumerator
   fullName: NodaTime.Text.CompositePatternBuilder<T>.System.Collections.Generic.IEnumerable<NodaTime.Text.IPattern<T>>.GetEnumerator
@@ -1057,7 +1054,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.CompositePatternBuilder`1.System#Collections#IEnumerable#GetEnumerator*
   commentId: Overload:NodaTime.Text.CompositePatternBuilder`1.System#Collections#IEnumerable#GetEnumerator
-  isExternal: false
   name: IEnumerable.GetEnumerator
   nameWithType: CompositePatternBuilder<T>.IEnumerable.GetEnumerator
   fullName: NodaTime.Text.CompositePatternBuilder<T>.System.Collections.IEnumerable.GetEnumerator

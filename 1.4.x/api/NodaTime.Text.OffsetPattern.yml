@@ -541,7 +541,6 @@ references:
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
@@ -554,7 +553,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -886,25 +884,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -941,26 +937,22 @@ references:
     fullName: )
 - uid: NodaTime.Text.OffsetPattern.GeneralInvariant*
   commentId: Overload:NodaTime.Text.OffsetPattern.GeneralInvariant
-  isExternal: false
   name: GeneralInvariant
   nameWithType: OffsetPattern.GeneralInvariant
   fullName: NodaTime.Text.OffsetPattern.GeneralInvariant
 - uid: NodaTime.Text.OffsetPattern
   commentId: T:NodaTime.Text.OffsetPattern
   parent: NodaTime.Text
-  isExternal: false
   name: OffsetPattern
   nameWithType: OffsetPattern
   fullName: NodaTime.Text.OffsetPattern
 - uid: NodaTime.Text.OffsetPattern.GeneralInvariantWithZ*
   commentId: Overload:NodaTime.Text.OffsetPattern.GeneralInvariantWithZ
-  isExternal: false
   name: GeneralInvariantWithZ
   nameWithType: OffsetPattern.GeneralInvariantWithZ
   fullName: NodaTime.Text.OffsetPattern.GeneralInvariantWithZ
 - uid: NodaTime.Text.OffsetPattern.PatternText*
   commentId: Overload:NodaTime.Text.OffsetPattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: OffsetPattern.PatternText
   fullName: NodaTime.Text.OffsetPattern.PatternText
@@ -973,7 +965,6 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.OffsetPattern.Parse*
   commentId: Overload:NodaTime.Text.OffsetPattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: OffsetPattern.Parse
   fullName: NodaTime.Text.OffsetPattern.Parse
@@ -1100,7 +1091,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1137,7 +1127,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.OffsetPattern.Format*
   commentId: Overload:NodaTime.Text.OffsetPattern.Format
-  isExternal: false
   name: Format
   nameWithType: OffsetPattern.Format
   fullName: NodaTime.Text.OffsetPattern.Format
@@ -1182,7 +1171,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1218,31 +1206,26 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.OffsetPattern.Create*
   commentId: Overload:NodaTime.Text.OffsetPattern.Create
-  isExternal: false
   name: Create
   nameWithType: OffsetPattern.Create
   fullName: NodaTime.Text.OffsetPattern.Create
 - uid: NodaTime.Text.OffsetPattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.OffsetPattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: OffsetPattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.OffsetPattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.OffsetPattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.OffsetPattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: OffsetPattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.OffsetPattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.OffsetPattern.WithCulture*
   commentId: Overload:NodaTime.Text.OffsetPattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: OffsetPattern.WithCulture
   fullName: NodaTime.Text.OffsetPattern.WithCulture

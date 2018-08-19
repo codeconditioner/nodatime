@@ -256,7 +256,6 @@ items:
 references:
 - uid: NodaTime.TimeZones.Cldr
   commentId: N:NodaTime.TimeZones.Cldr
-  isExternal: false
   name: NodaTime.TimeZones.Cldr
   nameWithType: NodaTime.TimeZones.Cldr
   fullName: NodaTime.TimeZones.Cldr
@@ -548,13 +547,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones.Cldr.WindowsZones.Version*
   commentId: Overload:NodaTime.TimeZones.Cldr.WindowsZones.Version
-  isExternal: false
   name: Version
   nameWithType: WindowsZones.Version
   fullName: NodaTime.TimeZones.Cldr.WindowsZones.Version
@@ -568,35 +566,32 @@ references:
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.TzdbDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: TzdbDateTimeZoneSource
   nameWithType: TzdbDateTimeZoneSource
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.TzdbVersion
   commentId: P:NodaTime.TimeZones.TzdbDateTimeZoneSource.TzdbVersion
+  isExternal: true
 - uid: NodaTime.TimeZones.Cldr.WindowsZones.TzdbVersion*
   commentId: Overload:NodaTime.TimeZones.Cldr.WindowsZones.TzdbVersion
-  isExternal: false
   name: TzdbVersion
   nameWithType: WindowsZones.TzdbVersion
   fullName: NodaTime.TimeZones.Cldr.WindowsZones.TzdbVersion
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.TimeZones.Cldr.WindowsZones.WindowsVersion*
   commentId: Overload:NodaTime.TimeZones.Cldr.WindowsZones.WindowsVersion
-  isExternal: false
   name: WindowsVersion
   nameWithType: WindowsZones.WindowsVersion
   fullName: NodaTime.TimeZones.Cldr.WindowsZones.WindowsVersion
 - uid: NodaTime.TimeZones.Cldr.MapZone.PrimaryTerritory
   commentId: F:NodaTime.TimeZones.Cldr.MapZone.PrimaryTerritory
+  isExternal: true
 - uid: NodaTime.TimeZones.Cldr.WindowsZones.MapZones*
   commentId: Overload:NodaTime.TimeZones.Cldr.WindowsZones.MapZones
-  isExternal: false
   name: MapZones
   nameWithType: WindowsZones.MapZones
   fullName: NodaTime.TimeZones.Cldr.WindowsZones.MapZones
@@ -683,15 +678,15 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource.CanonicalIdMap
   commentId: P:NodaTime.TimeZones.TzdbDateTimeZoneSource.CanonicalIdMap
+  isExternal: true
 - uid: NodaTime.TimeZones.Cldr.WindowsZones.PrimaryMapping*
   commentId: Overload:NodaTime.TimeZones.Cldr.WindowsZones.PrimaryMapping
-  isExternal: false
   name: PrimaryMapping
   nameWithType: WindowsZones.PrimaryMapping
   fullName: NodaTime.TimeZones.Cldr.WindowsZones.PrimaryMapping

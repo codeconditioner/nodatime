@@ -25,57 +25,48 @@ references:
 - uid: NodaTime.Extensions.ClockExtensions
   commentId: T:NodaTime.Extensions.ClockExtensions
   parent: NodaTime.Extensions
-  isExternal: false
   name: ClockExtensions
   nameWithType: ClockExtensions
   fullName: NodaTime.Extensions.ClockExtensions
 - uid: NodaTime.Extensions.DateTimeExtensions
   commentId: T:NodaTime.Extensions.DateTimeExtensions
-  isExternal: false
   name: DateTimeExtensions
   nameWithType: DateTimeExtensions
   fullName: NodaTime.Extensions.DateTimeExtensions
 - uid: NodaTime.Extensions.DateTimeOffsetExtensions
   commentId: T:NodaTime.Extensions.DateTimeOffsetExtensions
-  isExternal: false
   name: DateTimeOffsetExtensions
   nameWithType: DateTimeOffsetExtensions
   fullName: NodaTime.Extensions.DateTimeOffsetExtensions
 - uid: NodaTime.Extensions.DateTimeZoneProviderExtensions
   commentId: T:NodaTime.Extensions.DateTimeZoneProviderExtensions
   parent: NodaTime.Extensions
-  isExternal: false
   name: DateTimeZoneProviderExtensions
   nameWithType: DateTimeZoneProviderExtensions
   fullName: NodaTime.Extensions.DateTimeZoneProviderExtensions
 - uid: NodaTime.Extensions.DayOfWeekExtensions
   commentId: T:NodaTime.Extensions.DayOfWeekExtensions
-  isExternal: false
   name: DayOfWeekExtensions
   nameWithType: DayOfWeekExtensions
   fullName: NodaTime.Extensions.DayOfWeekExtensions
 - uid: NodaTime.Extensions.IsoDayOfWeekExtensions
   commentId: T:NodaTime.Extensions.IsoDayOfWeekExtensions
   parent: NodaTime.Extensions
-  isExternal: false
   name: IsoDayOfWeekExtensions
   nameWithType: IsoDayOfWeekExtensions
   fullName: NodaTime.Extensions.IsoDayOfWeekExtensions
 - uid: NodaTime.Extensions.StopwatchExtensions
   commentId: T:NodaTime.Extensions.StopwatchExtensions
-  isExternal: false
   name: StopwatchExtensions
   nameWithType: StopwatchExtensions
   fullName: NodaTime.Extensions.StopwatchExtensions
 - uid: NodaTime.Extensions.TimeSpanExtensions
   commentId: T:NodaTime.Extensions.TimeSpanExtensions
-  isExternal: false
   name: TimeSpanExtensions
   nameWithType: TimeSpanExtensions
   fullName: NodaTime.Extensions.TimeSpanExtensions
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions

@@ -374,14 +374,12 @@ references:
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.DateTimeZone.MapLocal(NodaTime.LocalDateTime)
   commentId: M:NodaTime.DateTimeZone.MapLocal(NodaTime.LocalDateTime)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: MapLocal(LocalDateTime)
   nameWithType: DateTimeZone.MapLocal(LocalDateTime)
   fullName: NodaTime.DateTimeZone.MapLocal(NodaTime.LocalDateTime)
@@ -417,7 +415,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -709,68 +706,61 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones.ZoneLocalMapping.Zone*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.Zone
-  isExternal: false
   name: Zone
   nameWithType: ZoneLocalMapping.Zone
   fullName: NodaTime.TimeZones.ZoneLocalMapping.Zone
 - uid: NodaTime.TimeZones.ZoneLocalMapping.LocalDateTime*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.LocalDateTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: ZoneLocalMapping.LocalDateTime
   fullName: NodaTime.TimeZones.ZoneLocalMapping.LocalDateTime
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.TimeZones.ZoneLocalMapping.LateInterval
   commentId: P:NodaTime.TimeZones.ZoneLocalMapping.LateInterval
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneLocalMapping.EarlyInterval*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.EarlyInterval
-  isExternal: false
   name: EarlyInterval
   nameWithType: ZoneLocalMapping.EarlyInterval
   fullName: NodaTime.TimeZones.ZoneLocalMapping.EarlyInterval
 - uid: NodaTime.TimeZones.ZoneLocalMapping.EarlyInterval
   commentId: P:NodaTime.TimeZones.ZoneLocalMapping.EarlyInterval
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneLocalMapping.LateInterval*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.LateInterval
-  isExternal: false
   name: LateInterval
   nameWithType: ZoneLocalMapping.LateInterval
   fullName: NodaTime.TimeZones.ZoneLocalMapping.LateInterval
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.TimeZones.ZoneLocalMapping.Count*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.Count
-  isExternal: false
   name: Count
   nameWithType: ZoneLocalMapping.Count
   fullName: NodaTime.TimeZones.ZoneLocalMapping.Count
@@ -783,31 +773,26 @@ references:
   fullName: System.Int32
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
 - uid: NodaTime.TimeZones.ZoneLocalMapping.Single*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.Single
-  isExternal: false
   name: Single
   nameWithType: ZoneLocalMapping.Single
   fullName: NodaTime.TimeZones.ZoneLocalMapping.Single
 - uid: NodaTime.TimeZones.ZoneLocalMapping.First*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.First
-  isExternal: false
   name: First
   nameWithType: ZoneLocalMapping.First
   fullName: NodaTime.TimeZones.ZoneLocalMapping.First
 - uid: NodaTime.TimeZones.ZoneLocalMapping.Last*
   commentId: Overload:NodaTime.TimeZones.ZoneLocalMapping.Last
-  isExternal: false
   name: Last
   nameWithType: ZoneLocalMapping.Last
   fullName: NodaTime.TimeZones.ZoneLocalMapping.Last

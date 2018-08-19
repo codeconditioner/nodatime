@@ -114,19 +114,16 @@ references:
 - uid: NodaTime.TimeZones.IDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.IDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
 - uid: NodaTime.TimeZones.DateTimeZoneCache
   commentId: T:NodaTime.TimeZones.DateTimeZoneCache
-  isExternal: false
   name: DateTimeZoneCache
   nameWithType: DateTimeZoneCache
   fullName: NodaTime.TimeZones.DateTimeZoneCache
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -590,25 +587,24 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
 - uid: System.Runtime.InteropServices
   commentId: N:System.Runtime.InteropServices
-  isExternal: false
+  isExternal: true
   name: System.Runtime.InteropServices
   nameWithType: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices
 - uid: NodaTime.TimeZones.InvalidDateTimeZoneSourceException.#ctor*
   commentId: Overload:NodaTime.TimeZones.InvalidDateTimeZoneSourceException.#ctor
-  isExternal: false
   name: InvalidDateTimeZoneSourceException
   nameWithType: InvalidDateTimeZoneSourceException.InvalidDateTimeZoneSourceException
   fullName: NodaTime.TimeZones.InvalidDateTimeZoneSourceException.InvalidDateTimeZoneSourceException

@@ -685,15 +685,14 @@ references:
 - uid: NodaTime.IClock
   commentId: T:NodaTime.IClock
   parent: NodaTime
-  isExternal: false
   name: IClock
   nameWithType: IClock
   fullName: NodaTime.IClock
 - uid: NodaTime.Testing.FakeClock.AutoAdvance
   commentId: P:NodaTime.Testing.FakeClock.AutoAdvance
+  isExternal: true
 - uid: NodaTime.Testing
   commentId: N:NodaTime.Testing
-  isExternal: false
   name: NodaTime.Testing
   nameWithType: NodaTime.Testing
   fullName: NodaTime.Testing
@@ -985,46 +984,40 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Testing.FakeClock.#ctor*
   commentId: Overload:NodaTime.Testing.FakeClock.#ctor
-  isExternal: false
   name: FakeClock
   nameWithType: FakeClock.FakeClock
   fullName: NodaTime.Testing.FakeClock.FakeClock
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Testing.FakeClock
   commentId: T:NodaTime.Testing.FakeClock
   parent: NodaTime.Testing
-  isExternal: false
   name: FakeClock
   nameWithType: FakeClock
   fullName: NodaTime.Testing.FakeClock
 - uid: NodaTime.Testing.FakeClock.FromUtc*
   commentId: Overload:NodaTime.Testing.FakeClock.FromUtc
-  isExternal: false
   name: FromUtc
   nameWithType: FakeClock.FromUtc
   fullName: NodaTime.Testing.FakeClock.FromUtc
@@ -1037,13 +1030,11 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Testing.FakeClock.Advance*
   commentId: Overload:NodaTime.Testing.FakeClock.Advance
-  isExternal: false
   name: Advance
   nameWithType: FakeClock.Advance
   fullName: NodaTime.Testing.FakeClock.Advance
 - uid: NodaTime.Testing.FakeClock.AdvanceNanoseconds*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceNanoseconds
-  isExternal: false
   name: AdvanceNanoseconds
   nameWithType: FakeClock.AdvanceNanoseconds
   fullName: NodaTime.Testing.FakeClock.AdvanceNanoseconds
@@ -1056,56 +1047,47 @@ references:
   fullName: System.Int64
 - uid: NodaTime.Testing.FakeClock.AdvanceTicks*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceTicks
-  isExternal: false
   name: AdvanceTicks
   nameWithType: FakeClock.AdvanceTicks
   fullName: NodaTime.Testing.FakeClock.AdvanceTicks
 - uid: NodaTime.Testing.FakeClock.AdvanceMilliseconds*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceMilliseconds
-  isExternal: false
   name: AdvanceMilliseconds
   nameWithType: FakeClock.AdvanceMilliseconds
   fullName: NodaTime.Testing.FakeClock.AdvanceMilliseconds
 - uid: NodaTime.Testing.FakeClock.AdvanceSeconds*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceSeconds
-  isExternal: false
   name: AdvanceSeconds
   nameWithType: FakeClock.AdvanceSeconds
   fullName: NodaTime.Testing.FakeClock.AdvanceSeconds
 - uid: NodaTime.Testing.FakeClock.AdvanceMinutes*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceMinutes
-  isExternal: false
   name: AdvanceMinutes
   nameWithType: FakeClock.AdvanceMinutes
   fullName: NodaTime.Testing.FakeClock.AdvanceMinutes
 - uid: NodaTime.Testing.FakeClock.AdvanceHours*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceHours
-  isExternal: false
   name: AdvanceHours
   nameWithType: FakeClock.AdvanceHours
   fullName: NodaTime.Testing.FakeClock.AdvanceHours
 - uid: NodaTime.Testing.FakeClock.AdvanceDays*
   commentId: Overload:NodaTime.Testing.FakeClock.AdvanceDays
-  isExternal: false
   name: AdvanceDays
   nameWithType: FakeClock.AdvanceDays
   fullName: NodaTime.Testing.FakeClock.AdvanceDays
 - uid: NodaTime.Testing.FakeClock.Reset*
   commentId: Overload:NodaTime.Testing.FakeClock.Reset
-  isExternal: false
   name: Reset
   nameWithType: FakeClock.Reset
   fullName: NodaTime.Testing.FakeClock.Reset
 - uid: NodaTime.Testing.FakeClock.GetCurrentInstant*
   commentId: Overload:NodaTime.Testing.FakeClock.GetCurrentInstant
-  isExternal: false
   name: GetCurrentInstant
   nameWithType: FakeClock.GetCurrentInstant
   fullName: NodaTime.Testing.FakeClock.GetCurrentInstant
 - uid: NodaTime.IClock.GetCurrentInstant
   commentId: M:NodaTime.IClock.GetCurrentInstant
   parent: NodaTime.IClock
-  isExternal: false
   name: GetCurrentInstant()
   nameWithType: IClock.GetCurrentInstant()
   fullName: NodaTime.IClock.GetCurrentInstant()
@@ -1133,15 +1115,18 @@ references:
     fullName: )
 - uid: NodaTime.Testing.FakeClock.#ctor(NodaTime.Instant,NodaTime.Duration)
   commentId: M:NodaTime.Testing.FakeClock.#ctor(NodaTime.Instant,NodaTime.Duration)
+  isExternal: true
 - uid: NodaTime.Testing.FakeClock.Reset(NodaTime.Instant)
   commentId: M:NodaTime.Testing.FakeClock.Reset(NodaTime.Instant)
+  isExternal: true
 - uid: NodaTime.Testing.FakeClock.Advance(NodaTime.Duration)
   commentId: M:NodaTime.Testing.FakeClock.Advance(NodaTime.Duration)
+  isExternal: true
 - uid: NodaTime.Testing.FakeClock.GetCurrentInstant
   commentId: M:NodaTime.Testing.FakeClock.GetCurrentInstant
+  isExternal: true
 - uid: NodaTime.Testing.FakeClock.AutoAdvance*
   commentId: Overload:NodaTime.Testing.FakeClock.AutoAdvance
-  isExternal: false
   name: AutoAdvance
   nameWithType: FakeClock.AutoAdvance
   fullName: NodaTime.Testing.FakeClock.AutoAdvance

@@ -35,125 +35,106 @@ references:
 - uid: NodaTime.TimeZones.BclDateTimeZone
   commentId: T:NodaTime.TimeZones.BclDateTimeZone
   parent: NodaTime.TimeZones
-  isExternal: false
   name: BclDateTimeZone
   nameWithType: BclDateTimeZone
   fullName: NodaTime.TimeZones.BclDateTimeZone
 - uid: NodaTime.TimeZones.BclDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.BclDateTimeZoneSource
-  isExternal: false
   name: BclDateTimeZoneSource
   nameWithType: BclDateTimeZoneSource
   fullName: NodaTime.TimeZones.BclDateTimeZoneSource
 - uid: NodaTime.TimeZones.DateTimeZoneCache
   commentId: T:NodaTime.TimeZones.DateTimeZoneCache
-  isExternal: false
   name: DateTimeZoneCache
   nameWithType: DateTimeZoneCache
   fullName: NodaTime.TimeZones.DateTimeZoneCache
 - uid: NodaTime.TimeZones.DateTimeZoneNotFoundException
   commentId: T:NodaTime.TimeZones.DateTimeZoneNotFoundException
-  isExternal: false
   name: DateTimeZoneNotFoundException
   nameWithType: DateTimeZoneNotFoundException
   fullName: NodaTime.TimeZones.DateTimeZoneNotFoundException
 - uid: NodaTime.TimeZones.AmbiguousTimeResolver
   commentId: T:NodaTime.TimeZones.AmbiguousTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: AmbiguousTimeResolver
   nameWithType: AmbiguousTimeResolver
   fullName: NodaTime.TimeZones.AmbiguousTimeResolver
 - uid: NodaTime.TimeZones.SkippedTimeResolver
   commentId: T:NodaTime.TimeZones.SkippedTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: SkippedTimeResolver
   nameWithType: SkippedTimeResolver
   fullName: NodaTime.TimeZones.SkippedTimeResolver
 - uid: NodaTime.TimeZones.ZoneLocalMappingResolver
   commentId: T:NodaTime.TimeZones.ZoneLocalMappingResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMappingResolver
   nameWithType: ZoneLocalMappingResolver
   fullName: NodaTime.TimeZones.ZoneLocalMappingResolver
 - uid: NodaTime.TimeZones.IDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.IDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
 - uid: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
   commentId: T:NodaTime.TimeZones.InvalidDateTimeZoneSourceException
-  isExternal: false
   name: InvalidDateTimeZoneSourceException
   nameWithType: InvalidDateTimeZoneSourceException
   fullName: NodaTime.TimeZones.InvalidDateTimeZoneSourceException
 - uid: NodaTime.TimeZones.Resolvers
   commentId: T:NodaTime.TimeZones.Resolvers
-  isExternal: false
   name: Resolvers
   nameWithType: Resolvers
   fullName: NodaTime.TimeZones.Resolvers
 - uid: NodaTime.TimeZones.TzdbDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.TzdbDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: TzdbDateTimeZoneSource
   nameWithType: TzdbDateTimeZoneSource
   fullName: NodaTime.TimeZones.TzdbDateTimeZoneSource
 - uid: NodaTime.TimeZones.TzdbZone1970Location
   commentId: T:NodaTime.TimeZones.TzdbZone1970Location
-  isExternal: false
   name: TzdbZone1970Location
   nameWithType: TzdbZone1970Location
   fullName: NodaTime.TimeZones.TzdbZone1970Location
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country
   commentId: T:NodaTime.TimeZones.TzdbZone1970Location.Country
   parent: NodaTime.TimeZones
-  isExternal: false
   name: TzdbZone1970Location.Country
   nameWithType: TzdbZone1970Location.Country
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country
 - uid: NodaTime.TimeZones.TzdbZoneLocation
   commentId: T:NodaTime.TimeZones.TzdbZoneLocation
-  isExternal: false
   name: TzdbZoneLocation
   nameWithType: TzdbZoneLocation
   fullName: NodaTime.TimeZones.TzdbZoneLocation
 - uid: NodaTime.TimeZones.ZoneEqualityComparer
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer
   nameWithType: ZoneEqualityComparer
   fullName: NodaTime.TimeZones.ZoneEqualityComparer
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer.Options
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer.Options
   nameWithType: ZoneEqualityComparer.Options
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.Options
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.TimeZones.ZoneLocalMapping
   commentId: T:NodaTime.TimeZones.ZoneLocalMapping
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMapping
   nameWithType: ZoneLocalMapping
   fullName: NodaTime.TimeZones.ZoneLocalMapping
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones

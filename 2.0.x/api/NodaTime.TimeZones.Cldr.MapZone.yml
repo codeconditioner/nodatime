@@ -445,7 +445,6 @@ items:
 references:
 - uid: NodaTime.TimeZones.Cldr
   commentId: N:NodaTime.TimeZones.Cldr
-  isExternal: false
   name: NodaTime.TimeZones.Cldr
   nameWithType: NodaTime.TimeZones.Cldr
   fullName: NodaTime.TimeZones.Cldr
@@ -676,7 +675,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -728,19 +727,16 @@ references:
   fullName: System.String
 - uid: NodaTime.TimeZones.Cldr.MapZone.WindowsId*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.WindowsId
-  isExternal: false
   name: WindowsId
   nameWithType: MapZone.WindowsId
   fullName: NodaTime.TimeZones.Cldr.MapZone.WindowsId
 - uid: NodaTime.TimeZones.Cldr.MapZone.Territory*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.Territory
-  isExternal: false
   name: Territory
   nameWithType: MapZone.Territory
   fullName: NodaTime.TimeZones.Cldr.MapZone.Territory
 - uid: NodaTime.TimeZones.Cldr.MapZone.TzdbIds*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.TzdbIds
-  isExternal: false
   name: TzdbIds
   nameWithType: MapZone.TzdbIds
   fullName: NodaTime.TimeZones.Cldr.MapZone.TzdbIds
@@ -829,19 +825,17 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.TimeZones.Cldr.MapZone.#ctor*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.#ctor
-  isExternal: false
   name: MapZone
   nameWithType: MapZone.MapZone
   fullName: NodaTime.TimeZones.Cldr.MapZone.MapZone
 - uid: NodaTime.TimeZones.Cldr.MapZone.Equals*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.Equals
-  isExternal: false
   name: Equals
   nameWithType: MapZone.Equals
   fullName: NodaTime.TimeZones.Cldr.MapZone.Equals
@@ -889,7 +883,6 @@ references:
 - uid: NodaTime.TimeZones.Cldr.MapZone
   commentId: T:NodaTime.TimeZones.Cldr.MapZone
   parent: NodaTime.TimeZones.Cldr
-  isExternal: false
   name: MapZone
   nameWithType: MapZone
   fullName: NodaTime.TimeZones.Cldr.MapZone
@@ -971,7 +964,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.Cldr.MapZone.GetHashCode*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: MapZone.GetHashCode
   fullName: NodaTime.TimeZones.Cldr.MapZone.GetHashCode
@@ -1056,7 +1048,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.Cldr.MapZone.ToString*
   commentId: Overload:NodaTime.TimeZones.Cldr.MapZone.ToString
-  isExternal: false
   name: ToString
   nameWithType: MapZone.ToString
   fullName: NodaTime.TimeZones.Cldr.MapZone.ToString

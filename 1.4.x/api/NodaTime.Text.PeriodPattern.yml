@@ -321,13 +321,11 @@ references:
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -659,19 +657,17 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -708,30 +704,28 @@ references:
     fullName: )
 - uid: NodaTime.Text.PeriodPattern.Roundtrip*
   commentId: Overload:NodaTime.Text.PeriodPattern.Roundtrip
-  isExternal: false
   name: Roundtrip
   nameWithType: PeriodPattern.Roundtrip
   fullName: NodaTime.Text.PeriodPattern.Roundtrip
 - uid: NodaTime.Text.PeriodPattern
   commentId: T:NodaTime.Text.PeriodPattern
   parent: NodaTime.Text
-  isExternal: false
   name: PeriodPattern
   nameWithType: PeriodPattern
   fullName: NodaTime.Text.PeriodPattern
 - uid: System.OverflowException
   commentId: T:System.OverflowException
+  isExternal: true
 - uid: System.Int64.MaxValue
   commentId: F:System.Int64.MaxValue
+  isExternal: true
 - uid: NodaTime.Text.PeriodPattern.NormalizingIso*
   commentId: Overload:NodaTime.Text.PeriodPattern.NormalizingIso
-  isExternal: false
   name: NormalizingIso
   nameWithType: PeriodPattern.NormalizingIso
   fullName: NodaTime.Text.PeriodPattern.NormalizingIso
 - uid: NodaTime.Text.PeriodPattern.Parse*
   commentId: Overload:NodaTime.Text.PeriodPattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: PeriodPattern.Parse
   fullName: NodaTime.Text.PeriodPattern.Parse
@@ -865,7 +859,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -902,7 +895,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.PeriodPattern.Format*
   commentId: Overload:NodaTime.Text.PeriodPattern.Format
-  isExternal: false
   name: Format
   nameWithType: PeriodPattern.Format
   fullName: NodaTime.Text.PeriodPattern.Format
@@ -947,7 +939,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)

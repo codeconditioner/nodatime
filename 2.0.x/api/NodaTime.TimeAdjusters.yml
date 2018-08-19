@@ -172,27 +172,23 @@ references:
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -484,13 +480,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeAdjusters.TruncateToSecond*
   commentId: Overload:NodaTime.TimeAdjusters.TruncateToSecond
-  isExternal: false
   name: TruncateToSecond
   nameWithType: TimeAdjusters.TruncateToSecond
   fullName: NodaTime.TimeAdjusters.TruncateToSecond
@@ -603,13 +598,11 @@ references:
     fullName: )
 - uid: NodaTime.TimeAdjusters.TruncateToMinute*
   commentId: Overload:NodaTime.TimeAdjusters.TruncateToMinute
-  isExternal: false
   name: TruncateToMinute
   nameWithType: TimeAdjusters.TruncateToMinute
   fullName: NodaTime.TimeAdjusters.TruncateToMinute
 - uid: NodaTime.TimeAdjusters.TruncateToHour*
   commentId: Overload:NodaTime.TimeAdjusters.TruncateToHour
-  isExternal: false
   name: TruncateToHour
   nameWithType: TimeAdjusters.TruncateToHour
   fullName: NodaTime.TimeAdjusters.TruncateToHour

@@ -95,13 +95,11 @@ references:
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
@@ -393,19 +391,17 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Extensions.DateTimeZoneProviderExtensions.GetAllZones*
   commentId: Overload:NodaTime.Extensions.DateTimeZoneProviderExtensions.GetAllZones
-  isExternal: false
   name: GetAllZones
   nameWithType: DateTimeZoneProviderExtensions.GetAllZones
   fullName: NodaTime.Extensions.DateTimeZoneProviderExtensions.GetAllZones
@@ -492,7 +488,7 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic

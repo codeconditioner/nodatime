@@ -18,20 +18,17 @@ items:
 references:
 - uid: NodaTime.TimeZones.Cldr.MapZone
   commentId: T:NodaTime.TimeZones.Cldr.MapZone
-  isExternal: false
   name: MapZone
   nameWithType: MapZone
   fullName: NodaTime.TimeZones.Cldr.MapZone
 - uid: NodaTime.TimeZones.Cldr.WindowsZones
   commentId: T:NodaTime.TimeZones.Cldr.WindowsZones
   parent: NodaTime.TimeZones.Cldr
-  isExternal: false
   name: WindowsZones
   nameWithType: WindowsZones
   fullName: NodaTime.TimeZones.Cldr.WindowsZones
 - uid: NodaTime.TimeZones.Cldr
   commentId: N:NodaTime.TimeZones.Cldr
-  isExternal: false
   name: NodaTime.TimeZones.Cldr
   nameWithType: NodaTime.TimeZones.Cldr
   fullName: NodaTime.TimeZones.Cldr

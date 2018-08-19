@@ -271,13 +271,11 @@ items:
 references:
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder
   commentId: T:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder
-  isExternal: false
   name: FakeDateTimeZoneSource.Builder
   nameWithType: FakeDateTimeZoneSource.Builder
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.Builder
 - uid: NodaTime.Testing.TimeZones
   commentId: N:NodaTime.Testing.TimeZones
-  isExternal: false
   name: NodaTime.Testing.TimeZones
   nameWithType: NodaTime.Testing.TimeZones
   fullName: NodaTime.Testing.TimeZones
@@ -291,7 +289,6 @@ references:
 - uid: NodaTime.TimeZones.IDateTimeZoneSource
   commentId: T:NodaTime.TimeZones.IDateTimeZoneSource
   parent: NodaTime.TimeZones
-  isExternal: false
   name: IDateTimeZoneSource
   nameWithType: IDateTimeZoneSource
   fullName: NodaTime.TimeZones.IDateTimeZoneSource
@@ -576,51 +573,44 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.TimeZones.DateTimeZoneCache
   commentId: T:NodaTime.TimeZones.DateTimeZoneCache
-  isExternal: false
   name: DateTimeZoneCache
   nameWithType: DateTimeZoneCache
   fullName: NodaTime.TimeZones.DateTimeZoneCache
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ToProvider*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ToProvider
-  isExternal: false
   name: ToProvider
   nameWithType: FakeDateTimeZoneSource.ToProvider
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ToProvider
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.GetIds*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.GetIds
-  isExternal: false
   name: GetIds
   nameWithType: FakeDateTimeZoneSource.GetIds
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.GetIds
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.GetIds
   commentId: M:NodaTime.TimeZones.IDateTimeZoneSource.GetIds
   parent: NodaTime.TimeZones.IDateTimeZoneSource
-  isExternal: false
   name: GetIds()
   nameWithType: IDateTimeZoneSource.GetIds()
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.GetIds()
@@ -731,20 +721,18 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.VersionId*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.VersionId
-  isExternal: false
   name: VersionId
   nameWithType: FakeDateTimeZoneSource.VersionId
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.VersionId
 - uid: NodaTime.TimeZones.IDateTimeZoneSource.VersionId
   commentId: P:NodaTime.TimeZones.IDateTimeZoneSource.VersionId
   parent: NodaTime.TimeZones.IDateTimeZoneSource
-  isExternal: false
   name: VersionId
   nameWithType: IDateTimeZoneSource.VersionId
   fullName: NodaTime.TimeZones.IDateTimeZoneSource.VersionId
@@ -757,7 +745,6 @@ references:
   fullName: System.String
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ForId*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ForId
-  isExternal: false
   name: ForId
   nameWithType: FakeDateTimeZoneSource.ForId
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.ForId
@@ -802,6 +789,7 @@ references:
     fullName: )
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -812,13 +800,11 @@ references:
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.MapTimeZoneId*
   commentId: Overload:NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.MapTimeZoneId
-  isExternal: false
   name: MapTimeZoneId
   nameWithType: FakeDateTimeZoneSource.MapTimeZoneId
   fullName: NodaTime.Testing.TimeZones.FakeDateTimeZoneSource.MapTimeZoneId

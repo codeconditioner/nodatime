@@ -319,7 +319,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -354,7 +353,6 @@ references:
     fullName: )
 - uid: NodaTime.Extensions.IsoDayOfWeekExtensions.ToIsoDayOfWeek(NodaTime.IsoDayOfWeek)
   commentId: M:NodaTime.Extensions.IsoDayOfWeekExtensions.ToIsoDayOfWeek(NodaTime.IsoDayOfWeek)
-  isExternal: false
   name: ToIsoDayOfWeek(IsoDayOfWeek)
   nameWithType: IsoDayOfWeekExtensions.ToIsoDayOfWeek(IsoDayOfWeek)
   fullName: NodaTime.Extensions.IsoDayOfWeekExtensions.ToIsoDayOfWeek(NodaTime.IsoDayOfWeek)
@@ -391,20 +389,17 @@ references:
 - uid: NodaTime.Extensions.IsoDayOfWeekExtensions
   commentId: T:NodaTime.Extensions.IsoDayOfWeekExtensions
   parent: NodaTime.Extensions
-  isExternal: false
   name: IsoDayOfWeekExtensions
   nameWithType: IsoDayOfWeekExtensions
   fullName: NodaTime.Extensions.IsoDayOfWeekExtensions
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek

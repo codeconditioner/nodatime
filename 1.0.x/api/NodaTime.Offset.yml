@@ -1551,7 +1551,6 @@ items:
 references:
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1839,7 +1838,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1892,13 +1891,11 @@ references:
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.Offset.Milliseconds*
   commentId: Overload:NodaTime.Offset.Milliseconds
-  isExternal: false
   name: Milliseconds
   nameWithType: Offset.Milliseconds
   fullName: NodaTime.Offset.Milliseconds
@@ -1911,7 +1908,6 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Offset.Ticks*
   commentId: Overload:NodaTime.Offset.Ticks
-  isExternal: false
   name: Ticks
   nameWithType: Offset.Ticks
   fullName: NodaTime.Offset.Ticks
@@ -1924,33 +1920,29 @@ references:
   fullName: System.Int64
 - uid: NodaTime.Offset.Max*
   commentId: Overload:NodaTime.Offset.Max
-  isExternal: false
   name: Max
   nameWithType: Offset.Max
   fullName: NodaTime.Offset.Max
 - uid: NodaTime.Offset.Min*
   commentId: Overload:NodaTime.Offset.Min
-  isExternal: false
   name: Min
   nameWithType: Offset.Min
   fullName: NodaTime.Offset.Min
 - uid: NodaTime.Offset.op_UnaryNegation*
   commentId: Overload:NodaTime.Offset.op_UnaryNegation
-  isExternal: false
   name: UnaryNegation
   nameWithType: Offset.UnaryNegation
   fullName: NodaTime.Offset.UnaryNegation
 - uid: NodaTime.Offset.Negate*
   commentId: Overload:NodaTime.Offset.Negate
-  isExternal: false
   name: Negate
   nameWithType: Offset.Negate
   fullName: NodaTime.Offset.Negate
 - uid: NodaTime.Offset.Plus(NodaTime.Offset)
   commentId: M:NodaTime.Offset.Plus(NodaTime.Offset)
+  isExternal: true
 - uid: NodaTime.Offset.op_UnaryPlus*
   commentId: Overload:NodaTime.Offset.op_UnaryPlus
-  isExternal: false
   name: UnaryPlus
   nameWithType: Offset.UnaryPlus
   fullName: NodaTime.Offset.UnaryPlus
@@ -1963,43 +1955,36 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.Offset.op_Addition*
   commentId: Overload:NodaTime.Offset.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: Offset.Addition
   fullName: NodaTime.Offset.Addition
 - uid: NodaTime.Offset.Add*
   commentId: Overload:NodaTime.Offset.Add
-  isExternal: false
   name: Add
   nameWithType: Offset.Add
   fullName: NodaTime.Offset.Add
 - uid: NodaTime.Offset.Plus*
   commentId: Overload:NodaTime.Offset.Plus
-  isExternal: false
   name: Plus
   nameWithType: Offset.Plus
   fullName: NodaTime.Offset.Plus
 - uid: NodaTime.Offset.op_Subtraction*
   commentId: Overload:NodaTime.Offset.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: Offset.Subtraction
   fullName: NodaTime.Offset.Subtraction
 - uid: NodaTime.Offset.Subtract*
   commentId: Overload:NodaTime.Offset.Subtract
-  isExternal: false
   name: Subtract
   nameWithType: Offset.Subtract
   fullName: NodaTime.Offset.Subtract
 - uid: NodaTime.Offset.Minus*
   commentId: Overload:NodaTime.Offset.Minus
-  isExternal: false
   name: Minus
   nameWithType: Offset.Minus
   fullName: NodaTime.Offset.Minus
 - uid: NodaTime.Offset.op_Equality*
   commentId: Overload:NodaTime.Offset.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: Offset.Equality
   fullName: NodaTime.Offset.Equality
@@ -2012,37 +1997,31 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.Offset.op_Inequality*
   commentId: Overload:NodaTime.Offset.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: Offset.Inequality
   fullName: NodaTime.Offset.Inequality
 - uid: NodaTime.Offset.op_LessThan*
   commentId: Overload:NodaTime.Offset.op_LessThan
-  isExternal: false
   name: LessThan
   nameWithType: Offset.LessThan
   fullName: NodaTime.Offset.LessThan
 - uid: NodaTime.Offset.op_LessThanOrEqual*
   commentId: Overload:NodaTime.Offset.op_LessThanOrEqual
-  isExternal: false
   name: LessThanOrEqual
   nameWithType: Offset.LessThanOrEqual
   fullName: NodaTime.Offset.LessThanOrEqual
 - uid: NodaTime.Offset.op_GreaterThan*
   commentId: Overload:NodaTime.Offset.op_GreaterThan
-  isExternal: false
   name: GreaterThan
   nameWithType: Offset.GreaterThan
   fullName: NodaTime.Offset.GreaterThan
 - uid: NodaTime.Offset.op_GreaterThanOrEqual*
   commentId: Overload:NodaTime.Offset.op_GreaterThanOrEqual
-  isExternal: false
   name: GreaterThanOrEqual
   nameWithType: Offset.GreaterThanOrEqual
   fullName: NodaTime.Offset.GreaterThanOrEqual
 - uid: NodaTime.Offset.CompareTo*
   commentId: Overload:NodaTime.Offset.CompareTo
-  isExternal: false
   name: CompareTo
   nameWithType: Offset.CompareTo
   fullName: NodaTime.Offset.CompareTo
@@ -2168,6 +2147,7 @@ references:
     fullName: )
 - uid: NodaTime.Offset.CompareTo(NodaTime.Offset)
   commentId: M:NodaTime.Offset.CompareTo(NodaTime.Offset)
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -2177,7 +2157,6 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.Offset.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.Offset.System#IComparable#CompareTo
-  isExternal: false
   name: IComparable.CompareTo
   nameWithType: Offset.IComparable.CompareTo
   fullName: NodaTime.Offset.System.IComparable.CompareTo
@@ -2185,7 +2164,6 @@ references:
   name.vb: System.IComparable.CompareTo
 - uid: NodaTime.Offset.Equals*
   commentId: Overload:NodaTime.Offset.Equals
-  isExternal: false
   name: Equals
   nameWithType: Offset.Equals
   fullName: NodaTime.Offset.Equals
@@ -2349,7 +2327,6 @@ references:
     fullName: )
 - uid: NodaTime.Offset.GetHashCode*
   commentId: Overload:NodaTime.Offset.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: Offset.GetHashCode
   fullName: NodaTime.Offset.GetHashCode
@@ -2393,7 +2370,6 @@ references:
     fullName: )
 - uid: NodaTime.Offset.ToString*
   commentId: Overload:NodaTime.Offset.ToString
-  isExternal: false
   name: ToString
   nameWithType: Offset.ToString
   fullName: NodaTime.Offset.ToString
@@ -2463,25 +2439,21 @@ references:
     fullName: )
 - uid: NodaTime.Offset.FromMilliseconds*
   commentId: Overload:NodaTime.Offset.FromMilliseconds
-  isExternal: false
   name: FromMilliseconds
   nameWithType: Offset.FromMilliseconds
   fullName: NodaTime.Offset.FromMilliseconds
 - uid: NodaTime.Offset.FromTicks*
   commentId: Overload:NodaTime.Offset.FromTicks
-  isExternal: false
   name: FromTicks
   nameWithType: Offset.FromTicks
   fullName: NodaTime.Offset.FromTicks
 - uid: NodaTime.Offset.FromHours*
   commentId: Overload:NodaTime.Offset.FromHours
-  isExternal: false
   name: FromHours
   nameWithType: Offset.FromHours
   fullName: NodaTime.Offset.FromHours
 - uid: NodaTime.Offset.FromHoursAndMinutes*
   commentId: Overload:NodaTime.Offset.FromHoursAndMinutes
-  isExternal: false
   name: FromHoursAndMinutes
   nameWithType: Offset.FromHoursAndMinutes
   fullName: NodaTime.Offset.FromHoursAndMinutes
@@ -2494,7 +2466,6 @@ references:
   fullName: System.TimeSpan
 - uid: NodaTime.Offset.ToTimeSpan*
   commentId: Overload:NodaTime.Offset.ToTimeSpan
-  isExternal: false
   name: ToTimeSpan
   nameWithType: Offset.ToTimeSpan
   fullName: NodaTime.Offset.ToTimeSpan

@@ -17,7 +17,6 @@ items:
 references:
 - uid: NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone
   commentId: T:NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone
-  isExternal: false
   name: SingleTransitionDateTimeZone
   nameWithType: SingleTransitionDateTimeZone
   fullName: NodaTime.Testing.TimeZones.SingleTransitionDateTimeZone

@@ -608,35 +608,39 @@ references:
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.PeriodUnits
   commentId: T:NodaTime.PeriodUnits
   parent: NodaTime
-  isExternal: false
   name: PeriodUnits
   nameWithType: PeriodUnits
   fullName: NodaTime.PeriodUnits
 - uid: NodaTime.PeriodUnits.Years
   commentId: F:NodaTime.PeriodUnits.Years
+  isExternal: true
 - uid: NodaTime.PeriodUnits.Months
   commentId: F:NodaTime.PeriodUnits.Months
+  isExternal: true
 - uid: NodaTime.PeriodUnits.Weeks
   commentId: F:NodaTime.PeriodUnits.Weeks
+  isExternal: true
 - uid: NodaTime.PeriodUnits.Days
   commentId: F:NodaTime.PeriodUnits.Days
+  isExternal: true
 - uid: NodaTime.PeriodUnits.Hours
   commentId: F:NodaTime.PeriodUnits.Hours
+  isExternal: true
 - uid: NodaTime.PeriodUnits.Minutes
   commentId: F:NodaTime.PeriodUnits.Minutes
+  isExternal: true
 - uid: NodaTime.PeriodUnits.Seconds
   commentId: F:NodaTime.PeriodUnits.Seconds
+  isExternal: true
 shouldSkipMarkup: true

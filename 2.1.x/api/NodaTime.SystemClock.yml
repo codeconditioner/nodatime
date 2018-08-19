@@ -139,13 +139,11 @@ references:
 - uid: NodaTime.IClock
   commentId: T:NodaTime.IClock
   parent: NodaTime
-  isExternal: false
   name: IClock
   nameWithType: IClock
   fullName: NodaTime.IClock
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -612,13 +610,12 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Extensions.ClockExtensions.InZone(NodaTime.IClock,NodaTime.DateTimeZone)
   commentId: M:NodaTime.Extensions.ClockExtensions.InZone(NodaTime.IClock,NodaTime.DateTimeZone)
-  isExternal: false
   name: InZone(IClock, DateTimeZone)
   nameWithType: ClockExtensions.InZone(IClock, DateTimeZone)
   fullName: NodaTime.Extensions.ClockExtensions.InZone(NodaTime.IClock, NodaTime.DateTimeZone)
@@ -669,13 +666,11 @@ references:
 - uid: NodaTime.Extensions.ClockExtensions
   commentId: T:NodaTime.Extensions.ClockExtensions
   parent: NodaTime.Extensions
-  isExternal: false
   name: ClockExtensions
   nameWithType: ClockExtensions
   fullName: NodaTime.Extensions.ClockExtensions
 - uid: NodaTime.Extensions.ClockExtensions.InZone(NodaTime.IClock,NodaTime.DateTimeZone,NodaTime.CalendarSystem)
   commentId: M:NodaTime.Extensions.ClockExtensions.InZone(NodaTime.IClock,NodaTime.DateTimeZone,NodaTime.CalendarSystem)
-  isExternal: false
   name: InZone(IClock, DateTimeZone, CalendarSystem)
   nameWithType: ClockExtensions.InZone(IClock, DateTimeZone, CalendarSystem)
   fullName: NodaTime.Extensions.ClockExtensions.InZone(NodaTime.IClock, NodaTime.DateTimeZone, NodaTime.CalendarSystem)
@@ -739,7 +734,6 @@ references:
     fullName: )
 - uid: NodaTime.Extensions.ClockExtensions.InUtc(NodaTime.IClock)
   commentId: M:NodaTime.Extensions.ClockExtensions.InUtc(NodaTime.IClock)
-  isExternal: false
   name: InUtc(IClock)
   nameWithType: ClockExtensions.InUtc(IClock)
   fullName: NodaTime.Extensions.ClockExtensions.InUtc(NodaTime.IClock)
@@ -775,7 +769,6 @@ references:
     fullName: )
 - uid: NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone(NodaTime.IClock)
   commentId: M:NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone(NodaTime.IClock)
-  isExternal: false
   name: InTzdbSystemDefaultZone(IClock)
   nameWithType: ClockExtensions.InTzdbSystemDefaultZone(IClock)
   fullName: NodaTime.Extensions.ClockExtensions.InTzdbSystemDefaultZone(NodaTime.IClock)
@@ -811,7 +804,6 @@ references:
     fullName: )
 - uid: NodaTime.Extensions.ClockExtensions.InBclSystemDefaultZone(NodaTime.IClock)
   commentId: M:NodaTime.Extensions.ClockExtensions.InBclSystemDefaultZone(NodaTime.IClock)
-  isExternal: false
   name: InBclSystemDefaultZone(IClock)
   nameWithType: ClockExtensions.InBclSystemDefaultZone(IClock)
   fullName: NodaTime.Extensions.ClockExtensions.InBclSystemDefaultZone(NodaTime.IClock)
@@ -847,40 +839,34 @@ references:
     fullName: )
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
 - uid: NodaTime.SystemClock
   commentId: T:NodaTime.SystemClock
   parent: NodaTime
-  isExternal: false
   name: SystemClock
   nameWithType: SystemClock
   fullName: NodaTime.SystemClock
 - uid: NodaTime.SystemClock.Instance*
   commentId: Overload:NodaTime.SystemClock.Instance
-  isExternal: false
   name: Instance
   nameWithType: SystemClock.Instance
   fullName: NodaTime.SystemClock.Instance
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.SystemClock.GetCurrentInstant*
   commentId: Overload:NodaTime.SystemClock.GetCurrentInstant
-  isExternal: false
   name: GetCurrentInstant
   nameWithType: SystemClock.GetCurrentInstant
   fullName: NodaTime.SystemClock.GetCurrentInstant
 - uid: NodaTime.IClock.GetCurrentInstant
   commentId: M:NodaTime.IClock.GetCurrentInstant
   parent: NodaTime.IClock
-  isExternal: false
   name: GetCurrentInstant()
   nameWithType: IClock.GetCurrentInstant()
   fullName: NodaTime.IClock.GetCurrentInstant()

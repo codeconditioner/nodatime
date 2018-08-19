@@ -649,13 +649,11 @@ references:
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.Testing.Extensions
   commentId: N:NodaTime.Testing.Extensions
-  isExternal: false
   name: NodaTime.Testing.Extensions
   nameWithType: NodaTime.Testing.Extensions
   fullName: NodaTime.Testing.Extensions
@@ -947,19 +945,17 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.January*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.January
-  isExternal: false
   name: January
   nameWithType: LocalDateConstruction.January
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.January
@@ -972,67 +968,56 @@ references:
   fullName: System.Int32
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.February*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.February
-  isExternal: false
   name: February
   nameWithType: LocalDateConstruction.February
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.February
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.March*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.March
-  isExternal: false
   name: March
   nameWithType: LocalDateConstruction.March
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.March
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.April*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.April
-  isExternal: false
   name: April
   nameWithType: LocalDateConstruction.April
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.April
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.May*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.May
-  isExternal: false
   name: May
   nameWithType: LocalDateConstruction.May
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.May
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.June*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.June
-  isExternal: false
   name: June
   nameWithType: LocalDateConstruction.June
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.June
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.July*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.July
-  isExternal: false
   name: July
   nameWithType: LocalDateConstruction.July
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.July
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.August*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.August
-  isExternal: false
   name: August
   nameWithType: LocalDateConstruction.August
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.August
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.September*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.September
-  isExternal: false
   name: September
   nameWithType: LocalDateConstruction.September
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.September
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.October*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.October
-  isExternal: false
   name: October
   nameWithType: LocalDateConstruction.October
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.October
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.November*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.November
-  isExternal: false
   name: November
   nameWithType: LocalDateConstruction.November
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.November
 - uid: NodaTime.Testing.Extensions.LocalDateConstruction.December*
   commentId: Overload:NodaTime.Testing.Extensions.LocalDateConstruction.December
-  isExternal: false
   name: December
   nameWithType: LocalDateConstruction.December
   fullName: NodaTime.Testing.Extensions.LocalDateConstruction.December

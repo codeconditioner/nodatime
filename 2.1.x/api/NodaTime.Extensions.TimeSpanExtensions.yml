@@ -155,7 +155,6 @@ references:
   fullName: System.TimeSpan
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
@@ -447,40 +446,38 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Duration.FromTimeSpan(System.TimeSpan)
   commentId: M:NodaTime.Duration.FromTimeSpan(System.TimeSpan)
+  isExternal: true
 - uid: NodaTime.Extensions.TimeSpanExtensions.ToDuration*
   commentId: Overload:NodaTime.Extensions.TimeSpanExtensions.ToDuration
-  isExternal: false
   name: ToDuration
   nameWithType: TimeSpanExtensions.ToDuration
   fullName: NodaTime.Extensions.TimeSpanExtensions.ToDuration
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.Offset.FromTimeSpan(System.TimeSpan)
   commentId: M:NodaTime.Offset.FromTimeSpan(System.TimeSpan)
+  isExternal: true
 - uid: System.ArgumentOutOfRangeException
   commentId: T:System.ArgumentOutOfRangeException
   parent: System
@@ -490,7 +487,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.Extensions.TimeSpanExtensions.ToOffset*
   commentId: Overload:NodaTime.Extensions.TimeSpanExtensions.ToOffset
-  isExternal: false
   name: ToOffset
   nameWithType: TimeSpanExtensions.ToOffset
   fullName: NodaTime.Extensions.TimeSpanExtensions.ToOffset

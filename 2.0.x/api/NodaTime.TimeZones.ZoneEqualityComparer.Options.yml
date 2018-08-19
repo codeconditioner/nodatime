@@ -259,14 +259,12 @@ references:
 - uid: NodaTime.TimeZones.ZoneInterval
   commentId: T:NodaTime.TimeZones.ZoneInterval
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneInterval
   nameWithType: ZoneInterval
   fullName: NodaTime.TimeZones.ZoneInterval
 - uid: NodaTime.DateTimeZone.GetZoneIntervals(NodaTime.Interval)
   commentId: M:NodaTime.DateTimeZone.GetZoneIntervals(NodaTime.Interval)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: GetZoneIntervals(Interval)
   nameWithType: DateTimeZone.GetZoneIntervals(Interval)
   fullName: NodaTime.DateTimeZone.GetZoneIntervals(NodaTime.Interval)
@@ -302,33 +300,32 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options.OnlyMatchWallOffset
   commentId: F:NodaTime.TimeZones.ZoneEqualityComparer.Options.OnlyMatchWallOffset
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options.MatchAllTransitions
   commentId: F:NodaTime.TimeZones.ZoneEqualityComparer.Options.MatchAllTransitions
+  isExternal: true
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options.MatchStartAndEndTransitions
   commentId: F:NodaTime.TimeZones.ZoneEqualityComparer.Options.MatchStartAndEndTransitions
+  isExternal: true
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.DateTimeZone.GetUtcOffset(NodaTime.Instant)
   commentId: M:NodaTime.DateTimeZone.GetUtcOffset(NodaTime.Instant)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: GetUtcOffset(Instant)
   nameWithType: DateTimeZone.GetUtcOffset(Instant)
   fullName: NodaTime.DateTimeZone.GetUtcOffset(NodaTime.Instant)
@@ -365,7 +362,6 @@ references:
 - uid: NodaTime.TimeZones.ZoneEqualityComparer.Options
   commentId: T:NodaTime.TimeZones.ZoneEqualityComparer.Options
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneEqualityComparer.Options
   nameWithType: ZoneEqualityComparer.Options
   fullName: NodaTime.TimeZones.ZoneEqualityComparer.Options

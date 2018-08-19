@@ -148,7 +148,6 @@ items:
 references:
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -626,25 +625,24 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
 - uid: System.Runtime.InteropServices
   commentId: N:System.Runtime.InteropServices
-  isExternal: false
+  isExternal: true
   name: System.Runtime.InteropServices
   nameWithType: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices
 - uid: NodaTime.Text.UnparsableValueException.#ctor*
   commentId: Overload:NodaTime.Text.UnparsableValueException.#ctor
-  isExternal: false
   name: UnparsableValueException
   nameWithType: UnparsableValueException.UnparsableValueException
   fullName: NodaTime.Text.UnparsableValueException.UnparsableValueException

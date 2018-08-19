@@ -215,26 +215,26 @@ items:
 references:
 - uid: NodaTime.Calendars.WeekYearRules
   commentId: T:NodaTime.Calendars.WeekYearRules
-  isExternal: false
   name: WeekYearRules
   nameWithType: WeekYearRules
   fullName: NodaTime.Calendars.WeekYearRules
 - uid: NodaTime.Calendars.IWeekYearRule.GetWeekYear(NodaTime.LocalDate)
   commentId: M:NodaTime.Calendars.IWeekYearRule.GetWeekYear(NodaTime.LocalDate)
+  isExternal: true
 - uid: NodaTime.Calendars.IWeekYearRule.GetWeekOfWeekYear(NodaTime.LocalDate)
   commentId: M:NodaTime.Calendars.IWeekYearRule.GetWeekOfWeekYear(NodaTime.LocalDate)
+  isExternal: true
 - uid: NodaTime.Calendars.IWeekYearRule.GetLocalDate(System.Int32,System.Int32,NodaTime.IsoDayOfWeek,NodaTime.CalendarSystem)
   commentId: M:NodaTime.Calendars.IWeekYearRule.GetLocalDate(System.Int32,System.Int32,NodaTime.IsoDayOfWeek,NodaTime.CalendarSystem)
+  isExternal: true
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
@@ -348,7 +348,6 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -437,7 +436,6 @@ references:
 - uid: NodaTime.Calendars.WeekYearRuleExtensions
   commentId: T:NodaTime.Calendars.WeekYearRuleExtensions
   parent: NodaTime.Calendars
-  isExternal: false
   name: WeekYearRuleExtensions
   nameWithType: WeekYearRuleExtensions
   fullName: NodaTime.Calendars.WeekYearRuleExtensions
@@ -502,7 +500,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.Calendars.IWeekYearRule.GetLocalDate*
   commentId: Overload:NodaTime.Calendars.IWeekYearRule.GetLocalDate
-  isExternal: false
   name: GetLocalDate
   nameWithType: IWeekYearRule.GetLocalDate
   fullName: NodaTime.Calendars.IWeekYearRule.GetLocalDate
@@ -516,38 +513,33 @@ references:
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Calendars.IWeekYearRule.GetWeekYear*
   commentId: Overload:NodaTime.Calendars.IWeekYearRule.GetWeekYear
-  isExternal: false
   name: GetWeekYear
   nameWithType: IWeekYearRule.GetWeekYear
   fullName: NodaTime.Calendars.IWeekYearRule.GetWeekYear
 - uid: NodaTime.Calendars.IWeekYearRule.GetWeekOfWeekYear*
   commentId: Overload:NodaTime.Calendars.IWeekYearRule.GetWeekOfWeekYear
-  isExternal: false
   name: GetWeekOfWeekYear
   nameWithType: IWeekYearRule.GetWeekOfWeekYear
   fullName: NodaTime.Calendars.IWeekYearRule.GetWeekOfWeekYear
 - uid: NodaTime.Calendars.IWeekYearRule.GetWeeksInWeekYear*
   commentId: Overload:NodaTime.Calendars.IWeekYearRule.GetWeeksInWeekYear
-  isExternal: false
   name: GetWeeksInWeekYear
   nameWithType: IWeekYearRule.GetWeeksInWeekYear
   fullName: NodaTime.Calendars.IWeekYearRule.GetWeeksInWeekYear

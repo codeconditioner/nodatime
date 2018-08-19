@@ -397,7 +397,6 @@ items:
 references:
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -689,54 +688,52 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.TimeZones.AmbiguousTimeResolver
   commentId: T:NodaTime.TimeZones.AmbiguousTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: AmbiguousTimeResolver
   nameWithType: AmbiguousTimeResolver
   fullName: NodaTime.TimeZones.AmbiguousTimeResolver
 - uid: NodaTime.AmbiguousTimeException
   commentId: T:NodaTime.AmbiguousTimeException
-  isExternal: false
   name: AmbiguousTimeException
   nameWithType: AmbiguousTimeException
   fullName: NodaTime.AmbiguousTimeException
 - uid: NodaTime.TimeZones.SkippedTimeResolver
   commentId: T:NodaTime.TimeZones.SkippedTimeResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: SkippedTimeResolver
   nameWithType: SkippedTimeResolver
   fullName: NodaTime.TimeZones.SkippedTimeResolver
 - uid: NodaTime.SkippedTimeException
   commentId: T:NodaTime.SkippedTimeException
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException
   fullName: NodaTime.SkippedTimeException
 - uid: NodaTime.TimeZones.ZoneLocalMappingResolver
   commentId: T:NodaTime.TimeZones.ZoneLocalMappingResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMappingResolver
   nameWithType: ZoneLocalMappingResolver
   fullName: NodaTime.TimeZones.ZoneLocalMappingResolver
 - uid: NodaTime.TimeZones.Resolvers.ThrowWhenAmbiguous
   commentId: F:NodaTime.TimeZones.Resolvers.ThrowWhenAmbiguous
+  isExternal: true
 - uid: NodaTime.TimeZones.Resolvers.ThrowWhenSkipped
   commentId: F:NodaTime.TimeZones.Resolvers.ThrowWhenSkipped
+  isExternal: true
 - uid: NodaTime.TimeZones.Resolvers.ReturnLater
   commentId: F:NodaTime.TimeZones.Resolvers.ReturnLater
+  isExternal: true
 - uid: NodaTime.TimeZones.Resolvers.ReturnStartOfIntervalAfter
   commentId: F:NodaTime.TimeZones.Resolvers.ReturnStartOfIntervalAfter
+  isExternal: true
 - uid: NodaTime.TimeZones.Resolvers.CreateMappingResolver*
   commentId: Overload:NodaTime.TimeZones.Resolvers.CreateMappingResolver
-  isExternal: false
   name: CreateMappingResolver
   nameWithType: Resolvers.CreateMappingResolver
   fullName: NodaTime.TimeZones.Resolvers.CreateMappingResolver

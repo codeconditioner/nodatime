@@ -101,7 +101,6 @@ references:
   fullName: System.Diagnostics.Stopwatch
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
@@ -393,32 +392,29 @@ references:
     fullName: )
 - uid: System.Diagnostics
   commentId: N:System.Diagnostics
-  isExternal: false
+  isExternal: true
   name: System.Diagnostics
   nameWithType: System.Diagnostics
   fullName: System.Diagnostics
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.Extensions.StopwatchExtensions.ElapsedDuration*
   commentId: Overload:NodaTime.Extensions.StopwatchExtensions.ElapsedDuration
-  isExternal: false
   name: ElapsedDuration
   nameWithType: StopwatchExtensions.ElapsedDuration
   fullName: NodaTime.Extensions.StopwatchExtensions.ElapsedDuration
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime

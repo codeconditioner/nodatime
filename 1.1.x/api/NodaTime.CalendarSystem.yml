@@ -956,17 +956,17 @@ references:
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem
 - uid: NodaTime.CalendarSystem.Iso
   commentId: P:NodaTime.CalendarSystem.Iso
+  isExternal: true
 - uid: NodaTime.CalendarSystem.GetGregorianCalendar(System.Int32)
   commentId: M:NodaTime.CalendarSystem.GetGregorianCalendar(System.Int32)
+  isExternal: true
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1227,17 +1227,18 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.CalendarSystem.Id
   commentId: P:NodaTime.CalendarSystem.Id
+  isExternal: true
 - uid: System.Collections.Generic.KeyNotFoundException
   commentId: T:System.Collections.Generic.KeyNotFoundException
+  isExternal: true
 - uid: NodaTime.CalendarSystem.ForId*
   commentId: Overload:NodaTime.CalendarSystem.ForId
-  isExternal: false
   name: ForId
   nameWithType: CalendarSystem.ForId
   fullName: NodaTime.CalendarSystem.ForId
@@ -1250,7 +1251,6 @@ references:
   fullName: System.String
 - uid: NodaTime.CalendarSystem.Ids*
   commentId: Overload:NodaTime.CalendarSystem.Ids
-  isExternal: false
   name: Ids
   nameWithType: CalendarSystem.Ids
   fullName: NodaTime.CalendarSystem.Ids
@@ -1339,19 +1339,17 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.CalendarSystem.Iso*
   commentId: Overload:NodaTime.CalendarSystem.Iso
-  isExternal: false
   name: Iso
   nameWithType: CalendarSystem.Iso
   fullName: NodaTime.CalendarSystem.Iso
 - uid: NodaTime.CalendarSystem.GetGregorianCalendar*
   commentId: Overload:NodaTime.CalendarSystem.GetGregorianCalendar
-  isExternal: false
   name: GetGregorianCalendar
   nameWithType: CalendarSystem.GetGregorianCalendar
   fullName: NodaTime.CalendarSystem.GetGregorianCalendar
@@ -1364,83 +1362,78 @@ references:
   fullName: System.Int32
 - uid: NodaTime.CalendarSystem.GetJulianCalendar*
   commentId: Overload:NodaTime.CalendarSystem.GetJulianCalendar
-  isExternal: false
   name: GetJulianCalendar
   nameWithType: CalendarSystem.GetJulianCalendar
   fullName: NodaTime.CalendarSystem.GetJulianCalendar
 - uid: NodaTime.CalendarSystem.GetCopticCalendar*
   commentId: Overload:NodaTime.CalendarSystem.GetCopticCalendar
-  isExternal: false
   name: GetCopticCalendar
   nameWithType: CalendarSystem.GetCopticCalendar
   fullName: NodaTime.CalendarSystem.GetCopticCalendar
 - uid: NodaTime.Calendars.IslamicEpoch.Civil
   commentId: F:NodaTime.Calendars.IslamicEpoch.Civil
+  isExternal: true
 - uid: NodaTime.Calendars.IslamicEpoch.Astronomical
   commentId: F:NodaTime.Calendars.IslamicEpoch.Astronomical
+  isExternal: true
 - uid: NodaTime.CalendarSystem.GetIslamicCalendar*
   commentId: Overload:NodaTime.CalendarSystem.GetIslamicCalendar
-  isExternal: false
   name: GetIslamicCalendar
   nameWithType: CalendarSystem.GetIslamicCalendar
   fullName: NodaTime.CalendarSystem.GetIslamicCalendar
 - uid: NodaTime.Calendars.IslamicLeapYearPattern
   commentId: T:NodaTime.Calendars.IslamicLeapYearPattern
   parent: NodaTime.Calendars
-  isExternal: false
   name: IslamicLeapYearPattern
   nameWithType: IslamicLeapYearPattern
   fullName: NodaTime.Calendars.IslamicLeapYearPattern
 - uid: NodaTime.Calendars.IslamicEpoch
   commentId: T:NodaTime.Calendars.IslamicEpoch
   parent: NodaTime.Calendars
-  isExternal: false
   name: IslamicEpoch
   nameWithType: IslamicEpoch
   fullName: NodaTime.Calendars.IslamicEpoch
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
 - uid: NodaTime.CalendarSystem.ForId(System.String)
   commentId: M:NodaTime.CalendarSystem.ForId(System.String)
+  isExternal: true
 - uid: NodaTime.CalendarSystem.GetCopticCalendar(System.Int32)
   commentId: M:NodaTime.CalendarSystem.GetCopticCalendar(System.Int32)
+  isExternal: true
 - uid: NodaTime.CalendarSystem.GetJulianCalendar(System.Int32)
   commentId: M:NodaTime.CalendarSystem.GetJulianCalendar(System.Int32)
+  isExternal: true
 - uid: NodaTime.CalendarSystem.GetIslamicCalendar(NodaTime.Calendars.IslamicLeapYearPattern,NodaTime.Calendars.IslamicEpoch)
   commentId: M:NodaTime.CalendarSystem.GetIslamicCalendar(NodaTime.Calendars.IslamicLeapYearPattern,NodaTime.Calendars.IslamicEpoch)
+  isExternal: true
 - uid: NodaTime.CalendarSystem.Id*
   commentId: Overload:NodaTime.CalendarSystem.Id
-  isExternal: false
   name: Id
   nameWithType: CalendarSystem.Id
   fullName: NodaTime.CalendarSystem.Id
 - uid: NodaTime.CalendarSystem.Name*
   commentId: Overload:NodaTime.CalendarSystem.Name
-  isExternal: false
   name: Name
   nameWithType: CalendarSystem.Name
   fullName: NodaTime.CalendarSystem.Name
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.CalendarSystem.UsesIsoDayOfWeek*
   commentId: Overload:NodaTime.CalendarSystem.UsesIsoDayOfWeek
-  isExternal: false
   name: UsesIsoDayOfWeek
   nameWithType: CalendarSystem.UsesIsoDayOfWeek
   fullName: NodaTime.CalendarSystem.UsesIsoDayOfWeek
@@ -1460,37 +1453,31 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.CalendarSystem.GetDaysInMonth*
   commentId: Overload:NodaTime.CalendarSystem.GetDaysInMonth
-  isExternal: false
   name: GetDaysInMonth
   nameWithType: CalendarSystem.GetDaysInMonth
   fullName: NodaTime.CalendarSystem.GetDaysInMonth
 - uid: NodaTime.CalendarSystem.IsLeapYear*
   commentId: Overload:NodaTime.CalendarSystem.IsLeapYear
-  isExternal: false
   name: IsLeapYear
   nameWithType: CalendarSystem.IsLeapYear
   fullName: NodaTime.CalendarSystem.IsLeapYear
 - uid: NodaTime.CalendarSystem.MinYear*
   commentId: Overload:NodaTime.CalendarSystem.MinYear
-  isExternal: false
   name: MinYear
   nameWithType: CalendarSystem.MinYear
   fullName: NodaTime.CalendarSystem.MinYear
 - uid: NodaTime.CalendarSystem.MaxYear*
   commentId: Overload:NodaTime.CalendarSystem.MaxYear
-  isExternal: false
   name: MaxYear
   nameWithType: CalendarSystem.MaxYear
   fullName: NodaTime.CalendarSystem.MaxYear
 - uid: NodaTime.CalendarSystem.GetMaxMonth*
   commentId: Overload:NodaTime.CalendarSystem.GetMaxMonth
-  isExternal: false
   name: GetMaxMonth
   nameWithType: CalendarSystem.GetMaxMonth
   fullName: NodaTime.CalendarSystem.GetMaxMonth
 - uid: NodaTime.CalendarSystem.Eras*
   commentId: Overload:NodaTime.CalendarSystem.Eras
-  isExternal: false
   name: Eras
   nameWithType: CalendarSystem.Eras
   fullName: NodaTime.CalendarSystem.Eras
@@ -1577,6 +1564,7 @@ references:
     fullName: )
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -1586,26 +1574,22 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.CalendarSystem.GetAbsoluteYear*
   commentId: Overload:NodaTime.CalendarSystem.GetAbsoluteYear
-  isExternal: false
   name: GetAbsoluteYear
   nameWithType: CalendarSystem.GetAbsoluteYear
   fullName: NodaTime.CalendarSystem.GetAbsoluteYear
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars
-  isExternal: false
   name: Era
   nameWithType: Era
   fullName: NodaTime.Calendars.Era
 - uid: NodaTime.CalendarSystem.GetMaxYearOfEra*
   commentId: Overload:NodaTime.CalendarSystem.GetMaxYearOfEra
-  isExternal: false
   name: GetMaxYearOfEra
   nameWithType: CalendarSystem.GetMaxYearOfEra
   fullName: NodaTime.CalendarSystem.GetMaxYearOfEra
 - uid: NodaTime.CalendarSystem.GetMinYearOfEra*
   commentId: Overload:NodaTime.CalendarSystem.GetMinYearOfEra
-  isExternal: false
   name: GetMinYearOfEra
   nameWithType: CalendarSystem.GetMinYearOfEra
   fullName: NodaTime.CalendarSystem.GetMinYearOfEra
@@ -1642,7 +1626,6 @@ references:
     fullName: )
 - uid: NodaTime.CalendarSystem.ToString*
   commentId: Overload:NodaTime.CalendarSystem.ToString
-  isExternal: false
   name: ToString
   nameWithType: CalendarSystem.ToString
   fullName: NodaTime.CalendarSystem.ToString

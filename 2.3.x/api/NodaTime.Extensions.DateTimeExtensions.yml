@@ -153,7 +153,6 @@ references:
   fullName: System.DateTime
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
@@ -445,42 +444,41 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.LocalDateTime.FromDateTime(System.DateTime)
   commentId: M:NodaTime.LocalDateTime.FromDateTime(System.DateTime)
+  isExternal: true
 - uid: NodaTime.Extensions.DateTimeExtensions.ToLocalDateTime*
   commentId: Overload:NodaTime.Extensions.DateTimeExtensions.ToLocalDateTime
-  isExternal: false
   name: ToLocalDateTime
   nameWithType: DateTimeExtensions.ToLocalDateTime
   fullName: NodaTime.Extensions.DateTimeExtensions.ToLocalDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.DateTimeKind.Utc
   commentId: F:System.DateTimeKind.Utc
+  isExternal: true
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.Instant.FromDateTimeUtc(System.DateTime)
   commentId: M:NodaTime.Instant.FromDateTimeUtc(System.DateTime)
+  isExternal: true
 - uid: System.ArgumentException
   commentId: T:System.ArgumentException
   parent: System
@@ -490,7 +488,6 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.Extensions.DateTimeExtensions.ToInstant*
   commentId: Overload:NodaTime.Extensions.DateTimeExtensions.ToInstant
-  isExternal: false
   name: ToInstant
   nameWithType: DateTimeExtensions.ToInstant
   fullName: NodaTime.Extensions.DateTimeExtensions.ToInstant

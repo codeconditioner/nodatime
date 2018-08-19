@@ -199,7 +199,6 @@ references:
   fullName: System.DateTimeOffset
 - uid: NodaTime.Extensions
   commentId: N:NodaTime.Extensions
-  isExternal: false
   name: NodaTime.Extensions
   nameWithType: NodaTime.Extensions
   fullName: NodaTime.Extensions
@@ -491,58 +490,54 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime.OffsetDateTime.FromDateTimeOffset(System.DateTimeOffset)
   commentId: M:NodaTime.OffsetDateTime.FromDateTimeOffset(System.DateTimeOffset)
+  isExternal: true
 - uid: NodaTime.Extensions.DateTimeOffsetExtensions.ToOffsetDateTime*
   commentId: Overload:NodaTime.Extensions.DateTimeOffsetExtensions.ToOffsetDateTime
-  isExternal: false
   name: ToOffsetDateTime
   nameWithType: DateTimeOffsetExtensions.ToOffsetDateTime
   fullName: NodaTime.Extensions.DateTimeOffsetExtensions.ToOffsetDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.ZonedDateTime.FromDateTimeOffset(System.DateTimeOffset)
   commentId: M:NodaTime.ZonedDateTime.FromDateTimeOffset(System.DateTimeOffset)
+  isExternal: true
 - uid: NodaTime.Extensions.DateTimeOffsetExtensions.ToZonedDateTime*
   commentId: Overload:NodaTime.Extensions.DateTimeOffsetExtensions.ToZonedDateTime
-  isExternal: false
   name: ToZonedDateTime
   nameWithType: DateTimeOffsetExtensions.ToZonedDateTime
   fullName: NodaTime.Extensions.DateTimeOffsetExtensions.ToZonedDateTime
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.Instant.FromDateTimeOffset(System.DateTimeOffset)
   commentId: M:NodaTime.Instant.FromDateTimeOffset(System.DateTimeOffset)
+  isExternal: true
 - uid: NodaTime.Extensions.DateTimeOffsetExtensions.ToInstant*
   commentId: Overload:NodaTime.Extensions.DateTimeOffsetExtensions.ToInstant
-  isExternal: false
   name: ToInstant
   nameWithType: DateTimeOffsetExtensions.ToInstant
   fullName: NodaTime.Extensions.DateTimeOffsetExtensions.ToInstant

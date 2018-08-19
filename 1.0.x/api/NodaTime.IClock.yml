@@ -80,37 +80,34 @@ references:
 - uid: NodaTime.Instant
   commentId: T:NodaTime.Instant
   parent: NodaTime
-  isExternal: false
   name: Instant
   nameWithType: Instant
   fullName: NodaTime.Instant
 - uid: NodaTime.IClock
   commentId: T:NodaTime.IClock
   parent: NodaTime
-  isExternal: false
   name: IClock
   nameWithType: IClock
   fullName: NodaTime.IClock
 - uid: System.DateTime.UtcNow
   commentId: P:System.DateTime.UtcNow
+  isExternal: true
 - uid: NodaTime.SystemClock
   commentId: T:NodaTime.SystemClock
   parent: NodaTime
-  isExternal: false
   name: SystemClock
   nameWithType: SystemClock
   fullName: NodaTime.SystemClock
 - uid: NodaTime.Testing.StubClock
   commentId: T:NodaTime.Testing.StubClock
+  isExternal: true
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: NodaTime.IClock.Now*
   commentId: Overload:NodaTime.IClock.Now
-  isExternal: false
   name: Now
   nameWithType: IClock.Now
   fullName: NodaTime.IClock.Now

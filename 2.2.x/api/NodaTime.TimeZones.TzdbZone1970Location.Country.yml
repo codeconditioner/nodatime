@@ -331,7 +331,6 @@ items:
 references:
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -562,7 +561,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -607,7 +606,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country.Name*
   commentId: Overload:NodaTime.TimeZones.TzdbZone1970Location.Country.Name
-  isExternal: false
   name: Name
   nameWithType: TzdbZone1970Location.Country.Name
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country.Name
@@ -620,19 +618,16 @@ references:
   fullName: System.String
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country.Code*
   commentId: Overload:NodaTime.TimeZones.TzdbZone1970Location.Country.Code
-  isExternal: false
   name: Code
   nameWithType: TzdbZone1970Location.Country.Code
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country.Code
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country.#ctor*
   commentId: Overload:NodaTime.TimeZones.TzdbZone1970Location.Country.#ctor
-  isExternal: false
   name: Country
   nameWithType: TzdbZone1970Location.Country.Country
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country.Country
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country.Equals*
   commentId: Overload:NodaTime.TimeZones.TzdbZone1970Location.Country.Equals
-  isExternal: false
   name: Equals
   nameWithType: TzdbZone1970Location.Country.Equals
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country.Equals
@@ -680,7 +675,6 @@ references:
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country
   commentId: T:NodaTime.TimeZones.TzdbZone1970Location.Country
   parent: NodaTime.TimeZones
-  isExternal: false
   name: TzdbZone1970Location.Country
   nameWithType: TzdbZone1970Location.Country
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country
@@ -803,7 +797,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country.GetHashCode*
   commentId: Overload:NodaTime.TimeZones.TzdbZone1970Location.Country.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: TzdbZone1970Location.Country.GetHashCode
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country.GetHashCode
@@ -847,7 +840,6 @@ references:
     fullName: )
 - uid: NodaTime.TimeZones.TzdbZone1970Location.Country.ToString*
   commentId: Overload:NodaTime.TimeZones.TzdbZone1970Location.Country.ToString
-  isExternal: false
   name: ToString
   nameWithType: TzdbZone1970Location.Country.ToString
   fullName: NodaTime.TimeZones.TzdbZone1970Location.Country.ToString

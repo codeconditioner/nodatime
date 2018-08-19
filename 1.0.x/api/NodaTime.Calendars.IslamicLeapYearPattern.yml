@@ -178,21 +178,22 @@ items:
 references:
 - uid: NodaTime.CalendarSystem.GetIslamicCalendar(NodaTime.Calendars.IslamicLeapYearPattern,NodaTime.Calendars.IslamicEpoch)
   commentId: M:NodaTime.CalendarSystem.GetIslamicCalendar(NodaTime.Calendars.IslamicLeapYearPattern,NodaTime.Calendars.IslamicEpoch)
+  isExternal: true
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
 - uid: NodaTime.Calendars.IslamicLeapYearPattern.Base16
   commentId: F:NodaTime.Calendars.IslamicLeapYearPattern.Base16
+  isExternal: true
 - uid: NodaTime.Calendars.IslamicLeapYearPattern
   commentId: T:NodaTime.Calendars.IslamicLeapYearPattern
   parent: NodaTime.Calendars
-  isExternal: false
   name: IslamicLeapYearPattern
   nameWithType: IslamicLeapYearPattern
   fullName: NodaTime.Calendars.IslamicLeapYearPattern
 - uid: NodaTime.Calendars.IslamicLeapYearPattern.Base15
   commentId: F:NodaTime.Calendars.IslamicLeapYearPattern.Base15
+  isExternal: true
 shouldSkipMarkup: true

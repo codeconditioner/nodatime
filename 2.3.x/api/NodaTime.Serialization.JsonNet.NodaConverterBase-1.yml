@@ -311,7 +311,6 @@ items:
 references:
 - uid: NodaTime.Serialization.JsonNet
   commentId: N:NodaTime.Serialization.JsonNet
-  isExternal: false
   name: NodaTime.Serialization.JsonNet
   nameWithType: NodaTime.Serialization.JsonNet
   fullName: NodaTime.Serialization.JsonNet
@@ -655,13 +654,13 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: Newtonsoft.Json
   commentId: N:Newtonsoft.Json
-  isExternal: false
+  isExternal: true
   name: Newtonsoft.Json
   nameWithType: Newtonsoft.Json
   fullName: Newtonsoft.Json
@@ -708,7 +707,6 @@ references:
     fullName: )
 - uid: NodaTime.Serialization.JsonNet.NodaConverterBase`1.CanConvert*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverterBase`1.CanConvert
-  isExternal: false
   name: CanConvert
   nameWithType: NodaConverterBase<T>.CanConvert
   fullName: NodaTime.Serialization.JsonNet.NodaConverterBase<T>.CanConvert
@@ -730,7 +728,6 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.Utility.InvalidNodaDataException
   commentId: T:NodaTime.Utility.InvalidNodaDataException
-  isExternal: false
   name: InvalidNodaDataException
   nameWithType: InvalidNodaDataException
   fullName: NodaTime.Utility.InvalidNodaDataException
@@ -825,7 +822,6 @@ references:
     fullName: )
 - uid: NodaTime.Serialization.JsonNet.NodaConverterBase`1.ReadJson*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverterBase`1.ReadJson
-  isExternal: false
   name: ReadJson
   nameWithType: NodaConverterBase<T>.ReadJson
   fullName: NodaTime.Serialization.JsonNet.NodaConverterBase<T>.ReadJson
@@ -847,7 +843,6 @@ references:
   fullName: Newtonsoft.Json.JsonSerializer
 - uid: NodaTime.Serialization.JsonNet.NodaConverterBase`1.ReadJsonImpl*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverterBase`1.ReadJsonImpl
-  isExternal: false
   name: ReadJsonImpl
   nameWithType: NodaConverterBase<T>.ReadJsonImpl
   fullName: NodaTime.Serialization.JsonNet.NodaConverterBase<T>.ReadJsonImpl
@@ -860,7 +855,6 @@ references:
   nameWithType: T
   fullName: T
 - uid: T
-  isExternal: false
   name: T
   nameWithType: T
   fullName: T
@@ -939,7 +933,6 @@ references:
     fullName: )
 - uid: NodaTime.Serialization.JsonNet.NodaConverterBase`1.WriteJson*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverterBase`1.WriteJson
-  isExternal: false
   name: WriteJson
   nameWithType: NodaConverterBase<T>.WriteJson
   fullName: NodaTime.Serialization.JsonNet.NodaConverterBase<T>.WriteJson
@@ -954,7 +947,6 @@ references:
   fullName: Newtonsoft.Json.JsonWriter
 - uid: NodaTime.Serialization.JsonNet.NodaConverterBase`1.WriteJsonImpl*
   commentId: Overload:NodaTime.Serialization.JsonNet.NodaConverterBase`1.WriteJsonImpl
-  isExternal: false
   name: WriteJsonImpl
   nameWithType: NodaConverterBase<T>.WriteJsonImpl
   fullName: NodaTime.Serialization.JsonNet.NodaConverterBase<T>.WriteJsonImpl

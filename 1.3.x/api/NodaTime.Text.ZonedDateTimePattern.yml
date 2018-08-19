@@ -725,7 +725,6 @@ references:
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
@@ -738,7 +737,6 @@ references:
   fullName: System.Globalization.CultureInfo
 - uid: NodaTime.Text
   commentId: N:NodaTime.Text
-  isExternal: false
   name: NodaTime.Text
   nameWithType: NodaTime.Text
   fullName: NodaTime.Text
@@ -1070,25 +1068,23 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
 - uid: System.Globalization
   commentId: N:System.Globalization
-  isExternal: false
+  isExternal: true
   name: System.Globalization
   nameWithType: System.Globalization
   fullName: System.Globalization
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: NodaTime.Text.IPattern`1
   commentId: T:NodaTime.Text.IPattern`1
-  isExternal: false
   name: IPattern<T>
   nameWithType: IPattern<T>
   fullName: NodaTime.Text.IPattern<T>
@@ -1125,28 +1121,25 @@ references:
     fullName: )
 - uid: NodaTime.Text.ZonedDateTimePattern.WithZoneProvider(NodaTime.IDateTimeZoneProvider)
   commentId: M:NodaTime.Text.ZonedDateTimePattern.WithZoneProvider(NodaTime.IDateTimeZoneProvider)
+  isExternal: true
 - uid: NodaTime.Text.ZonedDateTimePattern.GeneralFormatOnlyIsoPattern*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.GeneralFormatOnlyIsoPattern
-  isExternal: false
   name: GeneralFormatOnlyIsoPattern
   nameWithType: ZonedDateTimePattern.GeneralFormatOnlyIsoPattern
   fullName: NodaTime.Text.ZonedDateTimePattern.GeneralFormatOnlyIsoPattern
 - uid: NodaTime.Text.ZonedDateTimePattern
   commentId: T:NodaTime.Text.ZonedDateTimePattern
   parent: NodaTime.Text
-  isExternal: false
   name: ZonedDateTimePattern
   nameWithType: ZonedDateTimePattern
   fullName: NodaTime.Text.ZonedDateTimePattern
 - uid: NodaTime.Text.ZonedDateTimePattern.ExtendedFormatOnlyIsoPattern*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.ExtendedFormatOnlyIsoPattern
-  isExternal: false
   name: ExtendedFormatOnlyIsoPattern
   nameWithType: ZonedDateTimePattern.ExtendedFormatOnlyIsoPattern
   fullName: NodaTime.Text.ZonedDateTimePattern.ExtendedFormatOnlyIsoPattern
 - uid: NodaTime.Text.ZonedDateTimePattern.PatternText*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.PatternText
-  isExternal: false
   name: PatternText
   nameWithType: ZonedDateTimePattern.PatternText
   fullName: NodaTime.Text.ZonedDateTimePattern.PatternText
@@ -1159,45 +1152,38 @@ references:
   fullName: System.String
 - uid: NodaTime.Text.ZonedDateTimePattern.TemplateValue*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.TemplateValue
-  isExternal: false
   name: TemplateValue
   nameWithType: ZonedDateTimePattern.TemplateValue
   fullName: NodaTime.Text.ZonedDateTimePattern.TemplateValue
 - uid: NodaTime.Text.ZonedDateTimePattern.Resolver*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.Resolver
-  isExternal: false
   name: Resolver
   nameWithType: ZonedDateTimePattern.Resolver
   fullName: NodaTime.Text.ZonedDateTimePattern.Resolver
 - uid: NodaTime.TimeZones.ZoneLocalMappingResolver
   commentId: T:NodaTime.TimeZones.ZoneLocalMappingResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMappingResolver
   nameWithType: ZoneLocalMappingResolver
   fullName: NodaTime.TimeZones.ZoneLocalMappingResolver
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
 - uid: NodaTime.Text.ZonedDateTimePattern.ZoneProvider*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.ZoneProvider
-  isExternal: false
   name: ZoneProvider
   nameWithType: ZonedDateTimePattern.ZoneProvider
   fullName: NodaTime.Text.ZonedDateTimePattern.ZoneProvider
 - uid: NodaTime.IDateTimeZoneProvider
   commentId: T:NodaTime.IDateTimeZoneProvider
   parent: NodaTime
-  isExternal: false
   name: IDateTimeZoneProvider
   nameWithType: IDateTimeZoneProvider
   fullName: NodaTime.IDateTimeZoneProvider
 - uid: NodaTime.Text.ZonedDateTimePattern.Parse*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.Parse
-  isExternal: false
   name: Parse
   nameWithType: ZonedDateTimePattern.Parse
   fullName: NodaTime.Text.ZonedDateTimePattern.Parse
@@ -1324,7 +1310,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ParseResult`1
   commentId: T:NodaTime.Text.ParseResult`1
-  isExternal: false
   name: ParseResult<T>
   nameWithType: ParseResult<T>
   fullName: NodaTime.Text.ParseResult<T>
@@ -1361,7 +1346,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.ZonedDateTimePattern.Format*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.Format
-  isExternal: false
   name: Format
   nameWithType: ZonedDateTimePattern.Format
   fullName: NodaTime.Text.ZonedDateTimePattern.Format
@@ -1406,7 +1390,6 @@ references:
     fullName: )
 - uid: NodaTime.Text.IPattern`1.Format(`0)
   commentId: M:NodaTime.Text.IPattern`1.Format(`0)
-  isExternal: false
   name: Format(T)
   nameWithType: IPattern<T>.Format(T)
   fullName: NodaTime.Text.IPattern<T>.Format(T)
@@ -1442,55 +1425,46 @@ references:
     fullName: )
 - uid: NodaTime.Text.InvalidPatternException
   commentId: T:NodaTime.Text.InvalidPatternException
-  isExternal: false
   name: InvalidPatternException
   nameWithType: InvalidPatternException
   fullName: NodaTime.Text.InvalidPatternException
 - uid: NodaTime.Text.ZonedDateTimePattern.Create*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.Create
-  isExternal: false
   name: Create
   nameWithType: ZonedDateTimePattern.Create
   fullName: NodaTime.Text.ZonedDateTimePattern.Create
 - uid: NodaTime.Text.ZonedDateTimePattern.CreateWithInvariantCulture*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.CreateWithInvariantCulture
-  isExternal: false
   name: CreateWithInvariantCulture
   nameWithType: ZonedDateTimePattern.CreateWithInvariantCulture
   fullName: NodaTime.Text.ZonedDateTimePattern.CreateWithInvariantCulture
 - uid: NodaTime.Text.ZonedDateTimePattern.CreateWithCurrentCulture*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.CreateWithCurrentCulture
-  isExternal: false
   name: CreateWithCurrentCulture
   nameWithType: ZonedDateTimePattern.CreateWithCurrentCulture
   fullName: NodaTime.Text.ZonedDateTimePattern.CreateWithCurrentCulture
 - uid: NodaTime.Text.ZonedDateTimePattern.WithPatternText*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.WithPatternText
-  isExternal: false
   name: WithPatternText
   nameWithType: ZonedDateTimePattern.WithPatternText
   fullName: NodaTime.Text.ZonedDateTimePattern.WithPatternText
 - uid: NodaTime.Text.ZonedDateTimePattern.WithCulture*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.WithCulture
-  isExternal: false
   name: WithCulture
   nameWithType: ZonedDateTimePattern.WithCulture
   fullName: NodaTime.Text.ZonedDateTimePattern.WithCulture
 - uid: NodaTime.Text.ZonedDateTimePattern.WithResolver*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.WithResolver
-  isExternal: false
   name: WithResolver
   nameWithType: ZonedDateTimePattern.WithResolver
   fullName: NodaTime.Text.ZonedDateTimePattern.WithResolver
 - uid: NodaTime.Text.ZonedDateTimePattern.WithZoneProvider*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.WithZoneProvider
-  isExternal: false
   name: WithZoneProvider
   nameWithType: ZonedDateTimePattern.WithZoneProvider
   fullName: NodaTime.Text.ZonedDateTimePattern.WithZoneProvider
 - uid: NodaTime.Text.ZonedDateTimePattern.WithTemplateValue*
   commentId: Overload:NodaTime.Text.ZonedDateTimePattern.WithTemplateValue
-  isExternal: false
   name: WithTemplateValue
   nameWithType: ZonedDateTimePattern.WithTemplateValue
   fullName: NodaTime.Text.ZonedDateTimePattern.WithTemplateValue

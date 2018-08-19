@@ -3054,10 +3054,13 @@ items:
 references:
 - uid: NodaTime.LocalDateTime.Equals(NodaTime.LocalDateTime)
   commentId: M:NodaTime.LocalDateTime.Equals(NodaTime.LocalDateTime)
+  isExternal: true
 - uid: NodaTime.LocalDateTime.op_Inequality(NodaTime.LocalDateTime,NodaTime.LocalDateTime)
   commentId: M:NodaTime.LocalDateTime.op_Inequality(NodaTime.LocalDateTime,NodaTime.LocalDateTime)
+  isExternal: true
 - uid: NodaTime.LocalDateTime.CompareTo(NodaTime.LocalDateTime)
   commentId: M:NodaTime.LocalDateTime.CompareTo(NodaTime.LocalDateTime)
+  isExternal: true
 - uid: System.IComparable`1
   commentId: T:System.IComparable`1
   isExternal: true
@@ -3099,7 +3102,6 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -3387,7 +3389,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -3401,7 +3403,6 @@ references:
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
@@ -3414,7 +3415,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime.LocalDateTime.#ctor*
   commentId: Overload:NodaTime.LocalDateTime.#ctor
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime.LocalDateTime
   fullName: NodaTime.LocalDateTime.LocalDateTime
@@ -3427,160 +3427,142 @@ references:
   fullName: System.Int32
 - uid: System.ArgumentNullException
   commentId: T:System.ArgumentNullException
+  isExternal: true
 - uid: NodaTime.CalendarSystem
   commentId: T:NodaTime.CalendarSystem
   parent: NodaTime
-  isExternal: false
   name: CalendarSystem
   nameWithType: CalendarSystem
   fullName: NodaTime.CalendarSystem
 - uid: NodaTime.LocalDateTime.Calendar*
   commentId: Overload:NodaTime.LocalDateTime.Calendar
-  isExternal: false
   name: Calendar
   nameWithType: LocalDateTime.Calendar
   fullName: NodaTime.LocalDateTime.Calendar
 - uid: NodaTime.LocalDateTime.CenturyOfEra*
   commentId: Overload:NodaTime.LocalDateTime.CenturyOfEra
-  isExternal: false
   name: CenturyOfEra
   nameWithType: LocalDateTime.CenturyOfEra
   fullName: NodaTime.LocalDateTime.CenturyOfEra
 - uid: NodaTime.LocalDateTime.Year*
   commentId: Overload:NodaTime.LocalDateTime.Year
-  isExternal: false
   name: Year
   nameWithType: LocalDateTime.Year
   fullName: NodaTime.LocalDateTime.Year
 - uid: NodaTime.LocalDateTime.YearOfCentury*
   commentId: Overload:NodaTime.LocalDateTime.YearOfCentury
-  isExternal: false
   name: YearOfCentury
   nameWithType: LocalDateTime.YearOfCentury
   fullName: NodaTime.LocalDateTime.YearOfCentury
 - uid: NodaTime.LocalDateTime.YearOfEra*
   commentId: Overload:NodaTime.LocalDateTime.YearOfEra
-  isExternal: false
   name: YearOfEra
   nameWithType: LocalDateTime.YearOfEra
   fullName: NodaTime.LocalDateTime.YearOfEra
 - uid: NodaTime.LocalDateTime.Era*
   commentId: Overload:NodaTime.LocalDateTime.Era
-  isExternal: false
   name: Era
   nameWithType: LocalDateTime.Era
   fullName: NodaTime.LocalDateTime.Era
 - uid: NodaTime.Calendars.Era
   commentId: T:NodaTime.Calendars.Era
   parent: NodaTime.Calendars
-  isExternal: false
   name: Era
   nameWithType: Era
   fullName: NodaTime.Calendars.Era
 - uid: NodaTime.Calendars
   commentId: N:NodaTime.Calendars
-  isExternal: false
   name: NodaTime.Calendars
   nameWithType: NodaTime.Calendars
   fullName: NodaTime.Calendars
 - uid: NodaTime.LocalDateTime.WeekOfWeekYear
   commentId: P:NodaTime.LocalDateTime.WeekOfWeekYear
+  isExternal: true
 - uid: NodaTime.LocalDateTime.WeekYear*
   commentId: Overload:NodaTime.LocalDateTime.WeekYear
-  isExternal: false
   name: WeekYear
   nameWithType: LocalDateTime.WeekYear
   fullName: NodaTime.LocalDateTime.WeekYear
 - uid: NodaTime.LocalDateTime.Month*
   commentId: Overload:NodaTime.LocalDateTime.Month
-  isExternal: false
   name: Month
   nameWithType: LocalDateTime.Month
   fullName: NodaTime.LocalDateTime.Month
 - uid: NodaTime.LocalDateTime.WeekYear
   commentId: P:NodaTime.LocalDateTime.WeekYear
+  isExternal: true
 - uid: NodaTime.LocalDateTime.WeekOfWeekYear*
   commentId: Overload:NodaTime.LocalDateTime.WeekOfWeekYear
-  isExternal: false
   name: WeekOfWeekYear
   nameWithType: LocalDateTime.WeekOfWeekYear
   fullName: NodaTime.LocalDateTime.WeekOfWeekYear
 - uid: NodaTime.LocalDateTime.DayOfYear*
   commentId: Overload:NodaTime.LocalDateTime.DayOfYear
-  isExternal: false
   name: DayOfYear
   nameWithType: LocalDateTime.DayOfYear
   fullName: NodaTime.LocalDateTime.DayOfYear
 - uid: NodaTime.LocalDateTime.Day*
   commentId: Overload:NodaTime.LocalDateTime.Day
-  isExternal: false
   name: Day
   nameWithType: LocalDateTime.Day
   fullName: NodaTime.LocalDateTime.Day
 - uid: NodaTime.IsoDayOfWeek
   commentId: T:NodaTime.IsoDayOfWeek
   parent: NodaTime
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: IsoDayOfWeek
   fullName: NodaTime.IsoDayOfWeek
 - uid: NodaTime.LocalDateTime.DayOfWeek
   commentId: P:NodaTime.LocalDateTime.DayOfWeek
+  isExternal: true
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
+  isExternal: true
 - uid: NodaTime.LocalDateTime.IsoDayOfWeek*
   commentId: Overload:NodaTime.LocalDateTime.IsoDayOfWeek
-  isExternal: false
   name: IsoDayOfWeek
   nameWithType: LocalDateTime.IsoDayOfWeek
   fullName: NodaTime.LocalDateTime.IsoDayOfWeek
 - uid: NodaTime.LocalDateTime.IsoDayOfWeek
   commentId: P:NodaTime.LocalDateTime.IsoDayOfWeek
+  isExternal: true
 - uid: NodaTime.LocalDateTime.DayOfWeek*
   commentId: Overload:NodaTime.LocalDateTime.DayOfWeek
-  isExternal: false
   name: DayOfWeek
   nameWithType: LocalDateTime.DayOfWeek
   fullName: NodaTime.LocalDateTime.DayOfWeek
 - uid: NodaTime.LocalDateTime.Hour*
   commentId: Overload:NodaTime.LocalDateTime.Hour
-  isExternal: false
   name: Hour
   nameWithType: LocalDateTime.Hour
   fullName: NodaTime.LocalDateTime.Hour
 - uid: NodaTime.LocalDateTime.ClockHourOfHalfDay*
   commentId: Overload:NodaTime.LocalDateTime.ClockHourOfHalfDay
-  isExternal: false
   name: ClockHourOfHalfDay
   nameWithType: LocalDateTime.ClockHourOfHalfDay
   fullName: NodaTime.LocalDateTime.ClockHourOfHalfDay
 - uid: NodaTime.LocalDateTime.Minute*
   commentId: Overload:NodaTime.LocalDateTime.Minute
-  isExternal: false
   name: Minute
   nameWithType: LocalDateTime.Minute
   fullName: NodaTime.LocalDateTime.Minute
 - uid: NodaTime.LocalDateTime.Second*
   commentId: Overload:NodaTime.LocalDateTime.Second
-  isExternal: false
   name: Second
   nameWithType: LocalDateTime.Second
   fullName: NodaTime.LocalDateTime.Second
 - uid: NodaTime.LocalDateTime.Millisecond*
   commentId: Overload:NodaTime.LocalDateTime.Millisecond
-  isExternal: false
   name: Millisecond
   nameWithType: LocalDateTime.Millisecond
   fullName: NodaTime.LocalDateTime.Millisecond
 - uid: NodaTime.LocalDateTime.TickOfSecond*
   commentId: Overload:NodaTime.LocalDateTime.TickOfSecond
-  isExternal: false
   name: TickOfSecond
   nameWithType: LocalDateTime.TickOfSecond
   fullName: NodaTime.LocalDateTime.TickOfSecond
 - uid: NodaTime.LocalDateTime.TickOfDay*
   commentId: Overload:NodaTime.LocalDateTime.TickOfDay
-  isExternal: false
   name: TickOfDay
   nameWithType: LocalDateTime.TickOfDay
   fullName: NodaTime.LocalDateTime.TickOfDay
@@ -3594,26 +3576,22 @@ references:
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.LocalDateTime.TimeOfDay*
   commentId: Overload:NodaTime.LocalDateTime.TimeOfDay
-  isExternal: false
   name: TimeOfDay
   nameWithType: LocalDateTime.TimeOfDay
   fullName: NodaTime.LocalDateTime.TimeOfDay
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.LocalDateTime.Date*
   commentId: Overload:NodaTime.LocalDateTime.Date
-  isExternal: false
   name: Date
   nameWithType: LocalDateTime.Date
   fullName: NodaTime.LocalDateTime.Date
@@ -3626,12 +3604,16 @@ references:
   fullName: System.DateTime
 - uid: System.DateTime.Kind
   commentId: P:System.DateTime.Kind
+  isExternal: true
 - uid: System.DateTimeKind.Unspecified
   commentId: F:System.DateTimeKind.Unspecified
+  isExternal: true
 - uid: System.DateTime.ToLocalTime
   commentId: M:System.DateTime.ToLocalTime
+  isExternal: true
 - uid: System.DateTime.ToUniversalTime
   commentId: M:System.DateTime.ToUniversalTime
+  isExternal: true
 - uid: System.DateTimeOffset
   commentId: T:System.DateTimeOffset
   parent: System
@@ -3641,21 +3623,19 @@ references:
   fullName: System.DateTimeOffset
 - uid: NodaTime.LocalDateTime.ToDateTimeUnspecified*
   commentId: Overload:NodaTime.LocalDateTime.ToDateTimeUnspecified
-  isExternal: false
   name: ToDateTimeUnspecified
   nameWithType: LocalDateTime.ToDateTimeUnspecified
   fullName: NodaTime.LocalDateTime.ToDateTimeUnspecified
 - uid: System.DateTimeKind.Utc
   commentId: F:System.DateTimeKind.Utc
+  isExternal: true
 - uid: NodaTime.LocalDateTime.FromDateTime*
   commentId: Overload:NodaTime.LocalDateTime.FromDateTime
-  isExternal: false
   name: FromDateTime
   nameWithType: LocalDateTime.FromDateTime
   fullName: NodaTime.LocalDateTime.FromDateTime
 - uid: NodaTime.LocalDateTime.Equals*
   commentId: Overload:NodaTime.LocalDateTime.Equals
-  isExternal: false
   name: Equals
   nameWithType: LocalDateTime.Equals
   fullName: NodaTime.LocalDateTime.Equals
@@ -3747,43 +3727,36 @@ references:
     fullName: )
 - uid: NodaTime.LocalDateTime.op_Equality*
   commentId: Overload:NodaTime.LocalDateTime.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: LocalDateTime.Equality
   fullName: NodaTime.LocalDateTime.Equality
 - uid: NodaTime.LocalDateTime.op_Inequality*
   commentId: Overload:NodaTime.LocalDateTime.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: LocalDateTime.Inequality
   fullName: NodaTime.LocalDateTime.Inequality
 - uid: NodaTime.LocalDateTime.op_LessThan*
   commentId: Overload:NodaTime.LocalDateTime.op_LessThan
-  isExternal: false
   name: LessThan
   nameWithType: LocalDateTime.LessThan
   fullName: NodaTime.LocalDateTime.LessThan
 - uid: NodaTime.LocalDateTime.op_LessThanOrEqual*
   commentId: Overload:NodaTime.LocalDateTime.op_LessThanOrEqual
-  isExternal: false
   name: LessThanOrEqual
   nameWithType: LocalDateTime.LessThanOrEqual
   fullName: NodaTime.LocalDateTime.LessThanOrEqual
 - uid: NodaTime.LocalDateTime.op_GreaterThan*
   commentId: Overload:NodaTime.LocalDateTime.op_GreaterThan
-  isExternal: false
   name: GreaterThan
   nameWithType: LocalDateTime.GreaterThan
   fullName: NodaTime.LocalDateTime.GreaterThan
 - uid: NodaTime.LocalDateTime.op_GreaterThanOrEqual*
   commentId: Overload:NodaTime.LocalDateTime.op_GreaterThanOrEqual
-  isExternal: false
   name: GreaterThanOrEqual
   nameWithType: LocalDateTime.GreaterThanOrEqual
   fullName: NodaTime.LocalDateTime.GreaterThanOrEqual
 - uid: NodaTime.LocalDateTime.CompareTo*
   commentId: Overload:NodaTime.LocalDateTime.CompareTo
-  isExternal: false
   name: CompareTo
   nameWithType: LocalDateTime.CompareTo
   fullName: NodaTime.LocalDateTime.CompareTo
@@ -3916,7 +3889,6 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.LocalDateTime.System#IComparable#CompareTo*
   commentId: Overload:NodaTime.LocalDateTime.System#IComparable#CompareTo
-  isExternal: false
   name: IComparable.CompareTo
   nameWithType: LocalDateTime.IComparable.CompareTo
   fullName: NodaTime.LocalDateTime.System.IComparable.CompareTo
@@ -3924,48 +3896,43 @@ references:
   name.vb: System.IComparable.CompareTo
 - uid: NodaTime.LocalDateTime.Plus(NodaTime.Period)
   commentId: M:NodaTime.LocalDateTime.Plus(NodaTime.Period)
+  isExternal: true
 - uid: NodaTime.LocalDateTime.op_Addition*
   commentId: Overload:NodaTime.LocalDateTime.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: LocalDateTime.Addition
   fullName: NodaTime.LocalDateTime.Addition
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime.LocalDateTime.Add*
   commentId: Overload:NodaTime.LocalDateTime.Add
-  isExternal: false
   name: Add
   nameWithType: LocalDateTime.Add
   fullName: NodaTime.LocalDateTime.Add
 - uid: NodaTime.LocalDateTime.Plus*
   commentId: Overload:NodaTime.LocalDateTime.Plus
-  isExternal: false
   name: Plus
   nameWithType: LocalDateTime.Plus
   fullName: NodaTime.LocalDateTime.Plus
 - uid: NodaTime.LocalDateTime.Minus(NodaTime.Period)
   commentId: M:NodaTime.LocalDateTime.Minus(NodaTime.Period)
+  isExternal: true
 - uid: NodaTime.LocalDateTime.op_Subtraction*
   commentId: Overload:NodaTime.LocalDateTime.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: LocalDateTime.Subtraction
   fullName: NodaTime.LocalDateTime.Subtraction
 - uid: NodaTime.LocalDateTime.Subtract*
   commentId: Overload:NodaTime.LocalDateTime.Subtract
-  isExternal: false
   name: Subtract
   nameWithType: LocalDateTime.Subtract
   fullName: NodaTime.LocalDateTime.Subtract
 - uid: NodaTime.LocalDateTime.Minus*
   commentId: Overload:NodaTime.LocalDateTime.Minus
-  isExternal: false
   name: Minus
   nameWithType: LocalDateTime.Minus
   fullName: NodaTime.LocalDateTime.Minus
@@ -4050,133 +4017,112 @@ references:
     fullName: )
 - uid: NodaTime.LocalDateTime.GetHashCode*
   commentId: Overload:NodaTime.LocalDateTime.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: LocalDateTime.GetHashCode
   fullName: NodaTime.LocalDateTime.GetHashCode
 - uid: NodaTime.LocalDateTime.WithCalendar*
   commentId: Overload:NodaTime.LocalDateTime.WithCalendar
-  isExternal: false
   name: WithCalendar
   nameWithType: LocalDateTime.WithCalendar
   fullName: NodaTime.LocalDateTime.WithCalendar
 - uid: NodaTime.LocalDateTime.PlusYears*
   commentId: Overload:NodaTime.LocalDateTime.PlusYears
-  isExternal: false
   name: PlusYears
   nameWithType: LocalDateTime.PlusYears
   fullName: NodaTime.LocalDateTime.PlusYears
 - uid: NodaTime.LocalDateTime.PlusMonths*
   commentId: Overload:NodaTime.LocalDateTime.PlusMonths
-  isExternal: false
   name: PlusMonths
   nameWithType: LocalDateTime.PlusMonths
   fullName: NodaTime.LocalDateTime.PlusMonths
 - uid: NodaTime.LocalDateTime.PlusDays*
   commentId: Overload:NodaTime.LocalDateTime.PlusDays
-  isExternal: false
   name: PlusDays
   nameWithType: LocalDateTime.PlusDays
   fullName: NodaTime.LocalDateTime.PlusDays
 - uid: NodaTime.LocalDateTime.PlusWeeks*
   commentId: Overload:NodaTime.LocalDateTime.PlusWeeks
-  isExternal: false
   name: PlusWeeks
   nameWithType: LocalDateTime.PlusWeeks
   fullName: NodaTime.LocalDateTime.PlusWeeks
 - uid: NodaTime.LocalDateTime.PlusHours*
   commentId: Overload:NodaTime.LocalDateTime.PlusHours
-  isExternal: false
   name: PlusHours
   nameWithType: LocalDateTime.PlusHours
   fullName: NodaTime.LocalDateTime.PlusHours
 - uid: NodaTime.LocalDateTime.PlusMinutes*
   commentId: Overload:NodaTime.LocalDateTime.PlusMinutes
-  isExternal: false
   name: PlusMinutes
   nameWithType: LocalDateTime.PlusMinutes
   fullName: NodaTime.LocalDateTime.PlusMinutes
 - uid: NodaTime.LocalDateTime.PlusSeconds*
   commentId: Overload:NodaTime.LocalDateTime.PlusSeconds
-  isExternal: false
   name: PlusSeconds
   nameWithType: LocalDateTime.PlusSeconds
   fullName: NodaTime.LocalDateTime.PlusSeconds
 - uid: NodaTime.LocalDateTime.PlusMilliseconds*
   commentId: Overload:NodaTime.LocalDateTime.PlusMilliseconds
-  isExternal: false
   name: PlusMilliseconds
   nameWithType: LocalDateTime.PlusMilliseconds
   fullName: NodaTime.LocalDateTime.PlusMilliseconds
 - uid: NodaTime.LocalDateTime.PlusTicks*
   commentId: Overload:NodaTime.LocalDateTime.PlusTicks
-  isExternal: false
   name: PlusTicks
   nameWithType: LocalDateTime.PlusTicks
   fullName: NodaTime.LocalDateTime.PlusTicks
 - uid: NodaTime.LocalDateTime.Next*
   commentId: Overload:NodaTime.LocalDateTime.Next
-  isExternal: false
   name: Next
   nameWithType: LocalDateTime.Next
   fullName: NodaTime.LocalDateTime.Next
 - uid: NodaTime.LocalDateTime.Previous*
   commentId: Overload:NodaTime.LocalDateTime.Previous
-  isExternal: false
   name: Previous
   nameWithType: LocalDateTime.Previous
   fullName: NodaTime.LocalDateTime.Previous
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime.LocalDateTime.WithOffset*
   commentId: Overload:NodaTime.LocalDateTime.WithOffset
-  isExternal: false
   name: WithOffset
   nameWithType: LocalDateTime.WithOffset
   fullName: NodaTime.LocalDateTime.WithOffset
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.DateTimeZone.Utc
   commentId: P:NodaTime.DateTimeZone.Utc
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: Utc
   nameWithType: DateTimeZone.Utc
   fullName: NodaTime.DateTimeZone.Utc
 - uid: NodaTime.LocalDateTime.InUtc*
   commentId: Overload:NodaTime.LocalDateTime.InUtc
-  isExternal: false
   name: InUtc
   nameWithType: LocalDateTime.InUtc
   fullName: NodaTime.LocalDateTime.InUtc
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)
   commentId: M:NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: AtStrictly(LocalDateTime)
   nameWithType: DateTimeZone.AtStrictly(LocalDateTime)
   fullName: NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)
@@ -4212,14 +4158,12 @@ references:
     fullName: )
 - uid: NodaTime.LocalDateTime.InZoneStrictly*
   commentId: Overload:NodaTime.LocalDateTime.InZoneStrictly
-  isExternal: false
   name: InZoneStrictly
   nameWithType: LocalDateTime.InZoneStrictly
   fullName: NodaTime.LocalDateTime.InZoneStrictly
 - uid: NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)
   commentId: M:NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: AtLeniently(LocalDateTime)
   nameWithType: DateTimeZone.AtLeniently(LocalDateTime)
   fullName: NodaTime.DateTimeZone.AtLeniently(NodaTime.LocalDateTime)
@@ -4255,21 +4199,18 @@ references:
     fullName: )
 - uid: NodaTime.LocalDateTime.InZoneLeniently*
   commentId: Overload:NodaTime.LocalDateTime.InZoneLeniently
-  isExternal: false
   name: InZoneLeniently
   nameWithType: LocalDateTime.InZoneLeniently
   fullName: NodaTime.LocalDateTime.InZoneLeniently
 - uid: NodaTime.TimeZones.ZoneLocalMappingResolver
   commentId: T:NodaTime.TimeZones.ZoneLocalMappingResolver
   parent: NodaTime.TimeZones
-  isExternal: false
   name: ZoneLocalMappingResolver
   nameWithType: ZoneLocalMappingResolver
   fullName: NodaTime.TimeZones.ZoneLocalMappingResolver
 - uid: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.ZoneLocalMappingResolver)
   commentId: M:NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime,NodaTime.TimeZones.ZoneLocalMappingResolver)
   parent: NodaTime.DateTimeZone
-  isExternal: false
   name: ResolveLocal(LocalDateTime, ZoneLocalMappingResolver)
   nameWithType: DateTimeZone.ResolveLocal(LocalDateTime, ZoneLocalMappingResolver)
   fullName: NodaTime.DateTimeZone.ResolveLocal(NodaTime.LocalDateTime, NodaTime.TimeZones.ZoneLocalMappingResolver)
@@ -4319,13 +4260,11 @@ references:
     fullName: )
 - uid: NodaTime.LocalDateTime.InZone*
   commentId: Overload:NodaTime.LocalDateTime.InZone
-  isExternal: false
   name: InZone
   nameWithType: LocalDateTime.InZone
   fullName: NodaTime.LocalDateTime.InZone
 - uid: NodaTime.TimeZones
   commentId: N:NodaTime.TimeZones
-  isExternal: false
   name: NodaTime.TimeZones
   nameWithType: NodaTime.TimeZones
   fullName: NodaTime.TimeZones
@@ -4369,7 +4308,6 @@ references:
     fullName: )
 - uid: NodaTime.LocalDateTime.ToString*
   commentId: Overload:NodaTime.LocalDateTime.ToString
-  isExternal: false
   name: ToString
   nameWithType: LocalDateTime.ToString
   fullName: NodaTime.LocalDateTime.ToString

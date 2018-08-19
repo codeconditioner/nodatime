@@ -1156,15 +1156,14 @@ references:
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.OffsetTime.Offset
   commentId: P:NodaTime.OffsetTime.Offset
+  isExternal: true
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1417,19 +1416,19 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Xml.Serialization
   commentId: N:System.Xml.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Xml.Serialization
   nameWithType: System.Xml.Serialization
   fullName: System.Xml.Serialization
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
@@ -1442,32 +1441,27 @@ references:
   fullName: System.Object
 - uid: NodaTime.OffsetTime.#ctor*
   commentId: Overload:NodaTime.OffsetTime.#ctor
-  isExternal: false
   name: OffsetTime
   nameWithType: OffsetTime.OffsetTime
   fullName: NodaTime.OffsetTime.OffsetTime
 - uid: NodaTime.Offset
   commentId: T:NodaTime.Offset
   parent: NodaTime
-  isExternal: false
   name: Offset
   nameWithType: Offset
   fullName: NodaTime.Offset
 - uid: NodaTime.OffsetTime.TimeOfDay*
   commentId: Overload:NodaTime.OffsetTime.TimeOfDay
-  isExternal: false
   name: TimeOfDay
   nameWithType: OffsetTime.TimeOfDay
   fullName: NodaTime.OffsetTime.TimeOfDay
 - uid: NodaTime.OffsetTime.Offset*
   commentId: Overload:NodaTime.OffsetTime.Offset
-  isExternal: false
   name: Offset
   nameWithType: OffsetTime.Offset
   fullName: NodaTime.OffsetTime.Offset
 - uid: NodaTime.OffsetTime.Hour*
   commentId: Overload:NodaTime.OffsetTime.Hour
-  isExternal: false
   name: Hour
   nameWithType: OffsetTime.Hour
   fullName: NodaTime.OffsetTime.Hour
@@ -1480,37 +1474,31 @@ references:
   fullName: System.Int32
 - uid: NodaTime.OffsetTime.ClockHourOfHalfDay*
   commentId: Overload:NodaTime.OffsetTime.ClockHourOfHalfDay
-  isExternal: false
   name: ClockHourOfHalfDay
   nameWithType: OffsetTime.ClockHourOfHalfDay
   fullName: NodaTime.OffsetTime.ClockHourOfHalfDay
 - uid: NodaTime.OffsetTime.Minute*
   commentId: Overload:NodaTime.OffsetTime.Minute
-  isExternal: false
   name: Minute
   nameWithType: OffsetTime.Minute
   fullName: NodaTime.OffsetTime.Minute
 - uid: NodaTime.OffsetTime.Second*
   commentId: Overload:NodaTime.OffsetTime.Second
-  isExternal: false
   name: Second
   nameWithType: OffsetTime.Second
   fullName: NodaTime.OffsetTime.Second
 - uid: NodaTime.OffsetTime.Millisecond*
   commentId: Overload:NodaTime.OffsetTime.Millisecond
-  isExternal: false
   name: Millisecond
   nameWithType: OffsetTime.Millisecond
   fullName: NodaTime.OffsetTime.Millisecond
 - uid: NodaTime.OffsetTime.TickOfSecond*
   commentId: Overload:NodaTime.OffsetTime.TickOfSecond
-  isExternal: false
   name: TickOfSecond
   nameWithType: OffsetTime.TickOfSecond
   fullName: NodaTime.OffsetTime.TickOfSecond
 - uid: NodaTime.OffsetTime.TickOfDay*
   commentId: Overload:NodaTime.OffsetTime.TickOfDay
-  isExternal: false
   name: TickOfDay
   nameWithType: OffsetTime.TickOfDay
   fullName: NodaTime.OffsetTime.TickOfDay
@@ -1523,32 +1511,27 @@ references:
   fullName: System.Int64
 - uid: NodaTime.OffsetTime.NanosecondOfSecond*
   commentId: Overload:NodaTime.OffsetTime.NanosecondOfSecond
-  isExternal: false
   name: NanosecondOfSecond
   nameWithType: OffsetTime.NanosecondOfSecond
   fullName: NodaTime.OffsetTime.NanosecondOfSecond
 - uid: NodaTime.OffsetTime.NanosecondOfDay*
   commentId: Overload:NodaTime.OffsetTime.NanosecondOfDay
-  isExternal: false
   name: NanosecondOfDay
   nameWithType: OffsetTime.NanosecondOfDay
   fullName: NodaTime.OffsetTime.NanosecondOfDay
 - uid: NodaTime.OffsetTime
   commentId: T:NodaTime.OffsetTime
   parent: NodaTime
-  isExternal: false
   name: OffsetTime
   nameWithType: OffsetTime
   fullName: NodaTime.OffsetTime
 - uid: NodaTime.OffsetTime.WithOffset*
   commentId: Overload:NodaTime.OffsetTime.WithOffset
-  isExternal: false
   name: WithOffset
   nameWithType: OffsetTime.WithOffset
   fullName: NodaTime.OffsetTime.WithOffset
 - uid: NodaTime.OffsetTime.With*
   commentId: Overload:NodaTime.OffsetTime.With
-  isExternal: false
   name: With
   nameWithType: OffsetTime.With
   fullName: NodaTime.OffsetTime.With
@@ -1662,20 +1645,17 @@ references:
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.OffsetDateTime
   commentId: T:NodaTime.OffsetDateTime
   parent: NodaTime
-  isExternal: false
   name: OffsetDateTime
   nameWithType: OffsetDateTime
   fullName: NodaTime.OffsetDateTime
 - uid: NodaTime.OffsetTime.On*
   commentId: Overload:NodaTime.OffsetTime.On
-  isExternal: false
   name: On
   nameWithType: OffsetTime.On
   fullName: NodaTime.OffsetTime.On
@@ -1712,7 +1692,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetTime.GetHashCode*
   commentId: Overload:NodaTime.OffsetTime.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: OffsetTime.GetHashCode
   fullName: NodaTime.OffsetTime.GetHashCode
@@ -1766,7 +1745,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetTime.Equals*
   commentId: Overload:NodaTime.OffsetTime.Equals
-  isExternal: false
   name: Equals
   nameWithType: OffsetTime.Equals
   fullName: NodaTime.OffsetTime.Equals
@@ -1858,13 +1836,11 @@ references:
     fullName: )
 - uid: NodaTime.OffsetTime.op_Equality*
   commentId: Overload:NodaTime.OffsetTime.op_Equality
-  isExternal: false
   name: Equality
   nameWithType: OffsetTime.Equality
   fullName: NodaTime.OffsetTime.Equality
 - uid: NodaTime.OffsetTime.op_Inequality*
   commentId: Overload:NodaTime.OffsetTime.op_Inequality
-  isExternal: false
   name: Inequality
   nameWithType: OffsetTime.Inequality
   fullName: NodaTime.OffsetTime.Inequality
@@ -1908,7 +1884,6 @@ references:
     fullName: )
 - uid: NodaTime.OffsetTime.ToString*
   commentId: Overload:NodaTime.OffsetTime.ToString
-  isExternal: false
   name: ToString
   nameWithType: OffsetTime.ToString
   fullName: NodaTime.OffsetTime.ToString
@@ -1978,13 +1953,11 @@ references:
     fullName: )
 - uid: NodaTime.OffsetTime.Deconstruct*
   commentId: Overload:NodaTime.OffsetTime.Deconstruct
-  isExternal: false
   name: Deconstruct
   nameWithType: OffsetTime.Deconstruct
   fullName: NodaTime.OffsetTime.Deconstruct
 - uid: NodaTime.OffsetTime.System#Xml#Serialization#IXmlSerializable#GetSchema*
   commentId: Overload:NodaTime.OffsetTime.System#Xml#Serialization#IXmlSerializable#GetSchema
-  isExternal: false
   name: IXmlSerializable.GetSchema
   nameWithType: OffsetTime.IXmlSerializable.GetSchema
   fullName: NodaTime.OffsetTime.System.Xml.Serialization.IXmlSerializable.GetSchema
@@ -2030,13 +2003,12 @@ references:
   fullName: System.Xml.Schema.XmlSchema
 - uid: System.Xml.Schema
   commentId: N:System.Xml.Schema
-  isExternal: false
+  isExternal: true
   name: System.Xml.Schema
   nameWithType: System.Xml.Schema
   fullName: System.Xml.Schema
 - uid: NodaTime.OffsetTime.System#Xml#Serialization#IXmlSerializable#ReadXml*
   commentId: Overload:NodaTime.OffsetTime.System#Xml#Serialization#IXmlSerializable#ReadXml
-  isExternal: false
   name: IXmlSerializable.ReadXml
   nameWithType: OffsetTime.IXmlSerializable.ReadXml
   fullName: NodaTime.OffsetTime.System.Xml.Serialization.IXmlSerializable.ReadXml
@@ -2092,13 +2064,12 @@ references:
   fullName: System.Xml.XmlReader
 - uid: System.Xml
   commentId: N:System.Xml
-  isExternal: false
+  isExternal: true
   name: System.Xml
   nameWithType: System.Xml
   fullName: System.Xml
 - uid: NodaTime.OffsetTime.System#Xml#Serialization#IXmlSerializable#WriteXml*
   commentId: Overload:NodaTime.OffsetTime.System#Xml#Serialization#IXmlSerializable#WriteXml
-  isExternal: false
   name: IXmlSerializable.WriteXml
   nameWithType: OffsetTime.IXmlSerializable.WriteXml
   fullName: NodaTime.OffsetTime.System.Xml.Serialization.IXmlSerializable.WriteXml
@@ -2218,7 +2189,6 @@ references:
   fullName: System.Runtime.Serialization.SerializationInfo
 - uid: NodaTime.OffsetTime.System#Runtime#Serialization#ISerializable#GetObjectData*
   commentId: Overload:NodaTime.OffsetTime.System#Runtime#Serialization#ISerializable#GetObjectData
-  isExternal: false
   name: ISerializable.GetObjectData
   nameWithType: OffsetTime.ISerializable.GetObjectData
   fullName: NodaTime.OffsetTime.System.Runtime.Serialization.ISerializable.GetObjectData

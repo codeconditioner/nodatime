@@ -1687,40 +1687,38 @@ references:
 - uid: NodaTime.Period
   commentId: T:NodaTime.Period
   parent: NodaTime
-  isExternal: false
   name: Period
   nameWithType: Period
   fullName: NodaTime.Period
 - uid: NodaTime.Period.Years
   commentId: P:NodaTime.Period.Years
+  isExternal: true
 - uid: NodaTime.Period.Months
   commentId: P:NodaTime.Period.Months
+  isExternal: true
 - uid: NodaTime.Period.Normalize
   commentId: M:NodaTime.Period.Normalize
+  isExternal: true
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.Duration
   commentId: T:NodaTime.Duration
   parent: NodaTime
-  isExternal: false
   name: Duration
   nameWithType: Duration
   fullName: NodaTime.Duration
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -1951,7 +1949,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -1996,7 +1994,6 @@ references:
     fullName: )
 - uid: NodaTime.Period.NormalizingEqualityComparer*
   commentId: Overload:NodaTime.Period.NormalizingEqualityComparer
-  isExternal: false
   name: NormalizingEqualityComparer
   nameWithType: Period.NormalizingEqualityComparer
   fullName: NodaTime.Period.NormalizingEqualityComparer
@@ -2083,13 +2080,12 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.Period.FromYears*
   commentId: Overload:NodaTime.Period.FromYears
-  isExternal: false
   name: FromYears
   nameWithType: Period.FromYears
   fullName: NodaTime.Period.FromYears
@@ -2102,55 +2098,46 @@ references:
   fullName: System.Int64
 - uid: NodaTime.Period.FromWeeks*
   commentId: Overload:NodaTime.Period.FromWeeks
-  isExternal: false
   name: FromWeeks
   nameWithType: Period.FromWeeks
   fullName: NodaTime.Period.FromWeeks
 - uid: NodaTime.Period.FromMonths*
   commentId: Overload:NodaTime.Period.FromMonths
-  isExternal: false
   name: FromMonths
   nameWithType: Period.FromMonths
   fullName: NodaTime.Period.FromMonths
 - uid: NodaTime.Period.FromDays*
   commentId: Overload:NodaTime.Period.FromDays
-  isExternal: false
   name: FromDays
   nameWithType: Period.FromDays
   fullName: NodaTime.Period.FromDays
 - uid: NodaTime.Period.FromHours*
   commentId: Overload:NodaTime.Period.FromHours
-  isExternal: false
   name: FromHours
   nameWithType: Period.FromHours
   fullName: NodaTime.Period.FromHours
 - uid: NodaTime.Period.FromMinutes*
   commentId: Overload:NodaTime.Period.FromMinutes
-  isExternal: false
   name: FromMinutes
   nameWithType: Period.FromMinutes
   fullName: NodaTime.Period.FromMinutes
 - uid: NodaTime.Period.FromSeconds*
   commentId: Overload:NodaTime.Period.FromSeconds
-  isExternal: false
   name: FromSeconds
   nameWithType: Period.FromSeconds
   fullName: NodaTime.Period.FromSeconds
 - uid: NodaTime.Period.FromMillseconds*
   commentId: Overload:NodaTime.Period.FromMillseconds
-  isExternal: false
   name: FromMillseconds
   nameWithType: Period.FromMillseconds
   fullName: NodaTime.Period.FromMillseconds
 - uid: NodaTime.Period.FromTicks*
   commentId: Overload:NodaTime.Period.FromTicks
-  isExternal: false
   name: FromTicks
   nameWithType: Period.FromTicks
   fullName: NodaTime.Period.FromTicks
 - uid: NodaTime.Period.op_Addition*
   commentId: Overload:NodaTime.Period.op_Addition
-  isExternal: false
   name: Addition
   nameWithType: Period.Addition
   fullName: NodaTime.Period.Addition
@@ -2195,7 +2182,6 @@ references:
     fullName: )
 - uid: NodaTime.Period.CreateComparer*
   commentId: Overload:NodaTime.Period.CreateComparer
-  isExternal: false
   name: CreateComparer
   nameWithType: Period.CreateComparer
   fullName: NodaTime.Period.CreateComparer
@@ -2243,7 +2229,6 @@ references:
     fullName: )
 - uid: NodaTime.Period.op_Subtraction*
   commentId: Overload:NodaTime.Period.op_Subtraction
-  isExternal: false
   name: Subtraction
   nameWithType: Period.Subtraction
   fullName: NodaTime.Period.Subtraction
@@ -2256,34 +2241,29 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.Period.Between*
   commentId: Overload:NodaTime.Period.Between
-  isExternal: false
   name: Between
   nameWithType: Period.Between
   fullName: NodaTime.Period.Between
 - uid: NodaTime.PeriodUnits
   commentId: T:NodaTime.PeriodUnits
   parent: NodaTime
-  isExternal: false
   name: PeriodUnits
   nameWithType: PeriodUnits
   fullName: NodaTime.PeriodUnits
 - uid: NodaTime.LocalDate
   commentId: T:NodaTime.LocalDate
   parent: NodaTime
-  isExternal: false
   name: LocalDate
   nameWithType: LocalDate
   fullName: NodaTime.LocalDate
 - uid: NodaTime.LocalTime
   commentId: T:NodaTime.LocalTime
   parent: NodaTime
-  isExternal: false
   name: LocalTime
   nameWithType: LocalTime
   fullName: NodaTime.LocalTime
 - uid: NodaTime.Period.HasTimeComponent*
   commentId: Overload:NodaTime.Period.HasTimeComponent
-  isExternal: false
   name: HasTimeComponent
   nameWithType: Period.HasTimeComponent
   fullName: NodaTime.Period.HasTimeComponent
@@ -2296,99 +2276,90 @@ references:
   fullName: System.Boolean
 - uid: NodaTime.Period.HasDateComponent*
   commentId: Overload:NodaTime.Period.HasDateComponent
-  isExternal: false
   name: HasDateComponent
   nameWithType: Period.HasDateComponent
   fullName: NodaTime.Period.HasDateComponent
 - uid: System.InvalidOperationException
   commentId: T:System.InvalidOperationException
+  isExternal: true
 - uid: System.OverflowException
   commentId: T:System.OverflowException
+  isExternal: true
 - uid: NodaTime.Period.ToDuration*
   commentId: Overload:NodaTime.Period.ToDuration
-  isExternal: false
   name: ToDuration
   nameWithType: Period.ToDuration
   fullName: NodaTime.Period.ToDuration
 - uid: NodaTime.PeriodBuilder
   commentId: T:NodaTime.PeriodBuilder
   parent: NodaTime
-  isExternal: false
   name: PeriodBuilder
   nameWithType: PeriodBuilder
   fullName: NodaTime.PeriodBuilder
 - uid: NodaTime.Period.ToBuilder*
   commentId: Overload:NodaTime.Period.ToBuilder
-  isExternal: false
   name: ToBuilder
   nameWithType: Period.ToBuilder
   fullName: NodaTime.Period.ToBuilder
 - uid: System.Int64.MaxValue
   commentId: F:System.Int64.MaxValue
+  isExternal: true
 - uid: NodaTime.Period.NormalizingEqualityComparer
   commentId: P:NodaTime.Period.NormalizingEqualityComparer
+  isExternal: true
 - uid: NodaTime.Period.Normalize*
   commentId: Overload:NodaTime.Period.Normalize
-  isExternal: false
   name: Normalize
   nameWithType: Period.Normalize
   fullName: NodaTime.Period.Normalize
 - uid: NodaTime.Period.Years*
   commentId: Overload:NodaTime.Period.Years
-  isExternal: false
   name: Years
   nameWithType: Period.Years
   fullName: NodaTime.Period.Years
 - uid: NodaTime.Period.Months*
   commentId: Overload:NodaTime.Period.Months
-  isExternal: false
   name: Months
   nameWithType: Period.Months
   fullName: NodaTime.Period.Months
 - uid: NodaTime.Period.Weeks*
   commentId: Overload:NodaTime.Period.Weeks
-  isExternal: false
   name: Weeks
   nameWithType: Period.Weeks
   fullName: NodaTime.Period.Weeks
 - uid: NodaTime.Period.Days*
   commentId: Overload:NodaTime.Period.Days
-  isExternal: false
   name: Days
   nameWithType: Period.Days
   fullName: NodaTime.Period.Days
 - uid: NodaTime.Period.Hours*
   commentId: Overload:NodaTime.Period.Hours
-  isExternal: false
   name: Hours
   nameWithType: Period.Hours
   fullName: NodaTime.Period.Hours
 - uid: NodaTime.Period.Minutes*
   commentId: Overload:NodaTime.Period.Minutes
-  isExternal: false
   name: Minutes
   nameWithType: Period.Minutes
   fullName: NodaTime.Period.Minutes
 - uid: NodaTime.Period.Seconds*
   commentId: Overload:NodaTime.Period.Seconds
-  isExternal: false
   name: Seconds
   nameWithType: Period.Seconds
   fullName: NodaTime.Period.Seconds
 - uid: NodaTime.Period.Milliseconds*
   commentId: Overload:NodaTime.Period.Milliseconds
-  isExternal: false
   name: Milliseconds
   nameWithType: Period.Milliseconds
   fullName: NodaTime.Period.Milliseconds
 - uid: NodaTime.Period.Ticks*
   commentId: Overload:NodaTime.Period.Ticks
-  isExternal: false
   name: Ticks
   nameWithType: Period.Ticks
   fullName: NodaTime.Period.Ticks
 - uid: NodaTime.Text.PeriodPattern.RoundtripPattern
   commentId: F:NodaTime.Text.PeriodPattern.RoundtripPattern
+  isExternal: true
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -2422,7 +2393,6 @@ references:
     fullName: )
 - uid: NodaTime.Period.ToString*
   commentId: Overload:NodaTime.Period.ToString
-  isExternal: false
   name: ToString
   nameWithType: Period.ToString
   fullName: NodaTime.Period.ToString
@@ -2435,6 +2405,7 @@ references:
   fullName: System.String
 - uid: NodaTime.Period.Equals(NodaTime.Period)
   commentId: M:NodaTime.Period.Equals(NodaTime.Period)
+  isExternal: true
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -2478,7 +2449,6 @@ references:
     fullName: )
 - uid: NodaTime.Period.Equals*
   commentId: Overload:NodaTime.Period.Equals
-  isExternal: false
   name: Equals
   nameWithType: Period.Equals
   fullName: NodaTime.Period.Equals
@@ -2515,7 +2485,6 @@ references:
     fullName: )
 - uid: NodaTime.Period.GetHashCode*
   commentId: Overload:NodaTime.Period.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: Period.GetHashCode
   fullName: NodaTime.Period.GetHashCode

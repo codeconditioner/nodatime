@@ -284,13 +284,11 @@ references:
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -666,7 +664,7 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
@@ -711,7 +709,7 @@ references:
     fullName: )
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
@@ -763,26 +761,22 @@ references:
   fullName: System.ArgumentException
 - uid: NodaTime.ZonedDateTime.Comparer.Local*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Local
-  isExternal: false
   name: Local
   nameWithType: ZonedDateTime.Comparer.Local
   fullName: NodaTime.ZonedDateTime.Comparer.Local
 - uid: NodaTime.ZonedDateTime.Comparer
   commentId: T:NodaTime.ZonedDateTime.Comparer
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime.Comparer
   nameWithType: ZonedDateTime.Comparer
   fullName: NodaTime.ZonedDateTime.Comparer
 - uid: NodaTime.ZonedDateTime.Comparer.Instant*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Instant
-  isExternal: false
   name: Instant
   nameWithType: ZonedDateTime.Comparer.Instant
   fullName: NodaTime.ZonedDateTime.Comparer.Instant
 - uid: NodaTime.ZonedDateTime.Comparer.Compare*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Compare
-  isExternal: false
   name: Compare
   nameWithType: ZonedDateTime.Comparer.Compare
   fullName: NodaTime.ZonedDateTime.Comparer.Compare
@@ -900,7 +894,6 @@ references:
     fullName: )
 - uid: NodaTime.ZonedDateTime.Comparer.Equals*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Equals
-  isExternal: false
   name: Equals
   nameWithType: ZonedDateTime.Comparer.Equals
   fullName: NodaTime.ZonedDateTime.Comparer.Equals
@@ -1018,7 +1011,6 @@ references:
     fullName: )
 - uid: NodaTime.ZonedDateTime.Comparer.GetHashCode*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.GetHashCode
-  isExternal: false
   name: GetHashCode
   nameWithType: ZonedDateTime.Comparer.GetHashCode
   fullName: NodaTime.ZonedDateTime.Comparer.GetHashCode

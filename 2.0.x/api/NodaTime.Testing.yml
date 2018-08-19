@@ -18,13 +18,11 @@ references:
 - uid: NodaTime.Testing.FakeClock
   commentId: T:NodaTime.Testing.FakeClock
   parent: NodaTime.Testing
-  isExternal: false
   name: FakeClock
   nameWithType: FakeClock
   fullName: NodaTime.Testing.FakeClock
 - uid: NodaTime.Testing
   commentId: N:NodaTime.Testing
-  isExternal: false
   name: NodaTime.Testing
   nameWithType: NodaTime.Testing
   fullName: NodaTime.Testing

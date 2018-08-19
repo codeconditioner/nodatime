@@ -17,7 +17,6 @@ items:
 references:
 - uid: NodaTime.Utility.BclConversions
   commentId: T:NodaTime.Utility.BclConversions
-  isExternal: false
   name: BclConversions
   nameWithType: BclConversions
   fullName: NodaTime.Utility.BclConversions

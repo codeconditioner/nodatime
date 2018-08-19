@@ -180,7 +180,6 @@ references:
 - uid: NodaTime.ZonedDateTime
   commentId: T:NodaTime.ZonedDateTime
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime
   nameWithType: ZonedDateTime
   fullName: NodaTime.ZonedDateTime
@@ -264,7 +263,6 @@ references:
     fullName: )
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -598,42 +596,40 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic
   commentId: N:System.Collections.Generic
-  isExternal: false
+  isExternal: true
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
 - uid: NodaTime.ZonedDateTime.Comparer.Local*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Local
-  isExternal: false
   name: Local
   nameWithType: ZonedDateTime.Comparer.Local
   fullName: NodaTime.ZonedDateTime.Comparer.Local
 - uid: NodaTime.ZonedDateTime.Comparer
   commentId: T:NodaTime.ZonedDateTime.Comparer
   parent: NodaTime
-  isExternal: false
   name: ZonedDateTime.Comparer
   nameWithType: ZonedDateTime.Comparer
   fullName: NodaTime.ZonedDateTime.Comparer
 - uid: NodaTime.ZonedDateTime.CompareTo(NodaTime.ZonedDateTime)
   commentId: M:NodaTime.ZonedDateTime.CompareTo(NodaTime.ZonedDateTime)
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.LocalComparer
   commentId: T:NodaTime.ZonedDateTime.LocalComparer
+  isExternal: true
 - uid: NodaTime.ZonedDateTime.Comparer.Instant*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Instant
-  isExternal: false
   name: Instant
   nameWithType: ZonedDateTime.Comparer.Instant
   fullName: NodaTime.ZonedDateTime.Comparer.Instant
 - uid: NodaTime.ZonedDateTime.Comparer.Compare*
   commentId: Overload:NodaTime.ZonedDateTime.Comparer.Compare
-  isExternal: false
   name: Compare
   nameWithType: ZonedDateTime.Comparer.Compare
   fullName: NodaTime.ZonedDateTime.Comparer.Compare

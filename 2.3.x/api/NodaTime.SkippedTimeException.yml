@@ -208,7 +208,6 @@ references:
   fullName: System.ArgumentOutOfRangeException
 - uid: NodaTime
   commentId: N:NodaTime
-  isExternal: false
   name: NodaTime
   nameWithType: NodaTime
   fullName: NodaTime
@@ -700,51 +699,46 @@ references:
     fullName: )
 - uid: System
   commentId: N:System
-  isExternal: false
+  isExternal: true
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Runtime.InteropServices
   commentId: N:System.Runtime.InteropServices
-  isExternal: false
+  isExternal: true
   name: System.Runtime.InteropServices
   nameWithType: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices
 - uid: System.Runtime.Serialization
   commentId: N:System.Runtime.Serialization
-  isExternal: false
+  isExternal: true
   name: System.Runtime.Serialization
   nameWithType: System.Runtime.Serialization
   fullName: System.Runtime.Serialization
 - uid: NodaTime.SkippedTimeException.LocalDateTime*
   commentId: Overload:NodaTime.SkippedTimeException.LocalDateTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: SkippedTimeException.LocalDateTime
   fullName: NodaTime.SkippedTimeException.LocalDateTime
 - uid: NodaTime.LocalDateTime
   commentId: T:NodaTime.LocalDateTime
   parent: NodaTime
-  isExternal: false
   name: LocalDateTime
   nameWithType: LocalDateTime
   fullName: NodaTime.LocalDateTime
 - uid: NodaTime.SkippedTimeException.Zone*
   commentId: Overload:NodaTime.SkippedTimeException.Zone
-  isExternal: false
   name: Zone
   nameWithType: SkippedTimeException.Zone
   fullName: NodaTime.SkippedTimeException.Zone
 - uid: NodaTime.DateTimeZone
   commentId: T:NodaTime.DateTimeZone
   parent: NodaTime
-  isExternal: false
   name: DateTimeZone
   nameWithType: DateTimeZone
   fullName: NodaTime.DateTimeZone
 - uid: NodaTime.SkippedTimeException.#ctor*
   commentId: Overload:NodaTime.SkippedTimeException.#ctor
-  isExternal: false
   name: SkippedTimeException
   nameWithType: SkippedTimeException.SkippedTimeException
   fullName: NodaTime.SkippedTimeException.SkippedTimeException
