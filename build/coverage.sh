@@ -30,7 +30,7 @@ cp $ROOT/build/global.json.old $TEST/global.json
 # Clean up
 rm -f $TEST/global.json
 
-$DOTCOVER report -Source=$ROOT/coverage/NodaTime.dvcr -Output=$ROOT/coverage/coverage.xml -ReportType=DetailedXML ""
+$DOTCOVER report -Source=$ROOT/coverage/NodaTime.dvcr -Output=$ROOT/coverage/coverage.html -ReportType=HTML ""
 
 if [[ $1 == "--report" ]]
 then
@@ -38,7 +38,7 @@ then
   declare -r REPORTGENERATOR=$ROOT/packages/ReportGenerator.$REPORTGENERATOR_VERSION/tools/net47/ReportGenerator.exe
   
   $REPORTGENERATOR \
-   -reports:$ROOT/coverage/coverage.xml \
+   -reports:$ROOT/coverage/coverage.html \
    -targetdir:$ROOT/coverage/report \
    -verbosity:Error
 fi

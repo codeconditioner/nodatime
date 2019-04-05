@@ -12,6 +12,8 @@ branches:
 environment:
   COVERALLS_REPO_TOKEN:
     secure: 0MrjEwujECMnIaBkI76fNmCpKy5jr9rZx0rAFOM+41frhVfy2r0ldzzoFC4bvGig
+  SONARCLOUD_LOGIN:
+    secure: TLTw/fHFIX1A7sfXh/trJpXiv5pBiB4GzhlRKIVTsodKA9hl1fsstXsIHyb/M/ZH
 
 install:
 - ps: |
@@ -23,12 +25,32 @@ install:
     cmd /c start /wait "$exePath" /quiet /norestart
     del $exePath
     Write-Host "Installed" -ForegroundColor Green
+    Write-Host "Installing SonarScanner..." -ForegroundColor Cyan
+    dotnet tool install --global dotnet-sonarscanner
+    Write-Host "Installed" -ForegroundColor Green
 
 # Perform the build.
 build_script:
+  - ps: |
+      dotnet sonarscanner begin `
+        /k:"nodatime" `
+        /n:"Noda Time" `
+        /v:"$env:APPVEYOR_BUILD_VERSION" `
+        /o:"codeconditioner" `
+        /d:"sonar.host.url=https://sonarqube.com" `
+        /d:"sonar.login=$env:SONARCLOUD_LOGIN" `
+        /d:"sonar.c.file.suffixes=-" `
+        /d:"sonar.cpp.file.suffixes=-" `
+        /d:"sonar.objc.file.suffixes=-" `
+        /d:"sonar.cs.dotcover.reportsPaths=coverage/coverage.html"
   - bash build/appveyor.sh
+  - ps: dotnet sonarscanner end /d:"sonar.login=$env:SONARCLOUD_LOGIN"
   - choco install codecov
-  - codecov -f coverage/coverage.xml
+  - codecov -f coverage/coverage.html
 
 # The tests are run as part of the build.
 test: off
+
+artifacts:
+  - path: coverage/coverage.html
+    name: Coverage
